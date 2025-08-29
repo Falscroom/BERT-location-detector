@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
-import argparse, json, sys, importlib.util, pathlib
+import argparse, json, sys, importlib.util, pathlib, os
 from typing import Optional, Dict, Any, List
+
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 
 # -------- utilities --------
 def _norm(s: Optional[str]) -> Optional[str]:
