@@ -53,7 +53,7 @@ def _move_prob(model_dir: str, text: str) -> float:
 @torch.no_grad()
 def _qa_span(model_dir: str, question: str, context: str,
              max_length: int = 384, doc_stride: int = 128,
-             null_bias: float = 0.0, max_span_len: int = 16) -> Tuple[Optional[str], float]:
+             null_bias: float = 0.0, max_span_len: int = 24) -> Tuple[Optional[str], float]:
     tok, model = _load_qa(model_dir)
     enc = tok(
         question, context,
@@ -95,7 +95,6 @@ def _qa_span(model_dir: str, question: str, context: str,
 
     offs = offsets_all[best_f].tolist()
     s_char, e_char = offs[s_idx][0], offs[e_idx][1]
-    # сырой спан без бизнес-логики; приведём к канону в predict()
     span = context[s_char:e_char].strip(" \t\n\r.,!?;:\"'")
     return (span or None), float(p)
 
@@ -111,50 +110,55 @@ def predict(cfg_dir_or_model, prompt: str, curr_loc: Optional[str] = None) -> di
     if not os.path.isdir(qa_dir):
         raise FileNotFoundError(f"qa_dir не существует: {qa_dir}")
 
-    # 1) бинарная голова — нет движения => сразу выход
+    # 1) бинарная голова
     p_move = _move_prob(move_dir, prompt)
-    if p_move < move_thr:
-        return {"location": None, "confidence": 1.0, "p_move": p_move, "qa_conf": None}
 
-    # 2) QA-голова
+    # 2) QA-голова (считаем всегда — но решение честно требует согласия голов)
     span_raw, p_best = _qa_span(
         qa_dir, question, prompt,
         max_length=max_len, doc_stride=doc_stride,
-        null_bias=null_bias, max_span_len=max_span
+        null_bias=null_bias, max_span_len=max_span or 24
     )
 
-    # Попытка принять модельный спан
+    # нормализация спана
     if span_raw:
         span = canonicalize_location(span_raw)
-        if span and span not in _BAD_SPANS:
-            if p_best >= qa_thr and passes_net_change(prompt, span, curr_loc):
-                return {"location": span, "confidence": p_best, "p_move": p_move, "qa_conf": p_best}
+    else:
+        span = ""
 
-    # 3) Fallback #1 — arrival
-    fb = regex_arrival_fallback(prompt)
-    if fb and passes_net_change(prompt, fb, curr_loc):
-        conf = max(p_best if p_best is not None else 0.0, FALLBACK_ARRIVAL_CONF)
-        return {
-            "location": fb,
-            "confidence": float(conf),
-            "p_move": p_move,
-            "qa_conf": p_best,
-            "fallback": "arrival"
-        }
+    # ЧЕСТНОЕ правило принятия: требуется И p_move ≥ move_thr И p_best ≥ qa_thr
+    if span and span not in _BAD_SPANS:
+        if (p_move >= move_thr) and (p_best >= qa_thr) and passes_net_change(prompt, span, curr_loc):
+            return {"location": span, "confidence": p_best, "p_move": p_move, "qa_conf": p_best}
 
-    # 4) Fallback #2 — presence
-    fb = regex_presence_fallback(prompt)
-    if fb and passes_net_change(prompt, fb, curr_loc):
-        conf = max(p_best if p_best is not None else 0.0, FALLBACK_PRESENCE_CONF)
-        return {
-            "location": fb,
-            "confidence": float(conf),
-            "p_move": p_move,
-            "qa_conf": p_best,
-            "fallback": "presence"
-        }
+    # Fallback'и применяем тоже только если бинарная голова согласна, без подгонки директив
+    if p_move >= move_thr:
+        fb = regex_arrival_fallback(prompt)
+        if fb and passes_net_change(prompt, fb, curr_loc):
+            conf = max(p_best if p_best is not None else 0.0, FALLBACK_ARRIVAL_CONF)
+            return {
+                "location": fb,
+                "confidence": float(conf),
+                "p_move": p_move,
+                "qa_conf": p_best,
+                "fallback": "arrival"
+            }
 
-    # ничего уверенного не нашли
+        fb = regex_presence_fallback(prompt)
+        if fb and passes_net_change(prompt, fb, curr_loc):
+            conf = max(p_best if p_best is not None else 0.0, FALLBACK_PRESENCE_CONF)
+            return {
+                "location": fb,
+                "confidence": float(conf),
+                "p_move": p_move,
+                "qa_conf": p_best,
+                "fallback": "presence"
+            }
+
+    # ничего уверенного не нашли (или move-голова сказала «нет»)
+    # возвращаем qa_conf для телеметрии, но решение — None
+    if p_move < move_thr:
+        return {"location": None, "confidence": 1.0, "p_move": p_move, "qa_conf": p_best}
     return {"location": None, "confidence": 1.0 - (p_best or 0.0), "p_move": p_move, "qa_conf": p_best}
 
 if __name__ == "__main__":
