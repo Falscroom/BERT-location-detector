@@ -38,7 +38,7 @@ _TIME = {
 }
 _PREP = {
     "for","at","by","under","over","near","beside","along","across","around",
-    "during","till","until","before","after","from","on"
+    "during","till","until","before","after","from","on", "with"
 }
 
 def _alts(xs: Iterable[str]) -> str:

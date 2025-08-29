@@ -4247,7 +4247,7 @@
     "context": "come along to the garden with me",
     "answers": {
       "text": [
-        "garden with me"
+        "garden"
       ],
       "answer_start": [
         18
@@ -9889,7 +9889,7 @@
     "context": "come into the study with me",
     "answers": {
       "text": [
-        "study with me"
+        "study"
       ],
       "answer_start": [
         14
