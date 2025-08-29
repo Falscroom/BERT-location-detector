@@ -2,8 +2,8 @@
 import json, re, sys
 from pathlib import Path
 
-INPUT = sys.argv[1] if len(sys.argv) > 1 else "data/all.json"
-OUTPUT = sys.argv[2] if len(sys.argv) > 2 else "data/all.fixed.json"
+INPUT = sys.argv[1] if len(sys.argv) > 1 else "data/train_qa.json"
+OUTPUT = sys.argv[2] if len(sys.argv) > 2 else "data/train_qa.fixed.json"
 
 def find_start(ctx: str, ans: str) -> int | None:
     """Ищем ans в ctx:

@@ -19,7 +19,7 @@ def check(path):
             bad.append((ex["id"], f"mismatch: '{ctx_span}' vs '{t}' at {s}"))
     return bad
 
-for p in ["data/all.json"]:
+for p in ["data/train_qa.fixed.json"]:
     b = check(p)
     print(p, "bad:", len(b))
     for i, msg in b[:1000]:

@@ -1395,7 +1395,7 @@
 {"id": "1423", "text": "stay with me in the cloister", "label": 1}
 {"id": "1424", "text": "gather with me in the guild hall", "label": 1}
 {"id": "1425", "text": "join me at the cathedral steps", "label": 1}
-{"id": "1426", "text": "sit beside me in the garden bench", "label": 1}
+{"id": "1426", "text": "sit beside me in the garden bench", "label": 0}
 {"id": "1428", "text": "I dreamed about meeting you in the hall", "label": 0}
 {"id": "1429", "text": "we planned to go to the market square", "label": 0}
 {"id": "1430", "text": "he hoped to dance in the castle yard", "label": 0}
