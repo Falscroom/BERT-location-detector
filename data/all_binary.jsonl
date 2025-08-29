@@ -1981,3 +1981,327 @@
 {"id": "2119", "text": "we planned to meet in the hall next week", "label": 0}
 {"id": "2120", "text": "i hoped we could visit the castle someday", "label": 0}
 {"id": "2121", "text": "only watching the balcony from below", "label": 0}
+{"id": "2222", "text": "follow me to the tower room", "label": 1}
+{"id": "2223", "text": "come with me into the tower room", "label": 1}
+{"id": "2224", "text": "meet me in the tower room now", "label": 1}
+{"id": "2225", "text": "join me in the tower room, please", "label": 1}
+{"id": "2226", "text": "walk with me to the tower room rn", "label": 1}
+{"id": "2227", "text": "wait for me in the tower room", "label": 1}
+{"id": "2228", "text": "follow me to the war room", "label": 1}
+{"id": "2229", "text": "join me in the war room right now", "label": 1}
+{"id": "2230", "text": "come with me into the war room", "label": 1}
+{"id": "2231", "text": "meet me in the war room", "label": 1}
+{"id": "2232", "text": "gather with me in the war room", "label": 1}
+{"id": "2233", "text": "wait for me in the war room, okay", "label": 1}
+
+{"id": "2234", "text": "follow me to the map room", "label": 1}
+{"id": "2235", "text": "come with me into the map room", "label": 1}
+{"id": "2236", "text": "join me in the map room", "label": 1}
+{"id": "2237", "text": "meet me in the map room now", "label": 1}
+{"id": "2238", "text": "walk with me to the map room pls", "label": 1}
+{"id": "2239", "text": "wait for me in the map room", "label": 1}
+{"id": "2240", "text": "follow me to the garden gate", "label": 1}
+{"id": "2241", "text": "come with me to the garden gate", "label": 1}
+{"id": "2242", "text": "meet me at the garden gate", "label": 1}
+{"id": "2243", "text": "wait for me by the garden gate", "label": 1}
+{"id": "2244", "text": "stand with me at the garden gate", "label": 1}
+{"id": "2245", "text": "walk together to the garden gate", "label": 1}
+{"id": "2246", "text": "meet me on the cathedral steps", "label": 1}
+{"id": "2247", "text": "gather with me on the cathedral steps", "label": 1}
+{"id": "2248", "text": "come sit with me on the cathedral steps", "label": 1}
+{"id": "2249", "text": "wait for me on the cathedral steps", "label": 1}
+{"id": "2250", "text": "follow me up to the cathedral steps", "label": 1}
+{"id": "2251", "text": "join me on the cathedral steps", "label": 1}
+{"id": "2252", "text": "come to the study with me", "label": 1}
+{"id": "2253", "text": "walk with me to the study", "label": 1}
+{"id": "2254", "text": "meet me in the study", "label": 1}
+{"id": "2255", "text": "join me in the study, please", "label": 1}
+{"id": "2256", "text": "wait for me in the study", "label": 1}
+{"id": "2257", "text": "come sit with me in the study", "label": 1}
+{"id": "2258", "text": "follow me to the riverbank", "label": 1}
+{"id": "2259", "text": "meet me at the riverbank", "label": 1}
+{"id": "2260", "text": "join me by the riverbank", "label": 1}
+{"id": "2261", "text": "come with me to the riverbank", "label": 1}
+{"id": "2262", "text": "wait for me at the riverbank", "label": 1}
+{"id": "2263", "text": "walk with me to the riverbank", "label": 1}
+{"id": "2264", "text": "join me at the gatehouse", "label": 1}
+{"id": "2265", "text": "meet me at the gatehouse", "label": 1}
+{"id": "2266", "text": "come to the gatehouse with me", "label": 1}
+{"id": "2267", "text": "wait for me at the gatehouse", "label": 1}
+{"id": "2268", "text": "follow me to the gatehouse", "label": 1}
+{"id": "2269", "text": "walk with me to the gatehouse", "label": 1}
+{"id": "2270", "text": "join me in the kitchen", "label": 1}
+{"id": "2271", "text": "come with me into the kitchen", "label": 1}
+{"id": "2272", "text": "meet me in the kitchen", "label": 1}
+{"id": "2273", "text": "wait for me in the kitchen", "label": 1}
+{"id": "2274", "text": "follow me to the kitchen", "label": 1}
+{"id": "2275", "text": "walk with me to the kitchen", "label": 1}
+{"id": "2276", "text": "join me at the bridge", "label": 1}
+{"id": "2277", "text": "meet me at the bridge", "label": 1}
+{"id": "2278", "text": "follow me to the bridge now", "label": 1}
+{"id": "2279", "text": "walk with me to the bridge", "label": 1}
+{"id": "2280", "text": "wait for me at the bridge", "label": 1}
+{"id": "2281", "text": "come to the bridge with me", "label": 1}
+{"id": "2282", "text": "follow me to the cloister", "label": 1}
+{"id": "2283", "text": "meet me in the cloister", "label": 1}
+{"id": "2284", "text": "come with me into the cloister", "label": 1}
+{"id": "2285", "text": "wait for me in the cloister", "label": 1}
+{"id": "2286", "text": "join me in the cloister", "label": 1}
+{"id": "2287", "text": "walk with me to the cloister", "label": 1}
+{"id": "2288", "text": "meet me at the bakery tonight", "label": 1}
+{"id": "2289", "text": "join me at the bakery", "label": 1}
+{"id": "2290", "text": "come to the bakery with me", "label": 1}
+{"id": "2291", "text": "wait for me at the bakery", "label": 1}
+{"id": "2292", "text": "walk with me to the bakery", "label": 1}
+{"id": "2293", "text": "follow me to the bakery", "label": 1}
+{"id": "2294", "text": "meet me in the library alcove", "label": 1}
+{"id": "2295", "text": "come with me into the library alcove", "label": 1}
+{"id": "2296", "text": "wait for me in the library alcove", "label": 1}
+{"id": "2297", "text": "join me in the library alcove", "label": 1}
+{"id": "2298", "text": "walk with me to the library alcove", "label": 1}
+{"id": "2299", "text": "follow me to the library alcove", "label": 1}
+{"id": "2300", "text": "climb with me to the cathedral steps", "label": 1}
+{"id": "2301", "text": "stand with me on the cathedral steps", "label": 1}
+{"id": "2302", "text": "wait together on the cathedral steps", "label": 1}
+{"id": "2303", "text": "let’s talk on the cathedral steps", "label": 1}
+{"id": "2304", "text": "join me up on the cathedral steps", "label": 1}
+{"id": "2305", "text": "meet me right on the cathedral steps", "label": 1}
+{"id": "2306", "text": "imagine us in the tavern, not going now", "label": 0}
+{"id": "2307", "text": "i’m thinking of you in the kitchen, staying here", "label": 0}
+{"id": "2308", "text": "we planned to meet in the study later", "label": 0}
+{"id": "2309", "text": "maybe later we’ll go to the bridge", "label": 0}
+{"id": "2310", "text": "just imagine us at the riverbank", "label": 0}
+{"id": "2311", "text": "i wish we were at the bakery already", "label": 0}
+{"id": "2312", "text": "dreaming of the cathedral steps again", "label": 0}
+{"id": "2313", "text": "we hoped to sit in the library alcove someday", "label": 0}
+{"id": "2314", "text": "thinking about the cloister view, not moving", "label": 0}
+{"id": "2315", "text": "only watching the gatehouse from here", "label": 0}
+{"id": "2316", "text": "someday let’s visit the war room", "label": 0}
+{"id": "2317", "text": "we plan to check the map room next week", "label": 0}
+{"id": "2318", "text": "i dreamed of us in the tower room", "label": 0}
+{"id": "2319", "text": "i hope we meet at the garden gate one day", "label": 0}
+{"id": "2320", "text": "maybe later we’ll go to the cloister", "label": 0}
+{"id": "2321", "text": "just imagine us in the war room", "label": 0}
+{"id": "2322", "text": "i wish we were in the map room now", "label": 0}
+{"id": "2323", "text": "thinking about the library alcove tonight", "label": 0}
+{"id": "2324", "text": "we planned to meet on the bridge tomorrow", "label": 0}
+{"id": "2325", "text": "only watching the riverbank for now", "label": 0}
+{"id": "2326", "text": "someday let’s walk to the bakery", "label": 0}
+{"id": "2327", "text": "i hope to study in the study later", "label": 0}
+{"id": "2328", "text": "i dreamed of waiting at the gatehouse", "label": 0}
+{"id": "2329", "text": "just imagining the kitchen at dawn", "label": 0}
+{"id": "2330", "text": "maybe later we’ll meet on the cathedral steps", "label": 0}
+{"id": "2331", "text": "we plan to pass by the garden gate next week", "label": 0}
+{"id": "2332", "text": "i wish we were in the tower room someday", "label": 0}
+{"id": "2333", "text": "thinking about the war room strategy", "label": 0}
+{"id": "2334", "text": "we hoped to check the map room later", "label": 0}
+{"id": "2335", "text": "only watching the library alcove from afar", "label": 0}
+{"id": "2336", "text": "imagine us at the riverbank tonight", "label": 0}
+{"id": "2337", "text": "i’m thinking about the bridge lights", "label": 0}
+{"id": "2338", "text": "we planned to wait in the cloister another time", "label": 0}
+{"id": "2339", "text": "maybe later we’ll go to the gatehouse", "label": 0}
+{"id": "2340", "text": "just imagine us in the kitchen together", "label": 0}
+{"id": "2341", "text": "i wish we were in the study right now", "label": 0}
+{"id": "3001", "text": "follow me to the training ground", "label": 1}
+{"id": "3002", "text": "meet me at the training ground by the mats", "label": 1}
+{"id": "3003", "text": "join me in the training ground tonight", "label": 1}
+{"id": "3004", "text": "walk with me to the training ground rn", "label": 1}
+{"id": "3005", "text": "i imagined us sparring at the training ground", "label": 0}
+{"id": "3006", "text": "dreaming of the training ground tomorrow", "label": 0}
+{"id": "3007", "text": "we planned to meet in the training ground someday", "label": 0}
+{"id": "3008", "text": "thinking of you while watching the training ground", "label": 0}
+
+{"id": "3009", "text": "come with me into the city park", "label": 1}
+{"id": "3010", "text": "join me at the city park fountain", "label": 1}
+{"id": "3011", "text": "walk with me through the city park", "label": 1}
+{"id": "3012", "text": "meet me in the city park tonight", "label": 1}
+{"id": "3013", "text": "imagine us in the city park later", "label": 0}
+{"id": "3014", "text": "i wish we were sitting in the city park", "label": 0}
+{"id": "3015", "text": "maybe someday we’ll go to the city park", "label": 0}
+{"id": "3016", "text": "thinking of lanterns in the city park", "label": 0}
+
+{"id": "3017", "text": "follow me to the skyscraper rooftop", "label": 1}
+{"id": "3018", "text": "join me on the skyscraper rooftop", "label": 1}
+{"id": "3019", "text": "walk with me to the rooftop view", "label": 1}
+{"id": "3020", "text": "meet me on the skyscraper rooftop now", "label": 1}
+{"id": "3021", "text": "i dreamed of us on the skyscraper rooftop", "label": 0}
+{"id": "3022", "text": "imagine the rooftop city lights", "label": 0}
+{"id": "3023", "text": "someday we’ll go to the rooftop", "label": 0}
+{"id": "3024", "text": "just thinking of neon on the rooftop", "label": 0}
+
+{"id": "3025", "text": "come with me into the dark alley", "label": 1}
+{"id": "3026", "text": "follow me down the dark alley", "label": 1}
+{"id": "3027", "text": "meet me in the dark alley tonight", "label": 1}
+{"id": "3028", "text": "join me at the dark alley corner", "label": 1}
+{"id": "3029", "text": "i wish we were in the dark alley", "label": 0}
+{"id": "3030", "text": "imagine danger in the dark alley", "label": 0}
+{"id": "3031", "text": "maybe later the dark alley", "label": 0}
+{"id": "3032", "text": "thinking about the dark alley thrill", "label": 0}
+
+{"id": "3033", "text": "join me in the subway station", "label": 1}
+{"id": "3034", "text": "follow me to the subway station rn", "label": 1}
+{"id": "3035", "text": "meet me at the subway station platform", "label": 1}
+{"id": "3036", "text": "come with me into the subway station", "label": 1}
+{"id": "3037", "text": "imagine us waiting in the subway station", "label": 0}
+{"id": "3038", "text": "dreaming about the subway trains", "label": 0}
+{"id": "3039", "text": "maybe later we’ll go to the subway", "label": 0}
+{"id": "3040", "text": "thinking about the subway station noise", "label": 0}
+
+{"id": "3041", "text": "come to mirko’s apartment with me", "label": 1}
+{"id": "3042", "text": "meet me in mirko’s apartment", "label": 1}
+{"id": "3043", "text": "join me at mirko’s apartment", "label": 1}
+{"id": "3044", "text": "follow me to mirko’s apartment", "label": 1}
+{"id": "3045", "text": "i dreamed of us in mirko’s apartment", "label": 0}
+{"id": "3046", "text": "imagine training in mirko’s apartment", "label": 0}
+{"id": "3047", "text": "maybe someday in mirko’s apartment", "label": 0}
+{"id": "3048", "text": "thinking about mirko’s apartment tonight", "label": 0}
+
+{"id": "3049", "text": "walk with me to the heroes’ dormitory", "label": 1}
+{"id": "3050", "text": "join me in the heroes’ dormitory", "label": 1}
+{"id": "3051", "text": "come with me into the heroes’ dormitory", "label": 1}
+{"id": "3052", "text": "meet me at the heroes’ dormitory entrance", "label": 1}
+{"id": "3053", "text": "i imagined us in the heroes’ dormitory", "label": 0}
+{"id": "3054", "text": "dreaming of the heroes’ dormitory hallways", "label": 0}
+{"id": "3055", "text": "someday let’s go to the heroes’ dormitory", "label": 0}
+{"id": "3056", "text": "thinking about heroes’ dormitory rn", "label": 0}
+
+{"id": "3057", "text": "join me in the gym training hall", "label": 1}
+{"id": "3058", "text": "follow me to the training hall", "label": 1}
+{"id": "3059", "text": "come with me into the gym", "label": 1}
+{"id": "3060", "text": "meet me in the gym hall tonight", "label": 1}
+{"id": "3061", "text": "i wish we were in the training hall", "label": 0}
+{"id": "3062", "text": "imagine us in the sweaty gym", "label": 0}
+{"id": "3063", "text": "dreaming about the training hall lights", "label": 0}
+{"id": "3064", "text": "maybe later we’ll train in the gym", "label": 0}
+
+{"id": "3065", "text": "follow me to the japanese bathhouse", "label": 1}
+{"id": "3066", "text": "come with me into the bathhouse", "label": 1}
+{"id": "3067", "text": "meet me in the japanese bathhouse", "label": 1}
+{"id": "3068", "text": "join me at the sentō tonight", "label": 1}
+{"id": "3069", "text": "i dreamed of us in the bathhouse steam", "label": 0}
+{"id": "3070", "text": "imagine sitting in the hot water", "label": 0}
+{"id": "3071", "text": "maybe later the bathhouse", "label": 0}
+{"id": "3072", "text": "thinking about the japanese bathhouse now", "label": 0}
+
+{"id": "3073", "text": "join me in the empty cinema hall", "label": 1}
+{"id": "3074", "text": "follow me to the cinema tonight", "label": 1}
+{"id": "3075", "text": "meet me in the cinema hall", "label": 1}
+{"id": "3076", "text": "come with me into the cinema", "label": 1}
+{"id": "3077", "text": "i wish we were in the cinema together", "label": 0}
+{"id": "3078", "text": "imagine watching alone in the cinema", "label": 0}
+{"id": "3079", "text": "maybe later in the cinema hall", "label": 0}
+{"id": "3080", "text": "dreaming of the cinema light", "label": 0}
+
+{"id": "3081", "text": "follow me to the night beach", "label": 1}
+{"id": "3082", "text": "come with me to the night beach", "label": 1}
+{"id": "3083", "text": "meet me at the night beach now", "label": 1}
+{"id": "3084", "text": "join me on the night beach", "label": 1}
+{"id": "3085", "text": "i dreamed of us at the night beach", "label": 0}
+{"id": "3086", "text": "imagine moonlight at the beach", "label": 0}
+{"id": "3087", "text": "someday let’s walk the night beach", "label": 0}
+{"id": "3088", "text": "thinking about the night beach waves", "label": 0}
+
+{"id": "3089", "text": "meet me in the mountain hot springs", "label": 1}
+{"id": "3090", "text": "follow me to the hot springs", "label": 1}
+{"id": "3091", "text": "join me in the mountain hot springs", "label": 1}
+{"id": "3092", "text": "come with me into the hot springs", "label": 1}
+{"id": "3093", "text": "dreaming about the hot springs steam", "label": 0}
+{"id": "3094", "text": "imagine us in the mountain hot springs", "label": 0}
+{"id": "3095", "text": "maybe later we’ll go to the hot springs", "label": 0}
+{"id": "3096", "text": "thinking about mountain hot springs rn", "label": 0}
+
+{"id": "3097", "text": "follow me to the abandoned warehouse", "label": 1}
+{"id": "3098", "text": "come with me into the warehouse", "label": 1}
+{"id": "3099", "text": "meet me in the abandoned warehouse", "label": 1}
+{"id": "3100", "text": "join me at the abandoned warehouse", "label": 1}
+{"id": "3101", "text": "i wish we were in the warehouse now", "label": 0}
+{"id": "3102", "text": "imagine us in the abandoned warehouse", "label": 0}
+{"id": "3103", "text": "someday let’s sneak into the warehouse", "label": 0}
+{"id": "3104", "text": "thinking about the abandoned warehouse", "label": 0}
+
+{"id": "3105", "text": "meet me backstage at the festival stage", "label": 1}
+{"id": "3106", "text": "join me behind the festival stage", "label": 1}
+{"id": "3107", "text": "come with me into the festival stage area", "label": 1}
+{"id": "3108", "text": "follow me backstage now", "label": 1}
+{"id": "3109", "text": "i dreamed of us behind the festival stage", "label": 0}
+{"id": "3110", "text": "imagine the music at the festival stage", "label": 0}
+{"id": "3111", "text": "maybe later we’ll go backstage", "label": 0}
+{"id": "3112", "text": "thinking about the festival stage crowd", "label": 0}
+
+{"id": "3113", "text": "walk with me to the academy library", "label": 1}
+{"id": "3114", "text": "join me in the academy library", "label": 1}
+{"id": "3115", "text": "follow me to the academy library", "label": 1}
+{"id": "3116", "text": "meet me in the academy library tonight", "label": 1}
+{"id": "3117", "text": "i dreamed of us in the academy library", "label": 0}
+{"id": "3118", "text": "imagine reading in the academy library", "label": 0}
+{"id": "3119", "text": "someday we’ll study in the academy library", "label": 0}
+{"id": "3120", "text": "thinking about the academy library shelves", "label": 0}
+{"id": "3121", "text": "follow me to the tower room", "label": 1}
+{"id": "3122", "text": "come with me into the tower room rn", "label": 1}
+{"id": "3123", "text": "join me in the tower room, please", "label": 1}
+{"id": "3124", "text": "meet me in the tower room tonight", "label": 1}
+{"id": "3125", "text": "i dreamed of us in the tower room", "label": 0}
+{"id": "3126", "text": "maybe later we’ll go to the tower room", "label": 0}
+
+{"id": "3127", "text": "join me at the harbor", "label": 1}
+{"id": "3128", "text": "walk with me to the harbor now", "label": 1}
+{"id": "3129", "text": "meet me at the harbor gate", "label": 1}
+{"id": "3130", "text": "wait for me at the harbor", "label": 1}
+{"id": "3131", "text": "imagine us at the harbor someday", "label": 0}
+{"id": "3132", "text": "we planned to meet at the harbor next week", "label": 0}
+
+{"id": "3133", "text": "follow me to the map room", "label": 1}
+{"id": "3134", "text": "come with me into the map room", "label": 1}
+{"id": "3135", "text": "join me in the map room right now", "label": 1}
+{"id": "3136", "text": "meet me in the map room", "label": 1}
+{"id": "3137", "text": "just imagining the map room lights", "label": 0}
+{"id": "3138", "text": "maybe later we’ll check the map room", "label": 0}
+
+{"id": "3139", "text": "come with me onto the bridge", "label": 1}
+{"id": "3140", "text": "join me at the bridge", "label": 1}
+{"id": "3141", "text": "follow me to the bridge rn", "label": 1}
+{"id": "3142", "text": "meet me on the bridge tonight", "label": 1}
+{"id": "3143", "text": "thinking about the bridge lights only", "label": 0}
+{"id": "3144", "text": "someday we’ll walk to the bridge", "label": 0}
+
+{"id": "3145", "text": "follow me to the garden gate", "label": 1}
+{"id": "3146", "text": "meet me at the garden gate", "label": 1}
+{"id": "3147", "text": "wait for me by the garden gate", "label": 1}
+{"id": "3148", "text": "walk with me to the garden gate", "label": 1}
+{"id": "3149", "text": "i hope we’ll stop by the garden gate later", "label": 0}
+{"id": "3150", "text": "just imagine us at the garden gate", "label": 0}
+
+{"id": "3151", "text": "come to the study with me", "label": 1}
+{"id": "3152", "text": "walk with me to the study", "label": 1}
+{"id": "3153", "text": "join me in the study", "label": 1}
+{"id": "3154", "text": "meet me in the study after dark", "label": 1}
+{"id": "3155", "text": "i wish we were in the study now", "label": 0}
+{"id": "3156", "text": "we planned to study in the study tomorrow", "label": 0}
+
+{"id": "3157", "text": "meet me at the bakery", "label": 1}
+{"id": "3158", "text": "join me at the bakery this evening", "label": 1}
+{"id": "3159", "text": "follow me to the bakery", "label": 1}
+{"id": "3160", "text": "walk with me to the bakery rn", "label": 1}
+{"id": "3161", "text": "i dreamed of us at the bakery", "label": 0}
+{"id": "3162", "text": "maybe later we’ll go to the bakery", "label": 0}
+
+{"id": "3163", "text": "follow me to the riverbank", "label": 1}
+{"id": "3164", "text": "meet me at the riverbank", "label": 1}
+{"id": "3165", "text": "come with me to the riverbank pls", "label": 1}
+{"id": "3166", "text": "wait for me at the riverbank", "label": 1}
+{"id": "3167", "text": "thinking about the riverbank breeze", "label": 0}
+{"id": "3168", "text": "someday let’s sit by the riverbank", "label": 0}
+
+{"id": "3169", "text": "meet me beside the fountain", "label": 1}
+{"id": "3170", "text": "join me by the fountain", "label": 1}
+{"id": "3171", "text": "walk with me to the fountain", "label": 1}
+{"id": "3172", "text": "come to the fountain with me", "label": 1}
+{"id": "3173", "text": "i hope we sit by the fountain later", "label": 0}
+{"id": "3174", "text": "just imagine us near the fountain", "label": 0}
+
+{"id": "3175", "text": "let’s head to the tower room now", "label": 1}
+{"id": "3176", "text": "meet me at the harbor right now", "label": 1}
+{"id": "3177", "text": "let’s go to the map room together", "label": 1}
+{"id": "3178", "text": "come meet me on the bridge", "label": 1}
+{"id": "3179", "text": "we planned to be at the harbor tomorrow", "label": 0}
+{"id": "3180", "text": "only watching the riverbank from here", "label": 0}

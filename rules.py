@@ -1,7 +1,7 @@
 # rules.py
 from __future__ import annotations
 import re
-from typing import Optional, Iterable, List, Tuple
+from typing import Optional, Iterable, List, Tuple, Sequence
 
 __all__ = [
     "BAD_SPANS",
@@ -12,6 +12,7 @@ __all__ = [
     "is_negative_text",
     # optional:
     "snap_to_vocab",
+    "refine_compound_span",  # NEW
 ]
 
 # --- constants / small helpers ------------------------------------------------
@@ -33,7 +34,7 @@ _TIME = {
 }
 _PREP = {
     "for","at","by","under","over","near","beside","along","across","around",
-    "during","till","until","before","after"
+    "during","till","until","before","after","from","on"  # keep on/from (used in presence)
 }
 
 def _alts(xs: Iterable[str]) -> str:
@@ -45,7 +46,8 @@ TRAIL_PATTERN = re.compile(
     re.I,
 )
 
-# minimalist negatives (keep lean for speed, cover biggest wins)
+# --- NEGATIVES ---------------------------------------------------------------
+# Было минималистично; расширяем под реальные FP: imagine/dream/wish/hope/maybe/someday/thinking/planned
 NEG_PATTERNS: List[re.Pattern] = [
     re.compile(r"\bno\s+change\b", re.I),
     re.compile(r"\b(?:stay|stays|stayed|staying)\b", re.I),
@@ -53,6 +55,16 @@ NEG_PATTERNS: List[re.Pattern] = [
     re.compile(r"\bplan(?:ned)?\s+to\b", re.I),
     re.compile(r"\bjust\s+watch(?:ing|ed)?\b", re.I),
     re.compile(r"\blook(?:ing|ed)?\s+(?:at|from)\b", re.I),
+
+    # NEW: явные «фантазии/планы/желания»
+    re.compile(r"\bimagin(?:e|ing|ed)\b", re.I),
+    re.compile(r"\bdream(?:ing|ed)?\b", re.I),
+    re.compile(r"\bi\s+wish\b|\bwe\s+wish\b", re.I),
+    re.compile(r"\bhope\b|\bhoping\b|\bhoped\b", re.I),
+    re.compile(r"\bmaybe\b|\bperhaps\b|\bsomeday\b", re.I),
+    re.compile(r"\bthinking\s+about\b", re.I),
+    re.compile(r"\bplanned?\s+to\s+(?:meet|go|visit|be)\b", re.I),
+    re.compile(r"\bonly\s+watch(?:ing|ed)?\b", re.I),
 ]
 
 # arrival-style patterns (prefer last mention)
@@ -167,3 +179,37 @@ def snap_to_vocab(span: str, vocab: Iterable[str], max_dist: int = 2) -> Optiona
             if bestd == 0:
                 break
     return best if bestd <= max_dist else None
+
+# --- NEW: prefer compound spans when context contains a longer vocab match ----
+
+_COMPOUND_VOCAB: Tuple[str, ...] = (
+    # твои больные места из отчётов
+    "tower room","war room","map room","garden gate","library alcove","cathedral steps",
+    "tavern booth","riverbank","gatehouse","night beach","skyscraper rooftop",
+    "training ground","city park","subway station","mountain hot springs",
+    "abandoned warehouse","festival stage","academy library",
+)
+
+def refine_compound_span(span: str, text: str, vocab: Sequence[str] = _COMPOUND_VOCAB) -> str:
+    """
+    Если модель дала короткий head (например, 'library'), а в тексте есть более длинная
+    словарная фраза (например, 'library alcove'), возвращаем длинную фразу.
+    Ничего не «придумываем» — только если точная фраза содержится в тексте.
+    """
+    s = canonicalize_location(span)
+    if not s:
+        return s
+    t = text.lower()
+    # Если и так составная — вернём как есть
+    if " " in s:
+        return s
+    # Поиск словарных фраз, которые содержат этот head и реально встречаются в тексте
+    cand = []
+    for v in vocab:
+        if s in v and v in t:
+            cand.append(v)
+    if not cand:
+        return s
+    # Берём самую длинную подходящую (чаще всего то, что нужно)
+    cand.sort(key=len, reverse=True)
+    return cand[0]

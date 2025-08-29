@@ -1,11 +1,11 @@
 {
   "move_dir": "../../out/move-det",
   "qa_dir":   "../../out/qa-distil",
-  "question": "What is the destination location after movement?",
-  "move_thr": 0.9,
-  "qa_thr":   0.9,
+  "question": "What is the destination location after movement? (e.g., tower room, war room, map room, garden gate, library alcove, cathedral steps, riverbank, bridge, harbor, bakery, cloister, study)",
+  "move_thr": 0.5,
+  "qa_thr":   0.85,
   "null_bias": 0.3,
   "max_len": 384,
   "doc_stride": 64,
-  "max_span_len": 32
+  "max_span_len": 48
 }

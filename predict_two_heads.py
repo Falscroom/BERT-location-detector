@@ -4,6 +4,8 @@
 import os, math
 from typing import Optional, Tuple
 import torch
+from rules import refine_compound_span
+
 from transformers import (
     AutoTokenizer,
     AutoModelForSequenceClassification,
@@ -128,12 +130,13 @@ def predict(cfg_dir_or_model, prompt: str, curr_loc: Optional[str] = None) -> di
     )
 
     span = canonicalize_location(span_raw) if span_raw else ""
+    span = refine_compound_span(span, prompt)
 
     # --- мягкое слияние уверенностей голов ---
     # веса можно вынести в конфиг позднее
     w0, w1, w2 = -1.2, 1.2, 1.4
     S = _sigmoid(w0 + w1 * float(p_move or 0.0) + w2 * float(p_best or 0.0))
-    tau = 0.70  # единый порог решения
+    tau = 0.6  # единый порог решения
 
     # принятие решения только через смесь (без ключевых слов),
     # но всё ещё через "честные" фильтры: BAD_SPANS и net_change
