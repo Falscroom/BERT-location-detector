@@ -1148,7 +1148,6 @@
 {"id": "1149", "text": "stay near me tonight", "label": 0}
 {"id": "146", "text": "balconey?? or what, maybe later, tbh. tbh like", "label": 0}
 {"id": "476", "text": "I won’t go to dungeon, it’s too scary for me", "label": 0}
-{"id": "1150", "text": "walk with me to the garden", "label": 1}
 {"id": "1151", "text": "follow me to the balcony", "label": 1}
 {"id": "1153", "text": "dance with me in the hall", "label": 1}
 {"id": "1154", "text": "sit with me in the tavern booth", "label": 1}
@@ -1247,7 +1246,6 @@
 {"id": "1247", "text": "he wished to gather in the fountain square", "label": 0}
 {"id": "1248", "text": "we remained in the dining hall all night", "label": 0}
 {"id": "1249", "text": "they talked about the chapel endlessly", "label": 0}
-{"id": "1250", "text": "imagine us in the tavern", "label": 0}
 {"id": "1251", "text": "walk with me to the garden", "label": 1}
 {"id": "1252", "text": "hold my hand in the market square", "label": 1}
 {"id": "1254", "text": "follow me to the balcony", "label": 1}
@@ -1398,7 +1396,6 @@
 {"id": "1424", "text": "gather with me in the guild hall", "label": 1}
 {"id": "1425", "text": "join me at the cathedral steps", "label": 1}
 {"id": "1426", "text": "sit beside me in the garden bench", "label": 1}
-{"id": "1427", "text": "imagine us in the tavern", "label": 0}
 {"id": "1428", "text": "I dreamed about meeting you in the hall", "label": 0}
 {"id": "1429", "text": "we planned to go to the market square", "label": 0}
 {"id": "1430", "text": "he hoped to dance in the castle yard", "label": 0}
@@ -1473,3 +1470,514 @@
 {"id": "1529", "text": "we imagined walking hand in hand in the market square", "label": 0}
 {"id": "1530", "text": "I kept thinking about us holding hands in the market square", "label": 0}
 {"id": "1531", "text": "they wished to dance hand in hand in the market square", "label": 0}
+{"id": "1532", "text": "walk with me to the garden", "label": 1}
+{"id": "1533", "text": "come with me into the garden", "label": 1}
+{"id": "1534", "text": "follow me to the garden", "label": 1}
+{"id": "1535", "text": "join me as we walk into the garden", "label": 1}
+{"id": "1536", "text": "let's go together to the garden", "label": 1}
+{"id": "1537", "text": "stay close and walk with me into the garden", "label": 1}
+{"id": "1538", "text": "take my hand and walk with me to the garden", "label": 1}
+{"id": "1539", "text": "walk beside me to the garden", "label": 1}
+{"id": "1540", "text": "let's sneak away to the garden", "label": 1}
+{"id": "1541", "text": "come along to the garden with me", "label": 1}
+{"id": "1542", "text": "head with me into the garden", "label": 1}
+{"id": "1543", "text": "accompany me to the garden", "label": 1}
+{"id": "1544", "text": "walk slowly with me to the garden", "label": 1}
+{"id": "1545", "text": "step with me into the garden", "label": 1}
+{"id": "1546", "text": "let us wander together into the garden", "label": 1}
+{"id": "1547", "text": "imagine us walking together into the garden", "label": 0}
+{"id": "1548", "text": "i dreamed we went to the garden", "label": 0}
+{"id": "1549", "text": "we planned to walk in the garden", "label": 0}
+{"id": "1550", "text": "i hope to go to the garden with you", "label": 0}
+{"id": "1551", "text": "they wished to stroll into the garden", "label": 0}
+{"id": "1552", "text": "thinking about being with you in the garden", "label": 0}
+{"id": "1553", "text": "she imagined walking beside me in the garden", "label": 0}
+{"id": "1554", "text": "i wanted to take you to the garden", "label": 0}
+{"id": "1555", "text": "someday we'll walk together in the garden", "label": 0}
+{"id": "1556", "text": "he hoped to meet me in the garden", "label": 0}
+{"id": "1557", "text": "they only talked about walking to the garden", "label": 0}
+{"id": "1558", "text": "we nearly entered the garden but stopped", "label": 0}
+{"id": "1559", "text": "i still wish we could go to the garden", "label": 0}
+{"id": "1560", "text": "she planned to guide me into the garden", "label": 0}
+{"id": "1561", "text": "i keep imagining us in the garden together", "label": 0}
+{"id": "1562", "text": "walk with me into the tavern", "label": 1}
+{"id": "1563", "text": "come with me to the garden", "label": 1}
+{"id": "1564", "text": "follow me into the library", "label": 1}
+{"id": "1565", "text": "join me in the banquet hall", "label": 1}
+{"id": "1566", "text": "sit with me in the tavern booth", "label": 1}
+{"id": "1567", "text": "wait for me in the tower", "label": 1}
+{"id": "1568", "text": "hide with me in the cellar", "label": 1}
+{"id": "1569", "text": "meet me at the riverbank", "label": 1}
+{"id": "1570", "text": "dance with me in the hall", "label": 1}
+{"id": "1571", "text": "follow me to the map room", "label": 1}
+{"id": "1572", "text": "step with me into the crypt", "label": 1}
+{"id": "1573", "text": "walk together to the gatehouse", "label": 1}
+{"id": "1574", "text": "come into the study with me", "label": 1}
+{"id": "1575", "text": "join me on the terrace", "label": 1}
+{"id": "1576", "text": "gather with me on the cathedral steps", "label": 1}
+{"id": "1577", "text": "imagine us in the tavern", "label": 0}
+{"id": "1578", "text": "dreaming of the cathedral steps", "label": 0}
+{"id": "1579", "text": "i wish we were in the garden", "label": 0}
+{"id": "1580", "text": "they planned to meet in the study", "label": 0}
+{"id": "1581", "text": "she hoped to sit with him in the tavern booth", "label": 0}
+{"id": "1582", "text": "i imagined walking with you in the orchard", "label": 0}
+{"id": "1583", "text": "he wished to join her in the war room", "label": 0}
+{"id": "1584", "text": "i dreamed we hid in the cellar", "label": 0}
+{"id": "1585", "text": "they planned to wait at the riverbank", "label": 0}
+{"id": "1586", "text": "i hoped we could dance in the hall", "label": 0}
+{"id": "1587", "text": "she imagined following him into the crypt", "label": 0}
+{"id": "1588", "text": "they wished to gather on the terrace", "label": 0}
+{"id": "1589", "text": "he planned to walk with me to the gatehouse", "label": 0}
+{"id": "1590", "text": "i imagined us sitting in the banquet hall", "label": 0}
+{"id": "1591", "text": "they dreamed of meeting in the library", "label": 0}
+{"id": "1592", "text": "walk with me to the garden", "label": 1}
+{"id": "1593", "text": "follow me to the balcony", "label": 1}
+{"id": "1594", "text": "come with me into the cellar", "label": 1}
+{"id": "1595", "text": "walk with me through the orchard", "label": 1}
+{"id": "1596", "text": "follow me to the riverbank", "label": 1}
+{"id": "1597", "text": "come with me into the library", "label": 1}
+{"id": "1598", "text": "walk with me down to the docks", "label": 1}
+{"id": "1599", "text": "follow me to the crypt", "label": 1}
+{"id": "1600", "text": "come with me to the study", "label": 1}
+{"id": "1601", "text": "walk with me across the bridge", "label": 1}
+{"id": "1602", "text": "follow me up to the tower room", "label": 1}
+{"id": "1603", "text": "come with me into the banquet hall", "label": 1}
+{"id": "1604", "text": "walk with me to the guild hall", "label": 1}
+{"id": "1605", "text": "follow me into the armory", "label": 1}
+{"id": "1606", "text": "come with me onto the terrace", "label": 1}
+{"id": "1607", "text": "i wish you would walk with me to the garden", "label": 0}
+{"id": "1608", "text": "she imagined following him to the balcony", "label": 0}
+{"id": "1609", "text": "they planned to come with us into the cellar", "label": 0}
+{"id": "1610", "text": "i hoped we could walk together through the orchard", "label": 0}
+{"id": "1611", "text": "he dreamed of following me to the riverbank", "label": 0}
+{"id": "1612", "text": "they wished to come into the library", "label": 0}
+{"id": "1613", "text": "i imagined us walking down to the docks", "label": 0}
+{"id": "1614", "text": "she hoped to follow me into the crypt", "label": 0}
+{"id": "1615", "text": "they planned to come with me to the study", "label": 0}
+{"id": "1616", "text": "i dreamed of walking with you across the bridge", "label": 0}
+{"id": "1617", "text": "he wished to follow me up to the tower room", "label": 0}
+{"id": "1618", "text": "i imagined coming with you into the banquet hall", "label": 0}
+{"id": "1619", "text": "they hoped to walk with us to the guild hall", "label": 0}
+{"id": "1620", "text": "she planned to follow me into the armory", "label": 0}
+{"id": "1621", "text": "i wished to come with you onto the terrace", "label": 0}
+{"id": "1622", "text": "meet me in the library", "label": 1}
+{"id": "1623", "text": "meet me at the gatehouse", "label": 1}
+{"id": "1624", "text": "meet me in the study", "label": 1}
+{"id": "1625", "text": "meet me at the riverbank", "label": 1}
+{"id": "1626", "text": "meet me in the chapel", "label": 1}
+{"id": "1627", "text": "meet me at the courtyard well", "label": 1}
+{"id": "1628", "text": "meet me in the banquet hall", "label": 1}
+{"id": "1629", "text": "meet me at the cathedral steps", "label": 1}
+{"id": "1630", "text": "meet me in the greenhouse", "label": 1}
+{"id": "1631", "text": "meet me at the harbor", "label": 1}
+{"id": "1632", "text": "meet me in the guild hall", "label": 1}
+{"id": "1633", "text": "meet me at the garden gate", "label": 1}
+{"id": "1634", "text": "meet me in the observatory dome", "label": 1}
+{"id": "1635", "text": "meet me at the terrace", "label": 1}
+{"id": "1636", "text": "meet me in the pantry", "label": 1}
+{"id": "1637", "text": "i hoped we could meet in the library", "label": 0}
+{"id": "1638", "text": "she wished to meet him at the gatehouse", "label": 0}
+{"id": "1639", "text": "they planned to meet in the study", "label": 0}
+{"id": "1640", "text": "i dreamed of meeting you at the riverbank", "label": 0}
+{"id": "1641", "text": "he imagined they would meet in the chapel", "label": 0}
+{"id": "1642", "text": "they hoped to meet near the courtyard well", "label": 0}
+{"id": "1643", "text": "she dreamed of meeting him in the banquet hall", "label": 0}
+{"id": "1644", "text": "i wished we could meet on the cathedral steps", "label": 0}
+{"id": "1645", "text": "he planned to meet her in the greenhouse", "label": 0}
+{"id": "1646", "text": "they imagined a meeting at the harbor", "label": 0}
+{"id": "1647", "text": "i hoped to meet you in the guild hall", "label": 0}
+{"id": "1648", "text": "she wished to meet him at the garden gate", "label": 0}
+{"id": "1649", "text": "they planned to meet in the observatory dome", "label": 0}
+{"id": "1650", "text": "i imagined us meeting on the terrace", "label": 0}
+{"id": "1651", "text": "he dreamed of meeting me in the pantry", "label": 0}
+{"id": "1652", "text": "join me in the banquet hall", "label": 1}
+{"id": "1653", "text": "join me at the harbor", "label": 1}
+{"id": "1654", "text": "join me on the terrace", "label": 1}
+{"id": "1655", "text": "join me in the guild hall", "label": 1}
+{"id": "1656", "text": "join me at the cathedral steps", "label": 1}
+{"id": "1657", "text": "join me in the library", "label": 1}
+{"id": "1658", "text": "join me at the garden gate", "label": 1}
+{"id": "1659", "text": "join me in the armory", "label": 1}
+{"id": "1660", "text": "join me on the bridge", "label": 1}
+{"id": "1661", "text": "join me in the tower room", "label": 1}
+{"id": "1662", "text": "join me at the carriage yard", "label": 1}
+{"id": "1663", "text": "join me in the apothecary", "label": 1}
+{"id": "1664", "text": "join me on the rooftop", "label": 1}
+{"id": "1665", "text": "join me in the crypt", "label": 1}
+{"id": "1666", "text": "join me at the courtyard well", "label": 1}
+{"id": "1667", "text": "she wished to join me in the banquet hall", "label": 0}
+{"id": "1668", "text": "i hoped you would join me at the harbor", "label": 0}
+{"id": "1669", "text": "they imagined joining us on the terrace", "label": 0}
+{"id": "1670", "text": "he planned to join her in the guild hall", "label": 0}
+{"id": "1671", "text": "i dreamed of you joining me on the cathedral steps", "label": 0}
+{"id": "1672", "text": "we wished to join each other in the library", "label": 0}
+{"id": "1673", "text": "she hoped to join me at the garden gate", "label": 0}
+{"id": "1674", "text": "they planned to join the group in the armory", "label": 0}
+{"id": "1675", "text": "he imagined joining me on the bridge", "label": 0}
+{"id": "1676", "text": "i hoped we would join together in the tower room", "label": 0}
+{"id": "1677", "text": "they wished to join us at the carriage yard", "label": 0}
+{"id": "1678", "text": "she dreamed of joining me in the apothecary", "label": 0}
+{"id": "1679", "text": "he planned to join her on the rooftop", "label": 0}
+{"id": "1680", "text": "they hoped to join us in the crypt", "label": 0}
+{"id": "1681", "text": "i imagined joining you at the courtyard well", "label": 0}
+{"id": "1682", "text": "sit with me in the tavern booth", "label": 1}
+{"id": "1683", "text": "dance with me in the hall", "label": 1}
+{"id": "1684", "text": "sit with me by the fountain", "label": 1}
+{"id": "1685", "text": "dance with me on the terrace", "label": 1}
+{"id": "1686", "text": "sit with me in the banquet hall", "label": 1}
+{"id": "1687", "text": "dance with me in the guild hall", "label": 1}
+{"id": "1688", "text": "sit with me in the library alcove", "label": 1}
+{"id": "1689", "text": "dance with me at the garden gate", "label": 1}
+{"id": "1690", "text": "sit with me in the greenhouse", "label": 1}
+{"id": "1691", "text": "dance with me at the cathedral steps", "label": 1}
+{"id": "1692", "text": "sit with me in the observatory dome", "label": 1}
+{"id": "1693", "text": "dance with me in the courtyard", "label": 1}
+{"id": "1694", "text": "sit with me on the rooftop", "label": 1}
+{"id": "1695", "text": "dance with me in the tower room", "label": 1}
+{"id": "1696", "text": "sit with me in the crypt", "label": 1}
+{"id": "1697", "text": "i imagined us sitting in the tavern booth", "label": 0}
+{"id": "1698", "text": "she dreamed of dancing with him in the hall", "label": 0}
+{"id": "1699", "text": "they planned to sit together by the fountain", "label": 0}
+{"id": "1700", "text": "i hoped we could dance on the terrace", "label": 0}
+{"id": "1701", "text": "he wished to sit with her in the banquet hall", "label": 0}
+{"id": "1702", "text": "they imagined dancing in the guild hall", "label": 0}
+{"id": "1703", "text": "i dreamed of sitting in the library alcove", "label": 0}
+{"id": "1704", "text": "she hoped to dance with me at the garden gate", "label": 0}
+{"id": "1705", "text": "they wished to sit together in the greenhouse", "label": 0}
+{"id": "1706", "text": "i planned to dance on the cathedral steps", "label": 0}
+{"id": "1707", "text": "he imagined sitting with me in the observatory dome", "label": 0}
+{"id": "1708", "text": "she hoped we could dance in the courtyard", "label": 0}
+{"id": "1709", "text": "they wished to sit together on the rooftop", "label": 0}
+{"id": "1710", "text": "i dreamed of dancing in the tower room", "label": 0}
+{"id": "1711", "text": "he imagined us sitting quietly in the crypt", "label": 0}
+{"id": "1712", "text": "hide with me in the cellar", "label": 1}
+{"id": "1713", "text": "wait for me in the tower", "label": 1}
+{"id": "1714", "text": "hide with me in the crypt", "label": 1}
+{"id": "1715", "text": "wait with me in the courtyard", "label": 1}
+{"id": "1716", "text": "hide with me in the armory", "label": 1}
+{"id": "1717", "text": "wait for me at the riverbank", "label": 1}
+{"id": "1718", "text": "hide with me in the observatory dome", "label": 1}
+{"id": "1719", "text": "wait for me in the chapel", "label": 1}
+{"id": "1720", "text": "hide with me in the greenhouse", "label": 1}
+{"id": "1721", "text": "wait with me in the guild hall", "label": 1}
+{"id": "1722", "text": "hide with me in the pantry", "label": 1}
+{"id": "1723", "text": "wait for me at the gatehouse", "label": 1}
+{"id": "1724", "text": "hide with me in the study", "label": 1}
+{"id": "1725", "text": "wait with me in the banquet hall", "label": 1}
+{"id": "1726", "text": "hide with me in the tower room", "label": 1}
+{"id": "1727", "text": "i dreamed we hid together in the cellar", "label": 0}
+{"id": "1728", "text": "she wished to wait for him in the tower", "label": 0}
+{"id": "1729", "text": "they planned to hide in the crypt", "label": 0}
+{"id": "1730", "text": "i hoped we could wait together in the courtyard", "label": 0}
+{"id": "1731", "text": "he imagined hiding in the armory", "label": 0}
+{"id": "1732", "text": "they wished to wait at the riverbank", "label": 0}
+{"id": "1733", "text": "she hoped to hide in the observatory dome", "label": 0}
+{"id": "1734", "text": "i imagined waiting for you in the chapel", "label": 0}
+{"id": "1735", "text": "he dreamed of hiding in the greenhouse", "label": 0}
+{"id": "1736", "text": "they planned to wait in the guild hall", "label": 0}
+{"id": "1737", "text": "i wished we were hiding in the pantry", "label": 0}
+{"id": "1738", "text": "she imagined waiting in the gatehouse", "label": 0}
+{"id": "1739", "text": "they hoped to hide in the study", "label": 0}
+{"id": "1740", "text": "i dreamed of waiting in the banquet hall", "label": 0}
+{"id": "1741", "text": "he wished to hide with her in the tower room", "label": 0}
+{"id": "1742", "text": "come to the library with me", "label": 1}
+{"id": "1743", "text": "come into the chapel now", "label": 1}
+{"id": "1744", "text": "step into the banquet hall with me", "label": 1}
+{"id": "1745", "text": "come to the guild hall together", "label": 1}
+{"id": "1746", "text": "come into the armory", "label": 1}
+{"id": "1747", "text": "step into the crypt with me", "label": 1}
+{"id": "1748", "text": "come to the study at once", "label": 1}
+{"id": "1749", "text": "come into the tower room", "label": 1}
+{"id": "1750", "text": "step into the greenhouse with me", "label": 1}
+{"id": "1751", "text": "come to the observatory dome", "label": 1}
+{"id": "1752", "text": "come into the library alcove", "label": 1}
+{"id": "1753", "text": "step into the courtyard well with me", "label": 1}
+{"id": "1754", "text": "come to the terrace", "label": 1}
+{"id": "1755", "text": "come into the war room", "label": 1}
+{"id": "1756", "text": "step into the bakery with me", "label": 1}
+{"id": "1757", "text": "i dreamed of coming to the library with you", "label": 0}
+{"id": "1758", "text": "she wished to come into the chapel someday", "label": 0}
+{"id": "1759", "text": "they planned to step into the banquet hall later", "label": 0}
+{"id": "1760", "text": "i hoped to come to the guild hall", "label": 0}
+{"id": "1761", "text": "he imagined coming into the armory", "label": 0}
+{"id": "1762", "text": "they wished to step into the crypt together", "label": 0}
+{"id": "1763", "text": "she dreamed of coming to the study", "label": 0}
+{"id": "1764", "text": "i planned to come into the tower room", "label": 0}
+{"id": "1765", "text": "he imagined stepping into the greenhouse", "label": 0}
+{"id": "1766", "text": "they hoped to come to the observatory dome", "label": 0}
+{"id": "1767", "text": "she wished to come into the library alcove", "label": 0}
+{"id": "1768", "text": "i imagined stepping into the courtyard well", "label": 0}
+{"id": "1769", "text": "they planned to come to the terrace later", "label": 0}
+{"id": "1770", "text": "he dreamed of coming into the war room", "label": 0}
+{"id": "1771", "text": "i wished to step into the bakery with you", "label": 0}
+{"id": "1772", "text": "sit with me in the tavern booth", "label": 1}
+{"id": "1773", "text": "come to the library alcove", "label": 1}
+{"id": "1774", "text": "gather with me on the cathedral steps", "label": 1}
+{"id": "1775", "text": "follow me into the tower room", "label": 1}
+{"id": "1776", "text": "walk with me into the banquet hall", "label": 1}
+{"id": "1777", "text": "hide with me near the garden gate", "label": 1}
+{"id": "1778", "text": "join me in the map room", "label": 1}
+{"id": "1779", "text": "meet me in the war room", "label": 1}
+{"id": "1780", "text": "dance with me in the throne hall", "label": 1}
+{"id": "1781", "text": "sit with me at the river gate", "label": 1}
+{"id": "1782", "text": "come with me into the guard tower room", "label": 1}
+{"id": "1783", "text": "wait with me in the guild hall", "label": 1}
+{"id": "1784", "text": "sneak with me through the servant’s passage", "label": 1}
+{"id": "1785", "text": "meet me in the bell tower room", "label": 1}
+{"id": "1786", "text": "sit together in the scholar’s alcove", "label": 1}
+{"id": "1787", "text": "i imagined us in the tavern booth", "label": 0}
+{"id": "1788", "text": "she dreamed of sitting in the library alcove", "label": 0}
+{"id": "1789", "text": "they wished to gather on the cathedral steps", "label": 0}
+{"id": "1790", "text": "he planned to follow me into the tower room", "label": 0}
+{"id": "1791", "text": "i hoped we could walk together in the banquet hall", "label": 0}
+{"id": "1792", "text": "she wished to wait with me near the garden gate", "label": 0}
+{"id": "1793", "text": "i dreamed of joining you in the map room", "label": 0}
+{"id": "1794", "text": "they planned to meet later in the war room", "label": 0}
+{"id": "1795", "text": "he imagined dancing in the throne hall", "label": 0}
+{"id": "1796", "text": "i hoped to sit at the river gate", "label": 0}
+{"id": "1797", "text": "she dreamed of coming into the guard tower room", "label": 0}
+{"id": "1798", "text": "they wished to wait in the guild hall", "label": 0}
+{"id": "1799", "text": "i imagined sneaking through the servant’s passage", "label": 0}
+{"id": "1800", "text": "he hoped to meet her in the bell tower room", "label": 0}
+{"id": "1801", "text": "they planned to sit in the scholar’s alcove", "label": 0}
+{"id": "1802", "text": "walk with me to the garden", "label": 1}
+{"id": "1803", "text": "meet me in the library", "label": 1}
+{"id": "1804", "text": "follow me to the balcony", "label": 1}
+{"id": "1805", "text": "sit with me in the tavern booth", "label": 1}
+{"id": "1806", "text": "hide with me in the cellar", "label": 1}
+{"id": "1807", "text": "wait in the tower for me", "label": 1}
+{"id": "1808", "text": "meet me at the gatehouse", "label": 1}
+{"id": "1809", "text": "wait for me in the courtyard", "label": 1}
+{"id": "1810", "text": "join me in the banquet hall", "label": 1}
+{"id": "1811", "text": "follow me to the tower room", "label": 1}
+{"id": "1812", "text": "let's sit by the fountain", "label": 1}
+{"id": "1813", "text": "come to the library alcove", "label": 1}
+{"id": "1814", "text": "meet me on the rooftop", "label": 1}
+{"id": "1815", "text": "join me at the harbor", "label": 1}
+{"id": "1816", "text": "meet me in the greenhouse", "label": 1}
+{"id": "1817", "text": "join me in the war room", "label": 1}
+{"id": "1818", "text": "follow me to the map room", "label": 1}
+{"id": "1819", "text": "meet me in the study", "label": 1}
+{"id": "1820", "text": "let's sit in the gallery", "label": 1}
+{"id": "1821", "text": "come with me onto the bridge", "label": 1}
+{"id": "1822", "text": "meet me at the riverbank", "label": 1}
+{"id": "1823", "text": "follow me to the garden gate", "label": 1}
+{"id": "1824", "text": "join me on the terrace", "label": 1}
+{"id": "1825", "text": "meet me in the kitchen", "label": 1}
+{"id": "1826", "text": "walk with me to the bakery", "label": 1}
+{"id": "1827", "text": "gather with me on the cathedral steps", "label": 1}
+{"id": "1828", "text": "meet me under the bell tower", "label": 1}
+{"id": "1829", "text": "come with me into the crypt", "label": 1}
+{"id": "1830", "text": "wait for me at the river gate", "label": 1}
+{"id": "1831", "text": "sit with me beside the fountain", "label": 1}
+{"id": "1832", "text": "join me by the fountain in the courtyard", "label": 1}
+{"id": "1833", "text": "come with me into the guard tower room", "label": 1}
+{"id": "1834", "text": "walk with me into the banquet hall", "label": 1}
+{"id": "1835", "text": "meet me at the cathedral steps", "label": 1}
+{"id": "1836", "text": "sit with me in the scholar’s alcove", "label": 1}
+{"id": "1837", "text": "follow me up to the watchtower", "label": 1}
+{"id": "1838", "text": "join me at the garden gate", "label": 1}
+{"id": "1839", "text": "wait with me in the guild hall", "label": 1}
+{"id": "1840", "text": "hide with me in the wine cellar", "label": 1}
+{"id": "1841", "text": "meet me at the courtyard well", "label": 1}
+{"id": "1842", "text": "step with me into the library alcove", "label": 1}
+{"id": "1843", "text": "come with me onto the terrace", "label": 1}
+{"id": "1844", "text": "walk with me across the bridge", "label": 1}
+{"id": "1845", "text": "join me in the map room", "label": 1}
+{"id": "1846", "text": "dance with me in the banquet hall", "label": 1}
+{"id": "1847", "text": "sit with me at the harbor pier", "label": 1}
+{"id": "1848", "text": "follow me into the armory", "label": 1}
+{"id": "1849", "text": "meet me by the garden fountain", "label": 1}
+{"id": "1850", "text": "come into the study with me", "label": 1}
+{"id": "1851", "text": "walk with me to the gatehouse", "label": 1}
+{"id": "1852", "text": "join me in the tower room", "label": 1}
+{"id": "1853", "text": "wait for me in the chapel", "label": 1}
+{"id": "1854", "text": "hide with me behind the cathedral steps", "label": 1}
+{"id": "1855", "text": "meet me on the castle rooftop", "label": 1}
+{"id": "1856", "text": "come with me into the greenhouse", "label": 1}
+{"id": "1857", "text": "follow me to the throne hall", "label": 1}
+{"id": "1858", "text": "sit with me in the library alcove", "label": 1}
+{"id": "1859", "text": "join me at the riverbank", "label": 1}
+{"id": "1860", "text": "walk with me down to the docks", "label": 1}
+{"id": "1861", "text": "come with me into the pantry", "label": 1}
+{"id": "1862", "text": "meet me in the apothecary", "label": 1}
+{"id": "1863", "text": "wait for me at the garden gate", "label": 1}
+{"id": "1864", "text": "hide with me in the observatory dome", "label": 1}
+{"id": "1865", "text": "join me in the guild hall", "label": 1}
+{"id": "1866", "text": "follow me into the crypt", "label": 1}
+{"id": "1867", "text": "come to the terrace and sit with me", "label": 1}
+{"id": "1868", "text": "meet me at the harbor warehouse", "label": 1}
+{"id": "1869", "text": "walk with me to the bakery stall", "label": 1}
+{"id": "1870", "text": "sit with me in the gallery", "label": 1}
+{"id": "1871", "text": "dance with me on the terrace", "label": 1}
+{"id": "1872", "text": "follow me to the library reading room", "label": 1}
+{"id": "1873", "text": "join me on the bridge", "label": 1}
+{"id": "1874", "text": "come with me into the war room", "label": 1}
+{"id": "1875", "text": "meet me in the tower room", "label": 1}
+{"id": "1876", "text": "wait with me by the fountain", "label": 1}
+{"id": "1877", "text": "hide with me in the cellar corner", "label": 1}
+{"id": "1878", "text": "walk with me to the garden gate", "label": 1}
+{"id": "1879", "text": "follow me to the watchtower stairs", "label": 1}
+{"id": "1880", "text": "come with me into the map room", "label": 1}
+{"id": "1881", "text": "sit with me in the banquet hall", "label": 1}
+{"id": "1882", "text": "join me at the bell tower", "label": 1}
+{"id": "1883", "text": "meet me at the cathedral steps", "label": 1}
+{"id": "1884", "text": "walk with me into the greenhouse", "label": 1}
+{"id": "1885", "text": "follow me to the harbor pier", "label": 1}
+{"id": "1886", "text": "come with me onto the castle rooftop", "label": 1}
+{"id": "1887", "text": "wait for me in the study", "label": 1}
+{"id": "1888", "text": "hide with me in the tower room", "label": 1}
+{"id": "1889", "text": "join me in the library alcove", "label": 1}
+{"id": "1890", "text": "meet me by the courtyard fountain", "label": 1}
+{"id": "1891", "text": "walk with me into the kitchen", "label": 1}
+{"id": "1892", "text": "follow me to the bakery", "label": 1}
+{"id": "1893", "text": "come with me to the garden", "label": 1}
+{"id": "1894", "text": "sit with me near the garden gate", "label": 1}
+{"id": "1895", "text": "dance with me in the throne hall", "label": 1}
+{"id": "1896", "text": "join me on the cathedral steps", "label": 1}
+{"id": "1897", "text": "wait for me in the courtyard gallery", "label": 1}
+{"id": "1898", "text": "hide with me behind the fountain", "label": 1}
+{"id": "1899", "text": "meet me inside the greenhouse", "label": 1}
+{"id": "1900", "text": "come with me into the library", "label": 1}
+{"id": "1901", "text": "follow me to the balcony rail", "label": 1}
+{"id": "1902", "text": "imagine us in the tavern tonight", "label": 0}
+{"id": "1903", "text": "i’m thinking of you in the garden", "label": 0}
+{"id": "1904", "text": "we planned to meet in the library later", "label": 0}
+{"id": "1905", "text": "maybe later we’ll go to the balcony", "label": 0}
+{"id": "1906", "text": "just imagine us by the fountain", "label": 0}
+{"id": "1907", "text": "i wish we were in the tower room", "label": 0}
+{"id": "1908", "text": "dreaming of the cathedral steps again", "label": 0}
+{"id": "1909", "text": "we hoped to sit in the tavern booth", "label": 0}
+{"id": "1910", "text": "someday let’s visit the castle gardens", "label": 0}
+{"id": "1911", "text": "only watching the courtyard from here", "label": 0}
+{"id": "1912", "text": "thinking about the balcony view", "label": 0}
+{"id": "1913", "text": "planning to sit by the fountain tomorrow", "label": 0}
+{"id": "1914", "text": "we planned to meet in the hall but not now", "label": 0}
+{"id": "1915", "text": "i hoped we could dance in the hall someday", "label": 0}
+{"id": "1916", "text": "they imagined waiting at the riverbank", "label": 0}
+{"id": "1917", "text": "i wished to read in the library alcove", "label": 0}
+{"id": "1918", "text": "we’re just looking at the harbor from afar", "label": 0}
+{"id": "1919", "text": "maybe later we’ll meet at the gatehouse", "label": 0}
+{"id": "1920", "text": "we talked about going to the greenhouse", "label": 0}
+{"id": "1921", "text": "i dream of us in the war room", "label": 0}
+{"id": "1922", "text": "we plan to visit the map room next week", "label": 0}
+{"id": "1923", "text": "i hope to study in the study one day", "label": 0}
+{"id": "1924", "text": "we’re only watching the bridge from here", "label": 0}
+{"id": "1925", "text": "maybe later let’s meet at the riverbank", "label": 0}
+{"id": "1926", "text": "i’m thinking about the garden gate", "label": 0}
+{"id": "1927", "text": "we hoped to sit on the terrace", "label": 0}
+{"id": "1928", "text": "i wish we were in the kitchen already", "label": 0}
+{"id": "1929", "text": "we planned to walk to the bakery tomorrow", "label": 0}
+{"id": "1930", "text": "still dreaming of the bell tower view", "label": 0}
+{"id": "1931", "text": "let’s go somewhere private someday", "label": 0}
+{"id": "1932", "text": "i imagined us in the crypt, just fantasy", "label": 0}
+{"id": "1933", "text": "we talked about the courtyard well", "label": 0}
+{"id": "1934", "text": "maybe later we’ll sit in the gallery", "label": 0}
+{"id": "1935", "text": "we planned to watch the docks at dusk", "label": 0}
+{"id": "1936", "text": "i hope to meet you on the rooftop someday", "label": 0}
+{"id": "1937", "text": "just picturing the guild hall lights", "label": 0}
+{"id": "1938", "text": "we only watched the armory from outside", "label": 0}
+{"id": "1939", "text": "i wish to rest by the fountain soon", "label": 0}
+{"id": "1940", "text": "we planned to gather on the cathedral steps later", "label": 0}
+{"id": "1941", "text": "i’m thinking about the map room again", "label": 0}
+{"id": "1942", "text": "we hoped to hide in the cellar one day", "label": 0}
+{"id": "2022", "text": "imagine us in the tavern after the rain", "label": 0}
+{"id": "2023", "text": "i’m thinking of you in the garden, not going yet", "label": 0}
+{"id": "2024", "text": "we planned to meet in the library tomorrow, not now", "label": 0}
+{"id": "2025", "text": "maybe later we’ll go to the balcony", "label": 0}
+{"id": "2026", "text": "just imagine us by the fountain for a moment", "label": 0}
+{"id": "2027", "text": "i wish we were in the tower room already", "label": 0}
+{"id": "2028", "text": "still dreaming of the cathedral steps", "label": 0}
+{"id": "2029", "text": "we hoped to sit in the tavern booth someday", "label": 0}
+{"id": "2030", "text": "someday let’s visit the castle gardens, not tonight", "label": 0}
+{"id": "2031", "text": "only watching the courtyard from here", "label": 0}
+{"id": "2032", "text": "thinking about the balcony view, staying put", "label": 0}
+{"id": "2033", "text": "planning to sit by the fountain tomorrow", "label": 0}
+{"id": "2034", "text": "we planned to meet in the hall later on", "label": 0}
+{"id": "2035", "text": "i hoped we could dance in the hall someday", "label": 0}
+{"id": "2036", "text": "they imagined waiting at the riverbank one day", "label": 0}
+{"id": "2037", "text": "i wished to read in the library alcove eventually", "label": 0}
+{"id": "2038", "text": "we’re just looking at the harbor from afar", "label": 0}
+{"id": "2039", "text": "maybe later we’ll meet at the gatehouse", "label": 0}
+{"id": "2040", "text": "we talked about going to the greenhouse, another time", "label": 0}
+{"id": "2041", "text": "i dream of us in the war room, just a thought", "label": 0}
+{"id": "2042", "text": "we plan to visit the map room next week", "label": 0}
+{"id": "2043", "text": "i hope to study in the study one day", "label": 0}
+{"id": "2044", "text": "we’re only watching the bridge from here", "label": 0}
+{"id": "2045", "text": "maybe later let’s meet at the riverbank", "label": 0}
+{"id": "2046", "text": "i’m thinking about the garden gate, not moving", "label": 0}
+{"id": "2047", "text": "we hoped to sit on the terrace sometime", "label": 0}
+{"id": "2048", "text": "i wish we were in the kitchen already, someday", "label": 0}
+{"id": "2049", "text": "we planned to walk to the bakery tomorrow", "label": 0}
+{"id": "2050", "text": "just picturing the bell tower at dusk", "label": 0}
+{"id": "2051", "text": "let’s go somewhere private another time", "label": 0}
+{"id": "2052", "text": "i imagined us in the crypt, only fantasy", "label": 0}
+{"id": "2053", "text": "we talked about the courtyard well earlier", "label": 0}
+{"id": "2054", "text": "maybe later we’ll sit in the gallery", "label": 0}
+{"id": "2055", "text": "we planned to watch the docks at dusk", "label": 0}
+{"id": "2056", "text": "i hope to meet you on the rooftop someday", "label": 0}
+{"id": "2057", "text": "just picturing the guild hall lights at night", "label": 0}
+{"id": "2058", "text": "we only watched the armory from outside", "label": 0}
+{"id": "2059", "text": "i wish to rest by the fountain soon", "label": 0}
+{"id": "2060", "text": "we planned to gather on the cathedral steps later", "label": 0}
+{"id": "2061", "text": "i’m thinking about the map room again", "label": 0}
+{"id": "2062", "text": "we hoped to hide in the cellar one day", "label": 0}
+{"id": "2063", "text": "i dreamed we waited in the tower once", "label": 0}
+{"id": "2064", "text": "we imagined meeting in the study, not today", "label": 0}
+{"id": "2065", "text": "maybe later we’ll join them in the banquet hall", "label": 0}
+{"id": "2066", "text": "just thinking about the library alcove again", "label": 0}
+{"id": "2067", "text": "we plan to stroll to the garden tomorrow", "label": 0}
+{"id": "2068", "text": "i hope we can visit the tower room next time", "label": 0}
+{"id": "2069", "text": "only watching the terrace from the window", "label": 0}
+{"id": "2070", "text": "someday we might sit in the tavern booth", "label": 0}
+{"id": "2071", "text": "we talked about the riverbank earlier", "label": 0}
+{"id": "2072", "text": "i imagine us near the garden gate someday", "label": 0}
+{"id": "2073", "text": "planning to meet in the kitchen later", "label": 0}
+{"id": "2074", "text": "we hoped to cross the bridge next week", "label": 0}
+{"id": "2075", "text": "i wished to read in the study someday", "label": 0}
+{"id": "2076", "text": "thinking about the rooftop breeze, staying here", "label": 0}
+{"id": "2077", "text": "we planned to check the harbor tomorrow", "label": 0}
+{"id": "2078", "text": "i dreamed of dancing in the hall one day", "label": 0}
+{"id": "2079", "text": "maybe later we’ll meet by the fountain", "label": 0}
+{"id": "2080", "text": "just imagining the greenhouse at sunrise", "label": 0}
+{"id": "2081", "text": "we plan to visit the war room later", "label": 0}
+{"id": "2082", "text": "i hope to sit in the gallery sometime", "label": 0}
+{"id": "2083", "text": "only watching the cathedral from here", "label": 0}
+{"id": "2084", "text": "someday we’ll climb the bell tower", "label": 0}
+{"id": "2085", "text": "we talked about the gatehouse, not today", "label": 0}
+{"id": "2086", "text": "i imagined meeting you at the harbor someday", "label": 0}
+{"id": "2087", "text": "planning to rest by the fountain later", "label": 0}
+{"id": "2088", "text": "we hoped to study in the library tomorrow", "label": 0}
+{"id": "2089", "text": "i wish we were already on the terrace", "label": 0}
+{"id": "2090", "text": "just thinking about the crypt, not going", "label": 0}
+{"id": "2091", "text": "maybe later we’ll go to the castle", "label": 0}
+{"id": "2092", "text": "we planned to hide in the cellar another day", "label": 0}
+{"id": "2093", "text": "i dreamed of us at the courtyard well", "label": 0}
+{"id": "2094", "text": "we imagined gathering on the steps someday", "label": 0}
+{"id": "2095", "text": "only watching the garden gate for now", "label": 0}
+{"id": "2096", "text": "i’m thinking about the study again", "label": 0}
+{"id": "2097", "text": "we planned to cross the bridge tomorrow", "label": 0}
+{"id": "2098", "text": "i hoped to meet on the rooftop one day", "label": 0}
+{"id": "2099", "text": "just imagining the guild hall music", "label": 0}
+{"id": "2100", "text": "we only watched the armory from the gate", "label": 0}
+{"id": "2101", "text": "i wish to rest near the fountain later", "label": 0}
+{"id": "2102", "text": "we planned to gather at the river gate later", "label": 0}
+{"id": "2103", "text": "i’m thinking about the map room plan", "label": 0}
+{"id": "2104", "text": "we hoped to wait in the tower next week", "label": 0}
+{"id": "2105", "text": "i dreamed of sitting in the tavern booth", "label": 0}
+{"id": "2106", "text": "maybe later we’ll meet at the harbor", "label": 0}
+{"id": "2107", "text": "just imagining the greenhouse walkway", "label": 0}
+{"id": "2108", "text": "we plan to visit the throne hall later", "label": 0}
+{"id": "2109", "text": "i hope to sit in the library alcove someday", "label": 0}
+{"id": "2110", "text": "only watching the courtyard fountain now", "label": 0}
+{"id": "2111", "text": "someday we’ll climb the watchtower, not today", "label": 0}
+{"id": "2112", "text": "we talked about the bakery for tomorrow", "label": 0}
+{"id": "2113", "text": "i imagined meeting by the garden fountain", "label": 0}
+{"id": "2114", "text": "planning to sit in the gallery next week", "label": 0}
+{"id": "2115", "text": "we hoped to read in the study later", "label": 0}
+{"id": "2116", "text": "i wish we were already at the riverbank", "label": 0}
+{"id": "2117", "text": "just thinking about the cathedral steps", "label": 0}
+{"id": "2118", "text": "maybe later we’ll go to the terrace", "label": 0}
+{"id": "2119", "text": "we planned to meet in the hall next week", "label": 0}
+{"id": "2120", "text": "i hoped we could visit the castle someday", "label": 0}
+{"id": "2121", "text": "only watching the balcony from below", "label": 0}

@@ -26,6 +26,9 @@ _move_tok = _move = _qa_tok = _qa = None
 FALLBACK_ARRIVAL_CONF = float(os.environ.get("FALLBACK_ARRIVAL_CONF", 0.78))
 FALLBACK_PRESENCE_CONF = float(os.environ.get("FALLBACK_PRESENCE_CONF", 0.76))
 
+def _sigmoid(x: float) -> float:
+    return 1.0 / (1.0 + math.exp(-x))
+
 # ---------- загрузка моделей ----------
 def _load_move(dir_: str):
     global _move_tok, _move
@@ -53,7 +56,7 @@ def _move_prob(model_dir: str, text: str) -> float:
 @torch.no_grad()
 def _qa_span(model_dir: str, question: str, context: str,
              max_length: int = 384, doc_stride: int = 128,
-             null_bias: float = 0.0, max_span_len: int = 24) -> Tuple[Optional[str], float]:
+             null_bias: float = 0.0, max_span_len: int = 32) -> Tuple[Optional[str], float]:
     tok, model = _load_qa(model_dir)
     enc = tok(
         question, context,
@@ -87,7 +90,7 @@ def _qa_span(model_dir: str, question: str, context: str,
                     best, best_f, s_idx, e_idx = sc, f, si, ei
 
     if best_f is None:
-        return None, 1.0
+        return None, 1.0  # модель уверена в NULL
 
     null += float(null_bias)
     m = max(null, best)
@@ -113,53 +116,70 @@ def predict(cfg_dir_or_model, prompt: str, curr_loc: Optional[str] = None) -> di
     # 1) бинарная голова
     p_move = _move_prob(move_dir, prompt)
 
-    # 2) QA-голова (считаем всегда — но решение честно требует согласия голов)
+    # 2) QA-голова — считаем всегда
     span_raw, p_best = _qa_span(
-        qa_dir, question, prompt,
-        max_length=max_len, doc_stride=doc_stride,
-        null_bias=null_bias, max_span_len=max_span or 24
+        qa_dir,
+        question,
+        prompt,
+        max_length = max_len or 384,
+        doc_stride = doc_stride or 64,      # безопасный stride по умолчанию
+        null_bias  = null_bias or 0.0,
+        max_span_len = max_span or 32       # длиннее спаны для compound-локаций
     )
 
-    # нормализация спана
-    if span_raw:
-        span = canonicalize_location(span_raw)
-    else:
-        span = ""
+    span = canonicalize_location(span_raw) if span_raw else ""
 
-    # ЧЕСТНОЕ правило принятия: требуется И p_move ≥ move_thr И p_best ≥ qa_thr
-    if span and span not in _BAD_SPANS:
-        if (p_move >= move_thr) and (p_best >= qa_thr) and passes_net_change(prompt, span, curr_loc):
-            return {"location": span, "confidence": p_best, "p_move": p_move, "qa_conf": p_best}
+    # --- мягкое слияние уверенностей голов ---
+    # веса можно вынести в конфиг позднее
+    w0, w1, w2 = -1.2, 1.2, 1.4
+    S = _sigmoid(w0 + w1 * float(p_move or 0.0) + w2 * float(p_best or 0.0))
+    tau = 0.70  # единый порог решения
 
-    # Fallback'и применяем тоже только если бинарная голова согласна, без подгонки директив
-    if p_move >= move_thr:
+    # принятие решения только через смесь (без ключевых слов),
+    # но всё ещё через "честные" фильтры: BAD_SPANS и net_change
+    if span and span not in _BAD_SPANS and S >= tau and passes_net_change(prompt, span, curr_loc):
+        return {
+            "location": span,
+            "confidence": float(S),
+            "p_move": float(p_move),
+            "qa_conf": float(p_best),
+            "decision": "model"
+        }
+
+    # --- Фоллбеки: тоже пустим через мягкий скор, чуть мягче порога ---
+    if S >= (tau - 0.05):
         fb = regex_arrival_fallback(prompt)
         if fb and passes_net_change(prompt, fb, curr_loc):
-            conf = max(p_best if p_best is not None else 0.0, FALLBACK_ARRIVAL_CONF)
+            conf = max(float(S), FALLBACK_ARRIVAL_CONF)
             return {
                 "location": fb,
                 "confidence": float(conf),
-                "p_move": p_move,
-                "qa_conf": p_best,
-                "fallback": "arrival"
+                "p_move": float(p_move),
+                "qa_conf": float(p_best),
+                "fallback": "arrival",
+                "decision": "fallback"
             }
 
         fb = regex_presence_fallback(prompt)
         if fb and passes_net_change(prompt, fb, curr_loc):
-            conf = max(p_best if p_best is not None else 0.0, FALLBACK_PRESENCE_CONF)
+            conf = max(float(S), FALLBACK_PRESENCE_CONF)
             return {
                 "location": fb,
                 "confidence": float(conf),
-                "p_move": p_move,
-                "qa_conf": p_best,
-                "fallback": "presence"
+                "p_move": float(p_move),
+                "qa_conf": float(p_best),
+                "fallback": "presence",
+                "decision": "fallback"
             }
 
-    # ничего уверенного не нашли (или move-голова сказала «нет»)
-    # возвращаем qa_conf для телеметрии, но решение — None
-    if p_move < move_thr:
-        return {"location": None, "confidence": 1.0, "p_move": p_move, "qa_conf": p_best}
-    return {"location": None, "confidence": 1.0 - (p_best or 0.0), "p_move": p_move, "qa_conf": p_best}
+    # --- ничего уверенного ---
+    return {
+        "location": None,
+        "confidence": float(1.0 - S),  # сколько уверенности остаётся у NULL-решения
+        "p_move": float(p_move),
+        "qa_conf": float(p_best),
+        "decision": "none"
+    }
 
 if __name__ == "__main__":
     cfg = os.environ.get("TWO_HEADS_CFG", "cfg/two_heads/two_heads.json")

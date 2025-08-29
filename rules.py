@@ -19,7 +19,7 @@ __all__ = [
 BAD_SPANS = {
     "together","again","here","there","soon","now","today","tonight","tomorrow",
     "everyone","someone","anyone","nobody","noone","none","outside","inside","back",
-    "home","right away"
+    "home","right away","private"
 }
 
 STRIP_PREFIXES = (

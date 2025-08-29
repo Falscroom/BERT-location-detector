@@ -2,10 +2,10 @@
   "move_dir": "../../out/move-det",
   "qa_dir":   "../../out/qa-distil",
   "question": "What is the destination location after movement?",
-  "move_thr": 0.70,
+  "move_thr": 0.9,
   "qa_thr":   0.9,
-  "null_bias": 0.0,
+  "null_bias": 0.3,
   "max_len": 384,
-  "doc_stride": 128,
-  "max_span_len": 16
+  "doc_stride": 64,
+  "max_span_len": 32
 }
