@@ -37,7 +37,7 @@ def build_move_datasets(train_path, val_path, tok, max_len=256):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--backbone", default="deepset/roberta-base-squad2")
+    ap.add_argument("--backbone", default="roberta-base")
     ap.add_argument("--train", required=True)
     ap.add_argument("--val",   required=True)
     ap.add_argument("--out",   required=True)

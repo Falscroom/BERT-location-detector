@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import json, os, math, glob
+import os, math
 from typing import Optional, Tuple
 import torch
 from transformers import (
@@ -10,38 +10,38 @@ from transformers import (
     AutoModelForQuestionAnswering,
 )
 from utils_common import ensure_str, DEVICE
-
-# -----------------------------
-# простая гигиена спана
-# -----------------------------
-_BAD = {
-    "here", "there", "now", "today", "tonight", "tomorrow",
-    "inside", "outside", "back", "home", "again", "together"
-}
+from config_loader import load_two_heads_cfg
+from rules import (
+    BAD_SPANS as _BAD_SPANS,
+    canonicalize_location,
+    passes_net_change,
+    regex_arrival_fallback,
+    regex_presence_fallback,
+)
 
 # кэши моделей
 _move_tok = _move = _qa_tok = _qa = None
 
+# дефолтные уверенности для fallback'ов (можно переопределить через env)
+FALLBACK_ARRIVAL_CONF = float(os.environ.get("FALLBACK_ARRIVAL_CONF", 0.78))
+FALLBACK_PRESENCE_CONF = float(os.environ.get("FALLBACK_PRESENCE_CONF", 0.76))
 
-# -----------------------------
-# загрузка моделей
-# -----------------------------
+# ---------- загрузка моделей ----------
 def _load_move(dir_: str):
     global _move_tok, _move
     if _move_tok is None or _move is None:
         _move_tok = AutoTokenizer.from_pretrained(dir_, use_fast=True, local_files_only=True)
-        _move     = AutoModelForSequenceClassification.from_pretrained(dir_, local_files_only=True).to(DEVICE).eval()
+        _move = AutoModelForSequenceClassification.from_pretrained(dir_, local_files_only=True).to(DEVICE).eval()
     return _move_tok, _move
-
 
 def _load_qa(dir_: str):
     global _qa_tok, _qa
     if _qa_tok is None or _qa is None:
         _qa_tok = AutoTokenizer.from_pretrained(dir_, use_fast=True, local_files_only=True)
-        _qa     = AutoModelForQuestionAnswering.from_pretrained(dir_, local_files_only=True).to(DEVICE).eval()
+        _qa = AutoModelForQuestionAnswering.from_pretrained(dir_, local_files_only=True).to(DEVICE).eval()
     return _qa_tok, _qa
 
-
+# ---------- инференс ----------
 @torch.no_grad()
 def _move_prob(model_dir: str, text: str) -> float:
     tok, clf = _load_move(model_dir)
@@ -49,7 +49,6 @@ def _move_prob(model_dir: str, text: str) -> float:
     enc = {k: v.to(DEVICE) for k, v in enc.items()}
     p = torch.softmax(clf(**enc).logits, dim=-1)[0, 1].item()
     return float(p)
-
 
 @torch.no_grad()
 def _qa_span(model_dir: str, question: str, context: str,
@@ -96,136 +95,67 @@ def _qa_span(model_dir: str, question: str, context: str,
 
     offs = offsets_all[best_f].tolist()
     s_char, e_char = offs[s_idx][0], offs[e_idx][1]
-    span = context[s_char:e_char].strip(" \t\n\r.,!?;:\"'").lower()
-    if span in _BAD:
-        span = ""
+    # сырой спан без бизнес-логики; приведём к канону в predict()
+    span = context[s_char:e_char].strip(" \t\n\r.,!?;:\"'")
     return (span or None), float(p)
 
-
-# -----------------------------
-# загрузка конфига / папки
-# -----------------------------
-REQUIRED_KEYS = {"move_dir", "qa_dir"}
-
-def _abs(base: str, p: str) -> str:
-    return p if os.path.isabs(p) else os.path.normpath(os.path.join(base, p))
-
-def _try_load_json(path: str):
-    try:
-        with open(path, "r", encoding="utf-8") as f:
-            return json.load(f)
-    except Exception:
-        return None
-
-def _pick_json_with_keys(dir_path: str, keys) -> Tuple[Optional[str], Optional[dict]]:
-    # 1) приоритетно two_heads.json
-    cand = os.path.join(dir_path, "two_heads.json")
-    if os.path.exists(cand):
-        cfg = _try_load_json(cand)
-        if cfg and keys.issubset(cfg.keys()):
-            return cand, cfg
-    # 2) любой *.json с нужными ключами
-    for p in glob.glob(os.path.join(dir_path, "*.json")):
-        cfg = _try_load_json(p)
-        if cfg and keys.issubset(cfg.keys()):
-            return p, cfg
-    return None, None
-
-def _load_cfg(cfg_dir_or_model: str):
-    """
-    Возвращает:
-      move_dir, qa_dir, question, move_thr, qa_thr, null_bias, max_len, doc_stride, max_span
-    Поддерживает:
-      - путь к JSON с ключами move_dir/qa_dir
-      - папку, где есть two_heads.json или любой *.json с этими ключами
-      - (fallback) трактует строку как путь к QA, а move_dir берёт из $MOVE_DIR или 'out/move-det'
-    """
-    # дефолты
-    question   = "What is the destination location after movement?"
-    move_thr   = 0.60
-    qa_thr     = 0.80
-    null_bias  = 0.0
-    max_len    = 384
-    doc_stride = 128
-    max_span   = 16
-
-    # 1) файл JSON
-    if os.path.isfile(cfg_dir_or_model) and cfg_dir_or_model.endswith(".json"):
-        base = os.path.dirname(os.path.abspath(cfg_dir_or_model))
-        cfg = _try_load_json(cfg_dir_or_model)
-        if not cfg or not REQUIRED_KEYS.issubset(cfg.keys()):
-            raise ValueError(f"Config {cfg_dir_or_model} отсутствуют ключи {REQUIRED_KEYS}")
-        move_dir = _abs(base, cfg["move_dir"])
-        qa_dir   = _abs(base, cfg["qa_dir"])
-        question   = cfg.get("question", question)
-        move_thr   = float(cfg.get("move_thr", cfg.get("move_threshold", move_thr)))
-        qa_thr     = float(cfg.get("qa_thr",   cfg.get("qa_threshold",   qa_thr)))
-        null_bias  = float(cfg.get("null_bias",  null_bias))
-        max_len    = int(cfg.get("max_len",     max_len))
-        doc_stride = int(cfg.get("doc_stride",  doc_stride))
-        max_span   = int(cfg.get("max_span_len", max_span))
-        return move_dir, qa_dir, question, move_thr, qa_thr, null_bias, max_len, doc_stride, max_span
-
-    # 2) директория
-    if os.path.isdir(cfg_dir_or_model):
-        picked, cfg = _pick_json_with_keys(cfg_dir_or_model, REQUIRED_KEYS)
-        if cfg:
-            base = os.path.dirname(os.path.abspath(picked))
-            move_dir = _abs(base, cfg["move_dir"])
-            qa_dir   = _abs(base, cfg["qa_dir"])
-            question   = cfg.get("question", question)
-            move_thr   = float(cfg.get("move_thr", cfg.get("move_threshold", move_thr)))
-            qa_thr     = float(cfg.get("qa_thr",   cfg.get("qa_threshold",   qa_thr)))
-            null_bias  = float(cfg.get("null_bias",  null_bias))
-            max_len    = int(cfg.get("max_len",     max_len))
-            doc_stride = int(cfg.get("doc_stride",  doc_stride))
-            max_span   = int(cfg.get("max_span_len", max_span))
-            return move_dir, qa_dir, question, move_thr, qa_thr, null_bias, max_len, doc_stride, max_span
-
-        # нет валидного json — это почти наверняка не папка модели, поэтому ругаемся осмысленно
-        listing = ", ".join(sorted(os.listdir(cfg_dir_or_model)))
-        raise FileNotFoundError(
-            f"В {cfg_dir_or_model} не найден JSON с ключами {REQUIRED_KEYS}. "
-            f"Файлы внутри: [{listing}]. Создай cfg/two_heads/two_heads.json или передай путь к JSON."
-        )
-
-    # 3) fallback — трактуем как алиас/путь к QA, move_dir из ENV
-    qa_dir   = cfg_dir_or_model
-    move_dir = os.environ.get("MOVE_DIR", "out/move-det")
-    return move_dir, qa_dir, question, move_thr, qa_thr, null_bias, max_len, doc_stride, max_span
-
-
-# -----------------------------
-# публичная функция для eval_sanity.py
-# -----------------------------
+# ---------- публичная функция, совместимая с eval_sanity.py ----------
 def predict(cfg_dir_or_model, prompt: str, curr_loc: Optional[str] = None) -> dict:
     prompt = ensure_str(prompt)
 
     (move_dir, qa_dir, question, move_thr, qa_thr,
-     null_bias, max_len, doc_stride, max_span) = _load_cfg(cfg_dir_or_model)
+     null_bias, max_len, doc_stride, max_span) = load_two_heads_cfg(cfg_dir_or_model)
 
-    # sanity путей
     if not os.path.isdir(move_dir):
         raise FileNotFoundError(f"move_dir не существует: {move_dir}")
     if not os.path.isdir(qa_dir):
         raise FileNotFoundError(f"qa_dir не существует: {qa_dir}")
 
-    # 1) бинарная голова
+    # 1) бинарная голова — нет движения => сразу выход
     p_move = _move_prob(move_dir, prompt)
     if p_move < move_thr:
         return {"location": None, "confidence": 1.0, "p_move": p_move, "qa_conf": None}
 
-    # 2) QA голова
-    span, p_best = _qa_span(
+    # 2) QA-голова
+    span_raw, p_best = _qa_span(
         qa_dir, question, prompt,
         max_length=max_len, doc_stride=doc_stride,
         null_bias=null_bias, max_span_len=max_span
     )
-    if span is None or p_best < qa_thr:
-        return {"location": None, "confidence": 1.0 - p_best, "p_move": p_move, "qa_conf": p_best}
 
-    return {"location": span, "confidence": p_best, "p_move": p_move, "qa_conf": p_best}
+    # Попытка принять модельный спан
+    if span_raw:
+        span = canonicalize_location(span_raw)
+        if span and span not in _BAD_SPANS:
+            if p_best >= qa_thr and passes_net_change(prompt, span, curr_loc):
+                return {"location": span, "confidence": p_best, "p_move": p_move, "qa_conf": p_best}
 
+    # 3) Fallback #1 — arrival
+    fb = regex_arrival_fallback(prompt)
+    if fb and passes_net_change(prompt, fb, curr_loc):
+        conf = max(p_best if p_best is not None else 0.0, FALLBACK_ARRIVAL_CONF)
+        return {
+            "location": fb,
+            "confidence": float(conf),
+            "p_move": p_move,
+            "qa_conf": p_best,
+            "fallback": "arrival"
+        }
+
+    # 4) Fallback #2 — presence
+    fb = regex_presence_fallback(prompt)
+    if fb and passes_net_change(prompt, fb, curr_loc):
+        conf = max(p_best if p_best is not None else 0.0, FALLBACK_PRESENCE_CONF)
+        return {
+            "location": fb,
+            "confidence": float(conf),
+            "p_move": p_move,
+            "qa_conf": p_best,
+            "fallback": "presence"
+        }
+
+    # ничего уверенного не нашли
+    return {"location": None, "confidence": 1.0 - (p_best or 0.0), "p_move": p_move, "qa_conf": p_best}
 
 if __name__ == "__main__":
     cfg = os.environ.get("TWO_HEADS_CFG", "cfg/two_heads/two_heads.json")
