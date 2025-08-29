@@ -12,7 +12,7 @@ __all__ = [
     "is_negative_text",
     # optional:
     "snap_to_vocab",
-    "refine_compound_span",  # NEW
+    "refine_compound_span",
 ]
 
 # --- constants / small helpers ------------------------------------------------
@@ -20,7 +20,11 @@ __all__ = [
 BAD_SPANS = {
     "together","again","here","there","soon","now","today","tonight","tomorrow",
     "everyone","someone","anyone","nobody","noone","none","outside","inside","back",
-    "home","right away","private"
+    "home","right away","private","me","you",
+    # parts of body / frequent FPs
+    "shoulder","my shoulder","ear","my ear","lap","my lap","hand","hands","hair","chest",
+    # atmospheric / non-place nouns that were FP
+    "bed","fire","moonlight",
 }
 
 STRIP_PREFIXES = (
@@ -34,7 +38,7 @@ _TIME = {
 }
 _PREP = {
     "for","at","by","under","over","near","beside","along","across","around",
-    "during","till","until","before","after","from","on"  # keep on/from (used in presence)
+    "during","till","until","before","after","from","on"
 }
 
 def _alts(xs: Iterable[str]) -> str:
@@ -42,12 +46,16 @@ def _alts(xs: Iterable[str]) -> str:
 
 # trim trailing adjuncts like "at dusk", "by the river", "until morning", "... not ..."
 TRAIL_PATTERN = re.compile(
-    rf"(\b(?:{_alts(_PREP)})\b.*$|\b(?:{_alts(_TIME)})\b.*$|\s+not\b.*$)",
+    rf"("
+    rf"\b(?:{_alts(_PREP)})\b.*$"
+    rf"|\b(?:{_alts(_TIME)})\b.*$"
+    rf"|\s+not\b.*$"
+    rf"|\s+\b(?:above|below|beyond|past|after)\b\s+.*$"
+    rf")",
     re.I,
 )
 
 # --- NEGATIVES ---------------------------------------------------------------
-# Было минималистично; расширяем под реальные FP: imagine/dream/wish/hope/maybe/someday/thinking/planned
 NEG_PATTERNS: List[re.Pattern] = [
     re.compile(r"\bno\s+change\b", re.I),
     re.compile(r"\b(?:stay|stays|stayed|staying)\b", re.I),
@@ -56,12 +64,12 @@ NEG_PATTERNS: List[re.Pattern] = [
     re.compile(r"\bjust\s+watch(?:ing|ed)?\b", re.I),
     re.compile(r"\blook(?:ing|ed)?\s+(?:at|from)\b", re.I),
 
-    # NEW: явные «фантазии/планы/желания»
+    # fantasies/plans/wishes
     re.compile(r"\bimagin(?:e|ing|ed)\b", re.I),
     re.compile(r"\bdream(?:ing|ed)?\b", re.I),
-    re.compile(r"\bi\s+wish\b|\bwe\s+wish\b", re.I),
-    re.compile(r"\bhope\b|\bhoping\b|\bhoped\b", re.I),
-    re.compile(r"\bmaybe\b|\bperhaps\b|\bsomeday\b", re.I),
+    re.compile(r"\b(?:i|we)\s+wish\b", re.I),
+    re.compile(r"\bhope(?:d|s|ing)?\b", re.I),
+    re.compile(r"\b(?:maybe|perhaps|someday)\b", re.I),
     re.compile(r"\bthinking\s+about\b", re.I),
     re.compile(r"\bplanned?\s+to\s+(?:meet|go|visit|be)\b", re.I),
     re.compile(r"\bonly\s+watch(?:ing|ed)?\b", re.I),
@@ -74,10 +82,28 @@ _ARR_PATTERNS: List[re.Pattern] = [
     re.compile(r"(?:looked\s+out\s+from)\s+(?:the\s+|a\s+)?([a-z][\w\s'\-]{1,40})", re.I),
 ]
 
+# directive-style arrivals: follow/join/meet/lead/led/take/took/bring/brought/drag/pull/carry/guide/usher/escort/…
+_DIRECTIVE_ARR_PATTERNS: List[re.Pattern] = [
+    re.compile(
+        r"\b(?:follow|join|meet|come|walk|head|lead|led|take|took|bring|brought|"
+        r"drag(?:ged|ging)?|pull(?:ed|ing)?|carry(?:ing|ied)?|guide(?:d|ing)?|"
+        r"usher(?:ed|ing)?|escort(?:ed|ing)?|sneak(?:ed|ing)?|step(?:ped|ping)?|"
+        r"run(?:ning|ran)?|rush(?:ed|ing)?|hurr(?:y|ied|ying))"
+        r"(?:\s+\w+){0,10}?\s+(?:to|into|onto|inside|in|at|on)\s+(?:the\s+|a\s+|an\s+)?"
+        r"([a-z][\w\s'\-]{1,40})",
+        re.I
+    ),
+    # "leading to X"
+    re.compile(
+        r"\b(?:lead|leading|led)\s+to\s+(?:the\s+|a\s+|an\s+)?([a-z][\w\s'\-]{1,40})",
+        re.I
+    ),
+]
+
 # presence-style patterns (fallback #2)
 _PRE_PATTERNS: List[re.Pattern] = [
     re.compile(r"\b(?:in|inside)\s+(?:the\s+|a\s+|an\s+)?([a-z][\w\s'\-]{1,40})(?:\b|$)", re.I),
-    re.compile(r"\b(?:on|by|at|from)\s+(?:the\s+|a\s+|an\s+)?([a-z][\w\s'\-]{1,40})(?:\b|$)", re.I),
+    re.compile(r"\b(?:on|by|at|from|under|near|beside)\s+(?:the\s+|a\s+|an\s+)?([a-z][\w\s'\-]{1,40})(?:\b|$)", re.I),
 ]
 
 # --- core span hygiene --------------------------------------------------------
@@ -118,7 +144,7 @@ def passes_net_change(text: str, span: str, curr_loc: Optional[str]) -> bool:
                 return False
     return True
 
-# --- fallbacks (arrival → presence) ------------------------------------------
+# --- fallbacks (directive/arrival → presence) --------------------------------
 
 def _last_group_hit(text: str, patterns: Iterable[re.Pattern]) -> Optional[str]:
     t = text.lower()
@@ -133,6 +159,11 @@ def _last_group_hit(text: str, patterns: Iterable[re.Pattern]) -> Optional[str]:
 def regex_arrival_fallback(text: str) -> Optional[str]:
     if is_negative_text(text):
         return None
+    # 1) директивные перемещения
+    span = _last_group_hit(text, _DIRECTIVE_ARR_PATTERNS)
+    if span:
+        return canonicalize_location(span)
+    # 2) классические arrival/reach/came
     span = _last_group_hit(text, _ARR_PATTERNS)
     return None if not span else canonicalize_location(span)
 
@@ -180,14 +211,28 @@ def snap_to_vocab(span: str, vocab: Iterable[str], max_dist: int = 2) -> Optiona
                 break
     return best if bestd <= max_dist else None
 
-# --- NEW: prefer compound spans when context contains a longer vocab match ----
+# --- compound-span refinement -------------------------------------------------
 
 _COMPOUND_VOCAB: Tuple[str, ...] = (
-    # твои больные места из отчётов
-    "tower room","war room","map room","garden gate","library alcove","cathedral steps",
-    "tavern booth","riverbank","gatehouse","night beach","skyscraper rooftop",
-    "training ground","city park","subway station","mountain hot springs",
-    "abandoned warehouse","festival stage","academy library",
+    # Medieval / scene-specific
+    "tavern booth","banquet hall","map room","war room","tower room","tower",
+    "library alcove","cathedral steps","garden gate","gatehouse","bell tower",
+    "riverbank","bridge","terrace","courtyard","greenhouse","gallery","study",
+    "kitchen","bakery","harbor","harbour","fountain","crypt","observatory",
+    "market square","castle","dungeon","balcony","hall","cellar","garden",
+    "library","cathedral","church","rooftop","tower room",
+    # City / Public
+    "training ground","city park","skyscraper rooftop","dark alley","subway station",
+    "night beach","festival stage","festival backstage","backstage","academy library",
+    "abandoned warehouse","mountain hot springs","mountain spring","hot springs",
+    # Private / Personal
+    "mirko's apartment","mirko’s apartment","mirkos apartment",
+    "heroes' dormitory","heroes’ dormitory","dormitory",
+    "gym","training hall","japanese bathhouse","sentō","sento","cinema",
+    # Extra frequent compounds/synonyms
+    "castle gate","castle yard","garden path","harbor pier","harbour pier",
+    "city gate","north gate","south gate","east gate","west gate",
+    "upper room","map chamber","war chamber","reading room","study room",
 )
 
 def refine_compound_span(span: str, text: str, vocab: Sequence[str] = _COMPOUND_VOCAB) -> str:
@@ -199,17 +244,17 @@ def refine_compound_span(span: str, text: str, vocab: Sequence[str] = _COMPOUND_
     s = canonicalize_location(span)
     if not s:
         return s
-    t = text.lower()
-    # Если и так составная — вернём как есть
+    # если уже составной — оставляем
     if " " in s:
         return s
-    # Поиск словарных фраз, которые содержат этот head и реально встречаются в тексте
+    t = text.lower()
+    # ищем словарные фразы, содержащие head и реально присутствующие в тексте
     cand = []
     for v in vocab:
-        if s in v and v in t:
-            cand.append(v)
+        vl = v.lower()
+        if s in vl and vl in t:
+            cand.append(vl)
     if not cand:
         return s
-    # Берём самую длинную подходящую (чаще всего то, что нужно)
     cand.sort(key=len, reverse=True)
     return cand[0]

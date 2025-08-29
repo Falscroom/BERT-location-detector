@@ -11,13 +11,19 @@ QA_OUT   := out/qa-distil
 
 # --- цели ---
 
-.PHONY: prep_binary train_binary train_qa eval clean
+.PHONY: prep_binary prep_ner train_binary train_ner eval clean
 
 prep_binary:
 	$(PYTHON) helpers/prep_data.py \
 	  --in data/all_binary.jsonl \
 	  --train_out data/train_binary.jsonl \
 	  --val_out data/val_binary.jsonl
+
+prep_ner:
+	$(PYTHON) helpers/prep_data.py \
+	  --in data/all_move_ner.json \
+	  --train_out data/train_ner.json \
+	  --val_out data/val_ner.json
 
 train_binary:
 	$(PYTHON) train_move.py \
@@ -28,7 +34,7 @@ train_binary:
 	  --bs 16 \
 	  --lr 2e-5
 
-train_qa:
+train_ner:
 	$(PYTHON) train_qa.py \
 	  --train $(TRAIN_QA) \
 	  --val   $(VAL_QA) \
