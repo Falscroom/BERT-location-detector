@@ -141,13 +141,6 @@ USER_CHAT_TEST: list[dict] = [
   {"prompt": "let’s do it again", "expected": None},
 ]
 
-
-
-
-
-
-
-
 # -------- evaluation --------
 def evaluate(predict_fn, model_path: str, items: List[Dict[str, Any]], movement_threshold: float = 0.0, show_errors: bool = True) -> Dict[str, Any]:
     rows: List[Dict[str, Any]] = []
