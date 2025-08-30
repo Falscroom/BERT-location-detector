@@ -38,7 +38,8 @@ _TIME = {
 }
 _PREP = {
     "for","at","by","under","over","near","beside","along","across","around",
-    "during","till","until","before","after","from","on", "with"
+    "during","till","until","before","after","from","on","with","past","toward",
+    "towards","down","up","into","onto","inside","in","to"
 }
 
 def _alts(xs: Iterable[str]) -> str:
@@ -73,6 +74,9 @@ NEG_PATTERNS: List[re.Pattern] = [
     re.compile(r"\bthinking\s+about\b", re.I),
     re.compile(r"\bplanned?\s+to\s+(?:meet|go|visit|be)\b", re.I),
     re.compile(r"\bonly\s+watch(?:ing|ed)?\b", re.I),
+
+    # hard negatives: "don't go/come/head/enter ..."
+    re.compile(r"\bdon'?t\s+(?:go|come|enter|head|walk|run|march|move)\b", re.I),
 ]
 
 # arrival-style patterns (prefer last mention)
@@ -88,9 +92,10 @@ _DIRECTIVE_ARR_PATTERNS: List[re.Pattern] = [
         r"\b(?:follow|join|meet|come|walk|head|lead|led|take|took|bring|brought|"
         r"drag(?:ged|ging)?|pull(?:ed|ing)?|carry(?:ing|ied)?|guide(?:d|ing)?|"
         r"usher(?:ed|ing)?|escort(?:ed|ing)?|sneak(?:ed|ing)?|step(?:ped|ping)?|"
-        r"run(?:ning|ran)?|rush(?:ed|ing)?|hurr(?:y|ied|ying))"
-        r"(?:\s+\w+){0,10}?\s+(?:to|into|onto|inside|in|at|on)\s+(?:the\s+|a\s+|an\s+)?"
-        r"([a-z][\w\s'\-]{1,40})",
+        r"run(?:ning|ran)?|rush(?:ed|ing)?|hurr(?:y|ied|ying)|march(?:ed|ing)?)"
+        r"(?:\s+\w+){0,10}?\s+"
+        r"(?:to|into|onto|inside|in|at|on|across|through|over|along|past|toward|towards|down|up|for)"
+        r"\s+(?:the\s+|a\s+|an\s+)?([a-z][\w\s'\-]{1,40})",
         re.I
     ),
     # "leading to X"
@@ -156,26 +161,6 @@ def _last_group_hit(text: str, patterns: Iterable[re.Pattern]) -> Optional[str]:
         return None
     return max(hits, key=lambda x: x[0])[1]
 
-def regex_arrival_fallback(text: str) -> Optional[str]:
-    if is_negative_text(text):
-        return None
-    # 1) директивные перемещения
-    span = _last_group_hit(text, _DIRECTIVE_ARR_PATTERNS)
-    if span:
-        return canonicalize_location(span)
-    # 2) классические arrival/reach/came
-    span = _last_group_hit(text, _ARR_PATTERNS)
-    return None if not span else canonicalize_location(span)
-
-def regex_presence_fallback(text: str) -> Optional[str]:
-    if is_negative_text(text):
-        return None
-    span = _last_group_hit(text, _PRE_PATTERNS)
-    if not span:
-        return None
-    span = canonicalize_location(span)
-    return None if span in BAD_SPANS else span
-
 # --- optional: strict vocabulary snapping (lightweight) -----------------------
 
 def snap_to_vocab(span: str, vocab: Iterable[str], max_dist: int = 2) -> Optional[str]:
@@ -233,6 +218,10 @@ _COMPOUND_VOCAB: Tuple[str, ...] = (
     "castle gate","castle yard","garden path","harbor pier","harbour pier",
     "city gate","north gate","south gate","east gate","west gate",
     "upper room","map chamber","war chamber","reading room","study room",
+    # Extras seen in data
+    "watchtower","quay","plaza","promenade","orchard","vineyard","barracks","well",
+    "pier","gatehouse","ramparts","arcade","mill","choir","dais",
+    "marketplace","square","battlefield",
 )
 
 def refine_compound_span(span: str, text: str, vocab: Sequence[str] = _COMPOUND_VOCAB) -> str:
@@ -258,3 +247,44 @@ def refine_compound_span(span: str, text: str, vocab: Sequence[str] = _COMPOUND_
         return s
     cand.sort(key=len, reverse=True)
     return cand[0]
+
+# --- postprocess helper -------------------------------------------------------
+
+def _postprocess_span(
+    text: str,
+    span: Optional[str],
+    curr_loc: Optional[str] = None,
+    vocab: Sequence[str] = _COMPOUND_VOCAB
+) -> Optional[str]:
+    """
+    Приводим найденный спан к канону, расширяем до составного, подправляем опечатки.
+    Учитываем net-change (возврат 'back in X' → отбрасываем).
+    """
+    if not span:
+        return None
+    sp = canonicalize_location(span)
+    sp = refine_compound_span(sp, text, vocab=vocab)
+    # лёгкое «прищелкивание» к словарю на случай battlefiel → battlefield
+    snap = snap_to_vocab(sp, vocab=vocab, max_dist=2)
+    if snap:
+        sp = snap
+    return sp if passes_net_change(text, sp, curr_loc) else None
+
+# --- fallbacks (directive/arrival → presence) --------------------------------
+
+def regex_arrival_fallback(text: str, curr_loc: Optional[str] = None) -> Optional[str]:
+    if is_negative_text(text):
+        return None
+    # 1) директивные перемещения (включая across/through/over/along/past/…)
+    span = _last_group_hit(text, _DIRECTIVE_ARR_PATTERNS)
+    if span:
+        return _postprocess_span(text, span, curr_loc=curr_loc)
+    # 2) классические arrival/reach/came
+    span = _last_group_hit(text, _ARR_PATTERNS)
+    return _postprocess_span(text, span, curr_loc=curr_loc) if span else None
+
+def regex_presence_fallback(text: str, curr_loc: Optional[str] = None) -> Optional[str]:
+    if is_negative_text(text):
+        return None
+    span = _last_group_hit(text, _PRE_PATTERNS)
+    return _postprocess_span(text, span, curr_loc=curr_loc) if span else None

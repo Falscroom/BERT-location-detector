@@ -2200,7 +2200,6 @@
 {"id": "3086", "text": "imagine moonlight at the beach", "label": 0}
 {"id": "3087", "text": "someday let’s walk the night beach", "label": 0}
 {"id": "3088", "text": "thinking about the night beach waves", "label": 0}
-
 {"id": "3089", "text": "meet me in the mountain hot springs", "label": 1}
 {"id": "3090", "text": "follow me to the hot springs", "label": 1}
 {"id": "3091", "text": "join me in the mountain hot springs", "label": 1}
@@ -2209,7 +2208,6 @@
 {"id": "3094", "text": "imagine us in the mountain hot springs", "label": 0}
 {"id": "3095", "text": "maybe later we’ll go to the hot springs", "label": 0}
 {"id": "3096", "text": "thinking about mountain hot springs rn", "label": 0}
-
 {"id": "3097", "text": "follow me to the abandoned warehouse", "label": 1}
 {"id": "3098", "text": "come with me into the warehouse", "label": 1}
 {"id": "3099", "text": "meet me in the abandoned warehouse", "label": 1}
@@ -2218,7 +2216,6 @@
 {"id": "3102", "text": "imagine us in the abandoned warehouse", "label": 0}
 {"id": "3103", "text": "someday let’s sneak into the warehouse", "label": 0}
 {"id": "3104", "text": "thinking about the abandoned warehouse", "label": 0}
-
 {"id": "3105", "text": "meet me backstage at the festival stage", "label": 1}
 {"id": "3106", "text": "join me behind the festival stage", "label": 1}
 {"id": "3107", "text": "come with me into the festival stage area", "label": 1}
@@ -2227,7 +2224,6 @@
 {"id": "3110", "text": "imagine the music at the festival stage", "label": 0}
 {"id": "3111", "text": "maybe later we’ll go backstage", "label": 0}
 {"id": "3112", "text": "thinking about the festival stage crowd", "label": 0}
-
 {"id": "3113", "text": "walk with me to the academy library", "label": 1}
 {"id": "3114", "text": "join me in the academy library", "label": 1}
 {"id": "3115", "text": "follow me to the academy library", "label": 1}
@@ -2242,66 +2238,157 @@
 {"id": "3124", "text": "meet me in the tower room tonight", "label": 1}
 {"id": "3125", "text": "i dreamed of us in the tower room", "label": 0}
 {"id": "3126", "text": "maybe later we’ll go to the tower room", "label": 0}
-
 {"id": "3127", "text": "join me at the harbor", "label": 1}
 {"id": "3128", "text": "walk with me to the harbor now", "label": 1}
 {"id": "3129", "text": "meet me at the harbor gate", "label": 1}
 {"id": "3130", "text": "wait for me at the harbor", "label": 1}
 {"id": "3131", "text": "imagine us at the harbor someday", "label": 0}
 {"id": "3132", "text": "we planned to meet at the harbor next week", "label": 0}
-
 {"id": "3133", "text": "follow me to the map room", "label": 1}
 {"id": "3134", "text": "come with me into the map room", "label": 1}
 {"id": "3135", "text": "join me in the map room right now", "label": 1}
 {"id": "3136", "text": "meet me in the map room", "label": 1}
 {"id": "3137", "text": "just imagining the map room lights", "label": 0}
 {"id": "3138", "text": "maybe later we’ll check the map room", "label": 0}
-
 {"id": "3139", "text": "come with me onto the bridge", "label": 1}
 {"id": "3140", "text": "join me at the bridge", "label": 1}
 {"id": "3141", "text": "follow me to the bridge rn", "label": 1}
 {"id": "3142", "text": "meet me on the bridge tonight", "label": 1}
 {"id": "3143", "text": "thinking about the bridge lights only", "label": 0}
 {"id": "3144", "text": "someday we’ll walk to the bridge", "label": 0}
-
 {"id": "3145", "text": "follow me to the garden gate", "label": 1}
 {"id": "3146", "text": "meet me at the garden gate", "label": 1}
 {"id": "3147", "text": "wait for me by the garden gate", "label": 1}
 {"id": "3148", "text": "walk with me to the garden gate", "label": 1}
 {"id": "3149", "text": "i hope we’ll stop by the garden gate later", "label": 0}
 {"id": "3150", "text": "just imagine us at the garden gate", "label": 0}
-
 {"id": "3151", "text": "come to the study with me", "label": 1}
 {"id": "3152", "text": "walk with me to the study", "label": 1}
 {"id": "3153", "text": "join me in the study", "label": 1}
 {"id": "3154", "text": "meet me in the study after dark", "label": 1}
 {"id": "3155", "text": "i wish we were in the study now", "label": 0}
 {"id": "3156", "text": "we planned to study in the study tomorrow", "label": 0}
-
 {"id": "3157", "text": "meet me at the bakery", "label": 1}
 {"id": "3158", "text": "join me at the bakery this evening", "label": 1}
 {"id": "3159", "text": "follow me to the bakery", "label": 1}
 {"id": "3160", "text": "walk with me to the bakery rn", "label": 1}
 {"id": "3161", "text": "i dreamed of us at the bakery", "label": 0}
 {"id": "3162", "text": "maybe later we’ll go to the bakery", "label": 0}
-
 {"id": "3163", "text": "follow me to the riverbank", "label": 1}
 {"id": "3164", "text": "meet me at the riverbank", "label": 1}
 {"id": "3165", "text": "come with me to the riverbank pls", "label": 1}
 {"id": "3166", "text": "wait for me at the riverbank", "label": 1}
 {"id": "3167", "text": "thinking about the riverbank breeze", "label": 0}
 {"id": "3168", "text": "someday let’s sit by the riverbank", "label": 0}
-
 {"id": "3169", "text": "meet me beside the fountain", "label": 1}
 {"id": "3170", "text": "join me by the fountain", "label": 1}
 {"id": "3171", "text": "walk with me to the fountain", "label": 1}
 {"id": "3172", "text": "come to the fountain with me", "label": 1}
 {"id": "3173", "text": "i hope we sit by the fountain later", "label": 0}
 {"id": "3174", "text": "just imagine us near the fountain", "label": 0}
-
 {"id": "3175", "text": "let’s head to the tower room now", "label": 1}
 {"id": "3176", "text": "meet me at the harbor right now", "label": 1}
 {"id": "3177", "text": "let’s go to the map room together", "label": 1}
 {"id": "3178", "text": "come meet me on the bridge", "label": 1}
 {"id": "3179", "text": "we planned to be at the harbor tomorrow", "label": 0}
 {"id": "3180", "text": "only watching the riverbank from here", "label": 0}
+{"id": "3181", "text": "run with me across the bridge", "label": 1}
+{"id": "3182", "text": "walk with me across the square", "label": 1}
+{"id": "3183", "text": "we march into the battlefield", "label": 1}
+{"id": "3184", "text": "slip with me through the corridor", "label": 1}
+{"id": "3185", "text": "head with me toward the lighthouse", "label": 1}
+{"id": "3186", "text": "let’s go down the stairs to the cellar", "label": 1}
+{"id": "3187", "text": "climb up to the ramparts with me", "label": 1}
+{"id": "3188", "text": "move past the guards into the courtyard", "label": 1}
+{"id": "3189", "text": "join me inside the chapel", "label": 1}
+{"id": "3190", "text": "come with me over the footbridge", "label": 1}
+{"id": "3191", "text": "let’s circle around the fountain", "label": 1}
+{"id": "3192", "text": "follow me along the promenade", "label": 1}
+{"id": "3193", "text": "step onto the balcony with me", "label": 1}
+{"id": "3194", "text": "dash across the courtyard to the gate", "label": 1}
+{"id": "3195", "text": "meet me at the city gate", "label": 1}
+{"id": "3196", "text": "go with me into the library", "label": 1}
+{"id": "3197", "text": "let’s head for the harbor", "label": 1}
+{"id": "3198", "text": "walk through the orchard to the pavilion", "label": 1}
+{"id": "3199", "text": "run down the hill to the riverbank", "label": 1}
+{"id": "3200", "text": "sneak into the armory with me", "label": 1}
+{"id": "3201", "text": "only watching the skyline from the tower", "label": 0}
+{"id": "3202", "text": "we planned a visit to the market later", "label": 0}
+{"id": "3203", "text": "the bridge looks old and narrow", "label": 0}
+{"id": "3204", "text": "she described the way to the vineyard", "label": 0}
+{"id": "3205", "text": "we remember meeting at the docks", "label": 0}
+{"id": "3206", "text": "the battlefield is too muddy today", "label": 0}
+{"id": "3207", "text": "don’t go to the harbor please", "label": 0}
+{"id": "3208", "text": "he drew a map of the cloister", "label": 0}
+{"id": "3209", "text": "we used to live near the lighthouse", "label": 0}
+{"id": "3210", "text": "the corridor feels cramped", "label": 0}
+{"id": "3211", "text": "let’s head into the cathedral nave", "label": 1}
+{"id": "3212", "text": "walk with me beyond the arch to the square", "label": 1}
+{"id": "3213", "text": "cross the stone bridge with me", "label": 1}
+{"id": "3214", "text": "come down to the quay", "label": 1}
+{"id": "3215", "text": "hurry into the tavern yard", "label": 1}
+{"id": "3216", "text": "let’s slip through the side alley", "label": 1}
+{"id": "3217", "text": "head across the plaza to the fountain", "label": 1}
+{"id": "3218", "text": "join me at the watchtower", "label": 1}
+{"id": "3219", "text": "move with me toward the chapel steps", "label": 1}
+{"id": "3220", "text": "let’s get inside the observatory", "label": 1}
+{"id": "3221", "text": "we can talk about the marketplace later", "label": 0}
+{"id": "3222", "text": "she loves bridges and towers", "label": 0}
+{"id": "3223", "text": "the lighthouse is visible from here", "label": 0}
+{"id": "3224", "text": "we booked a tour of the castle tomorrow", "label": 0}
+{"id": "3225", "text": "thinking about the vineyard scenery", "label": 0}
+{"id": "3226", "text": "they discussed the chapel renovation", "label": 0}
+{"id": "3227", "text": "guard patrols will cover the square later", "label": 0}
+{"id": "3228", "text": "don’t mention the armory again", "label": 0}
+{"id": "3229", "text": "she painted the courtyard at dusk", "label": 0}
+{"id": "3230", "text": "the promenade feels empty tonight", "label": 0}
+{"id": "3231", "text": "let’s hurry over the ridge to the camp", "label": 1}
+{"id": "3232", "text": "walk with me to the cloister garden", "label": 1}
+{"id": "3233", "text": "head inside the dormitory with me", "label": 1}
+{"id": "3234", "text": "go past the fountain toward the gate", "label": 1}
+{"id": "3235", "text": "take the stairs up to the tower room", "label": 1}
+{"id": "3236", "text": "let’s cut through the arcade to the yard", "label": 1}
+{"id": "3237", "text": "come into the guild hall", "label": 1}
+{"id": "3238", "text": "step under the archway to the square", "label": 1}
+{"id": "3239", "text": "follow me onto the pier", "label": 1}
+{"id": "3240", "text": "run with me toward the barracks", "label": 1}
+{"id": "3241", "text": "we admire the courtyard from the window", "label": 0}
+{"id": "3242", "text": "maybe later we visit the chapel", "label": 0}
+{"id": "3243", "text": "the pier looks slippery", "label": 0}
+{"id": "3244", "text": "she writes about the vineyard", "label": 0}
+{"id": "3245", "text": "I heard the barracks are full", "label": 0}
+{"id": "3246", "text": "they scheduled a tour of the lighthouse", "label": 0}
+{"id": "3247", "text": "we won’t enter the armory", "label": 0}
+{"id": "3248", "text": "he remembers sitting in the courtyard", "label": 0}
+{"id": "3249", "text": "the fountain needs repairs", "label": 0}
+{"id": "3250", "text": "we drew plans of the city gate", "label": 0}
+{"id": "3251", "text": "let’s dash through the cloister to the choir", "label": 1}
+{"id": "3252", "text": "run along the ramparts with me", "label": 1}
+{"id": "3253", "text": "head over the canal bridge to the quay", "label": 1}
+{"id": "3254", "text": "walk beyond the market stalls to the well", "label": 1}
+{"id": "3255", "text": "come with me inside the crypt", "label": 1}
+{"id": "3256", "text": "step across the mosaic hall to the dais", "label": 1}
+{"id": "3257", "text": "move into the kitchen quietly", "label": 1}
+{"id": "3258", "text": "join me down in the cellar", "label": 1}
+{"id": "3259", "text": "go through the gatehouse to the yard", "label": 1}
+{"id": "3260", "text": "let’s head along the riverbank to the mill", "label": 1}
+{"id": "3261", "text": "we loved that old mosaic hall", "label": 0}
+{"id": "3262", "text": "the crypt is closed for visitors", "label": 0}
+{"id": "3263", "text": "thinking of the kitchen menu", "label": 0}
+{"id": "3264", "text": "she studies a map of the gatehouse", "label": 0}
+{"id": "3265", "text": "tomorrow we might see the mill", "label": 0}
+{"id": "3266", "text": "the choir rehearses every evening", "label": 0}
+{"id": "3267", "text": "don’t mention the cellar anymore", "label": 0}
+{"id": "3268", "text": "the well is almost dry", "label": 0}
+{"id": "3269", "text": "we can watch the quay from here", "label": 0}
+{"id": "3270", "text": "the yard lights are beautiful", "label": 0}
+{"id": "3271", "text": "hurry across the square to the fountain", "label": 1}
+{"id": "3272", "text": "walk into the chapel with me", "label": 1}
+{"id": "3273", "text": "run past the stalls to the gate", "label": 1}
+{"id": "3274", "text": "let’s move toward the lighthouse now", "label": 1}
+{"id": "3275", "text": "come over the footbridge to the garden", "label": 1}
+{"id": "3276", "text": "head down the lane into the orchard", "label": 1}
+{"id": "3277", "text": "follow me through the cloister walk", "label": 1}
+{"id": "3278", "text": "step onto the balcony edge with me", "label": 1}
+{"id": "3279", "text": "let’s get to the watchtower quickly", "label": 1}
+{"id": "3280", "text": "move inside the guild hall together", "label": 1}
