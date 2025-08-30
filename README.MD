@@ -21,4 +21,4 @@ Move EM accuracy: 1.000  (n=154)
 No-move correctness (pred=None): 1.000  (n=225)
 Movement detection — precision: 1.000, recall: 1.000
 
-Almost while project done by ChatGPT
+Almost whole project done by ChatGPT
