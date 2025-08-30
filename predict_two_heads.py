@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 import os, math
 from typing import Optional, Tuple
 import torch
@@ -46,11 +43,19 @@ def _load_vocab(path: Optional[str]):
             v = line.strip().lower()
             if v:
                 vocab.append(v)
-    # de-dup & freeze
     return tuple(sorted(set(vocab)))
 
 # ---------------------------------------------------------------------------
 # Model loaders
+def warmup_move(model_dir_or_cfg: str):
+    try:
+        if os.path.isdir(model_dir_or_cfg):
+            _load_move(model_dir_or_cfg)
+        else:
+            mv, _, _, _, _, _, _, _, _ = load_two_heads_cfg(model_dir_or_cfg)
+            _load_move(mv)
+    except Exception as e:
+        print(f"[warmup_move] skipped: {e}")
 
 def _load_move(dir_: str):
     global _move_tok, _move
@@ -244,6 +249,7 @@ def predict(cfg_dir_or_model, prompt: str, curr_loc: Optional[str] = None) -> di
     }
 
 if __name__ == "__main__":
-    cfg = os.environ.get("TWO_HEADS_CFG", "cfg/two_heads/two_heads.json")
+    cfg = os.environ.get("TWO_HEADS_CFG", "cfg/two_heads/config.json")
     txt = os.environ.get("TEXT", "follow me to the balcony")
+
     print(predict(cfg, txt))

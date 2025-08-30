@@ -1,4 +1,7 @@
 peft
+onnx
+onnxruntime
+onnxconverter-common
 torch==2.8.0
 transformers==4.55.4
 datasets==4.0.0

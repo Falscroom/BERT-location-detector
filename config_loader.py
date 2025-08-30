@@ -15,8 +15,7 @@ def _try_load_json(path: str):
         return None
 
 def _pick_json_with_keys(dir_path: str, keys) -> tuple[str|None, dict|None]:
-    # two_heads.json приоритетно
-    cand = os.path.join(dir_path, "two_heads.json")
+    cand = os.path.join(dir_path, "config.json")
     if os.path.exists(cand):
         cfg = _try_load_json(cand)
         if cfg and keys.issubset(cfg.keys()):
