@@ -50,11 +50,12 @@ onnx:
 	$(PYTHON) helpers/export_onnx.py \
 	  --model $(MOVE_OUT) \
 	  --out onnyx/binary_head.onnx
-	$(PYTHON) export_onnx.py \
+	$(PYTHON) helpers/export_onnx.py \
 	  --model $(QA_OUT) \
-	  --out onnyx/ner_head.onnx
+	  --out onnyx/ner_head.onnx \
+	  --qa
 
-quantize:
+quantize8:
 	$(PYTHON) helpers/quantize_onnx.py \
 	  --input onnyx/binary_head.onnx \
 	  --out onnyx/binary_head.int8.onnx \
@@ -62,7 +63,17 @@ quantize:
 	$(PYTHON) helpers/quantize_onnx.py \
 	  --input onnyx/ner_head.onnx \
 	  --out onnyx/ner_head.int8.onnx \
-	  --mode int8
+	  --mode int8 \
+
+quantize16:
+	$(PYTHON) helpers/convert_fp16.py \
+	  --in onnyx/binary_head.onnx \
+	  --out onnyx/binary_head.fp16.onnx \
+	  --keep-io --test-load
+	$(PYTHON) helpers/convert_fp16.py \
+	  --in onnyx/ner_head.onnx \
+	  --out onnyx/ner_head.fp16.onnx \
+	  --keep-io --test-load
 
 clean:
 	rm -rf $(MOVE_OUT) $(QA_OUT)
