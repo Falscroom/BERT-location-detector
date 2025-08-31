@@ -13,7 +13,7 @@ Runs: 160
 TOTAL  — mean 23.9 ms | p95 23.9 ms | p99 38.5 ms
 
 
-Synthetically achieved rules + dataset:
+Synthetically achieved:
 === EVAL SUMMARY ===
 Total: 380
 Overall accuracy: 0.987
