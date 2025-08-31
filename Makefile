@@ -27,9 +27,9 @@ train_binary:
 	  --train $(TRAIN_BIN) \
 	  --val   $(VAL_BIN) \
 	  --out   $(MOVE_OUT) \
-	  --epochs 4 \
+	  --epochs 8 \
 	  --bs 16 \
-	  --lr 2e-5
+	  --lr 1e-5
 
 train_ner:
 	$(PYTHON) train_qa.py \

@@ -1,457 +1,925 @@
-{"id": "2105", "text": "i dreamed of sitting in the tavern booth", "label": 0}
-{"id": "2281", "text": "come to the bridge with me", "label": 1}
-{"id": "1016", "text": "Do you want me right here in the chapel?", "label": 0}
-{"id": "568", "text": "Leaving market stalls we circled smithy, ran toward tavrn, shouted about dungeon then castle, kept changing our mind, and ended back at start laughing with no real place reached.", "label": 0}
-{"id": "395", "text": "We should escape the square, hurry across road, and hide inside greenhouse", "label": 1}
-{"id": "485", "text": "We are not entering chapel, the bells are too loud", "label": 0}
-{"id": "931", "text": "checking inventory in the storage warehouse", "label": 1}
-{"id": "1519", "text": "we planned to hold hands in the market square", "label": 0}
-{"id": "38", "text": "We make our way to the gates tonight.", "label": 1}
-{"id": "1759", "text": "they planned to step into the banquet hall later", "label": 0}
-{"id": "1929", "text": "we planned to walk to the bakery tomorrow", "label": 0}
-{"id": "70", "text": "Where can we go together, anything in mind?", "label": 0}
-{"id": "229", "text": "They laughed and said let’s head to the square for the show.", "label": 1}
-{"id": "692", "text": "I walk out from the yard, skirt the fence, and then keep going without saying where I arrive.", "label": 0}
-{"id": "114", "text": "okay, I think we head to the guild hall, then rest, tbh quietly.", "label": 1}
-{"id": "372", "text": "We are going to slip out of courtyard, climb secret stairs, and arrive at observatory", "label": 1}
-{"id": "3127", "text": "join me at the harbor", "label": 1}
-{"id": "423", "text": "Let’s move fast from dock, past warehouse, and slip inside boathouse", "label": 1}
-{"id": "1410", "text": "whisper in my ear", "label": 0}
-{"id": "1748", "text": "come to the study at once", "label": 1}
-{"id": "3010", "text": "join me at the city park fountain", "label": 1}
-{"id": "669", "text": "From the academy library we entered a hidden stair, ending in the arcane chamber full of glyphs.", "label": 1}
-{"id": "1830", "text": "wait for me at the river gate", "label": 1}
-{"id": "1342", "text": "she pulled me close and led me into the observatory", "label": 1}
-{"id": "1628", "text": "meet me in the banquet hall", "label": 1}
-{"id": "3120", "text": "thinking about the academy library shelves", "label": 0}
-{"id": "815", "text": "lantern room - we climbed the lighthouse stairs and stepped inside together.", "label": 1}
-{"id": "2253", "text": "walk with me to the study", "label": 1}
-{"id": "928", "text": "playing cards at the tavern table", "label": 1}
-{"id": "1042", "text": "food", "label": 0}
-{"id": "2271", "text": "come with me into the kitchen", "label": 1}
-{"id": "396", "text": "We have to cross the bridge, slip behind guild, and rest in archive", "label": 1}
-{"id": "2030", "text": "someday let’s visit the castle gardens, not tonight", "label": 0}
-{"id": "389", "text": "Can we go from smithy across bridge, sneak down steps, and end in cellar", "label": 1}
-{"id": "16", "text": "I guide you into the castle without a word.", "label": 1}
-{"id": "637", "text": "She bends over the wooden table in the inn’s bedroom, teasing me with every move, but we stay there the whole time.", "label": 0}
-{"id": "861", "text": "finally back at the farm house", "label": 1}
-{"id": "401", "text": "We must walk past barracks, avoid noise, and settle quietly in chapel", "label": 1}
-{"id": "3158", "text": "join me at the bakery this evening", "label": 1}
-{"id": "341", "text": "tower? lighthouse?? idk, i'm blushing and staying put, brb water 😅", "label": 0}
-{"id": "2075", "text": "i wished to read in the study someday", "label": 0}
-{"id": "1403", "text": "I whispered softly in her ear", "label": 0}
-{"id": "453", "text": "Do you think we should just stay here instead of moving anywhere?", "label": 0}
-{"id": "1736", "text": "they planned to wait in the guild hall", "label": 0}
-{"id": "3054", "text": "dreaming of the heroes’ dormitory hallways", "label": 0}
-{"id": "154", "text": "She laughed and pulled me along, so we ended up inside the guild hall even though I wanted to go home earlier.", "label": 1}
-{"id": "195", "text": "The chapel bells rang but we never entered, just listened from outside and walked home afterwards quietly.", "label": 0}
-{"id": "1738", "text": "she imagined waiting in the gatehouse", "label": 0}
-{"id": "3068", "text": "join me at the sentō tonight", "label": 1}
-{"id": "597", "text": "We passed the armory, skirted the gardens, went down the stairs beneath the keep, and arrived at the dungeons.", "label": 1}
-{"id": "1591", "text": "they dreamed of meeting in the library", "label": 0}
-{"id": "1841", "text": "meet me at the courtyard well", "label": 1}
-{"id": "1755", "text": "come into the war room", "label": 1}
-{"id": "358", "text": "I go to the church, wait no, I mean tavrn, nevermind we never left bed", "label": 0}
-{"id": "404", "text": "We finally arrived in saloon after skipping tavern and crossing the dusty road", "label": 1}
-{"id": "800", "text": "The group argued outside the tavern hearth yet stayed put without moving further.", "label": 0}
-{"id": "261", "text": "we ran into tavern before rain started pouring hard", "label": 1}
-{"id": "3139", "text": "come with me onto the bridge", "label": 1}
-{"id": "1554", "text": "i wanted to take you to the garden", "label": 0}
-{"id": "1218", "text": "resting on the steps of the cathedral", "label": 0}
-{"id": "3051", "text": "come with me into the heroes’ dormitory", "label": 1}
-{"id": "500", "text": "I went into brothel last night and found the room upstairs", "label": 1}
-{"id": "975", "text": "market - food section - the baker's specialty bread stall", "label": 1}
-{"id": "109", "text": "Still outside, thinking; that forest might be busy anyway, well.", "label": 0}
-{"id": "1646", "text": "they imagined a meeting at the harbor", "label": 0}
-{"id": "400", "text": "Let’s go fast from docks, turn by warehouse, and slip inside boathouse", "label": 1}
-{"id": "3128", "text": "walk with me to the harbor now", "label": 1}
-{"id": "653", "text": "After leaving the fortress gates we descended the steps into the crystal cave shining blue.", "label": 1}
-{"id": "1239", "text": "they planned to meet in the cellar", "label": 0}
-{"id": "1400", "text": "I pressed my forehead against hers", "label": 0}
-{"id": "171", "text": "We ended up inside the tavern after laughing too much outside, just couldn’t resist the music and drinks.", "label": 1}
-{"id": "405", "text": "We should go to tavrn or church or castle, but I can’t pick one now", "label": 0}
-{"id": "1194", "text": "they watched the market square from afar", "label": 0}
-{"id": "2243", "text": "wait for me by the garden gate", "label": 1}
-{"id": "748", "text": "staying here in library", "label": 0}
-{"id": "3", "text": "We move into the gates quietly.", "label": 1}
-{"id": "967", "text": "temple - inner sanctum - the high priest's chamber", "label": 1}
-{"id": "1776", "text": "walk with me into the banquet hall", "label": 1}
-{"id": "58", "text": "No need to move; the weather looks bad.", "label": 0}
-{"id": "2255", "text": "join me in the study, please", "label": 1}
-{"id": "1697", "text": "i imagined us sitting in the tavern booth", "label": 0}
-{"id": "2260", "text": "join me by the riverbank", "label": 1}
-{"id": "1426", "text": "sit beside me in the garden bench", "label": 1}
-{"id": "1740", "text": "i dreamed of waiting in the banquet hall", "label": 0}
-{"id": "593", "text": "I refused observatory climb, cursed the tower steps, skipped chapel with a shake of head, walked stubbornly, and still at last we pushed through door of greenhouse warm and bright.", "label": 1}
-{"id": "1356", "text": "they rested beside me on the bed", "label": 0}
-{"id": "2341", "text": "i wish we were in the study right now", "label": 0}
-{"id": "1499", "text": "he wished to sing in the cathedral", "label": 0}
-{"id": "3043", "text": "join me at mirko’s apartment", "label": 1}
-{"id": "473", "text": "We finally reached the shrine, incense drifting softly in the air", "label": 1}
-{"id": "876", "text": "returned to that place we visited before", "label": 1}
-{"id": "2264", "text": "join me at the gatehouse", "label": 1}
-{"id": "3170", "text": "join me by the fountain", "label": 1}
-{"id": "567", "text": "We started in plaza, crossed bridge, peeked into guild hall, but guards stopped us, then I typed random letters churh churh lol, and finally nothing happened, we never went anywhere at all.", "label": 0}
-{"id": "1329", "text": "rest your cheek against mine", "label": 0}
-{"id": "1763", "text": "she dreamed of coming to the study", "label": 0}
-{"id": "359", "text": "duuuungeon spammmm not actually going anywhere, just writing nonsense", "label": 0}
-{"id": "1615", "text": "they planned to come with me to the study", "label": 0}
-{"id": "661", "text": "From the smithy we rushed through corridors and entered the guard barracks full of clattering armor.", "label": 1}
-{"id": "444", "text": "Can we go hide inside cellar instead of staying in courtyard?", "label": 1}
-{"id": "617", "text": "The entire ceremony took place in the great hall; every speech and toast occurred there, with no relocation or concluding arrival in another location.", "label": 0}
-{"id": "82", "text": "ok ok, we move into the markett!!!", "label": 1}
-{"id": "103", "text": "okay, I think we step into the temple, it's fine, lol now.", "label": 1}
-{"id": "808", "text": "From the fortress yard we skipped the gatehouse and mustered in the soldiers' barracks.", "label": 1}
-{"id": "548", "text": "From churh square we hurried across plaza and slipped into greenhouze", "label": 1}
-{"id": "2092", "text": "we planned to hide in the cellar another day", "label": 0}
-{"id": "127", "text": "alright, I think we slide into the market, it's fine, tbh now.", "label": 1}
-{"id": "570", "text": "From castle gate to courtyard to plaza, then across guild hall, even mentioned bathhouse jokingly, but in truth I kept typing nonsense letters asdfgh until we simply never went inside anywhere.", "label": 0}
-{"id": "1315", "text": "she pulled me close and we stepped into the tower room", "label": 1}
-{"id": "724", "text": "I left the mountain trail, followed torchlight, and reached the hidden cave glowing faintly.", "label": 1}
-{"id": "989", "text": "we left the castle yard for a moment and came back instantly", "label": 0}
-{"id": "1117", "text": "full of hope tonight", "label": 0}
-{"id": "383", "text": "We should hurry to somewhere but no clear end point, just wandering in text", "label": 0}
-{"id": "3161", "text": "i dreamed of us at the bakery", "label": 0}
-{"id": "354", "text": "I wanna climb to observatory, stare at stars with you pressed against me", "label": 0}
-{"id": "996", "text": "they hope to gather in the arcade tonight", "label": 0}
-{"id": "3164", "text": "meet me at the riverbank", "label": 1}
-{"id": "1936", "text": "i hope to meet you on the rooftop someday", "label": 0}
-{"id": "2071", "text": "we talked about the riverbank earlier", "label": 0}
-{"id": "430", "text": "We are going to castle on the 5th of May during ceremony", "label": 0}
-{"id": "3175", "text": "let’s head to the tower room now", "label": 1}
-{"id": "1479", "text": "join me in the market square", "label": 1}
-{"id": "1162", "text": "let’s head into the observatory yard", "label": 1}
-{"id": "3114", "text": "join me in the academy library", "label": 1}
-{"id": "310", "text": "started in plaza, detoured to shrine, tried gatehouse but guard grumpy, slipped through secret tunnel and emerged inside vault", "label": 1}
-{"id": "1562", "text": "walk with me into the tavern", "label": 1}
-{"id": "110", "text": "Is the market open, do you know? Just asking, tbh.", "label": 0}
-{"id": "1029", "text": "I crave you right here in the castle yard", "label": 0}
-{"id": "3018", "text": "join me on the skyscraper rooftop", "label": 1}
-{"id": "3037", "text": "imagine us waiting in the subway station", "label": 0}
-{"id": "2256", "text": "wait for me in the study", "label": 1}
-{"id": "856", "text": "returned to the chapel yard", "label": 1}
-{"id": "843", "text": "finally back at the garden gate", "label": 1}
-{"id": "980", "text": "we've been talking here for hours without going anywhere", "label": 0}
-{"id": "1620", "text": "she planned to follow me into the armory", "label": 0}
-{"id": "1497", "text": "she hoped to pray in the chapel", "label": 0}
-{"id": "2081", "text": "we plan to visit the war room later", "label": 0}
-{"id": "3133", "text": "follow me to the map room", "label": 1}
-{"id": "186", "text": "We ran out of patience and stormed into the tavren?? omg so noisy inside but at least we found seats.", "label": 1}
-{"id": "2048", "text": "i wish we were in the kitchen already, someday", "label": 0}
-{"id": "516", "text": "Starting from the guild hall we marched along the avenue, cutting across courtyard filled with guards, slipping down narrow alley near smithy, hearing the sound of hammers, moving past the dormitory door, and at last stepping inside observatory under the stars.", "label": 1}
-{"id": "890", "text": "walked through the park and arrived at the rose garden after sunset", "label": 1}
-{"id": "914", "text": "standing motionless at the crossroads", "label": 0}
-{"id": "3145", "text": "follow me to the garden gate", "label": 1}
-{"id": "1323", "text": "she rested her head on my chest", "label": 0}
-{"id": "2246", "text": "meet me on the cathedral steps", "label": 1}
-{"id": "1164", "text": "I plan to go to the garden tomorrow", "label": 0}
-{"id": "3169", "text": "meet me beside the fountain", "label": 1}
-{"id": "619", "text": "The choir practiced exclusively in the chapel, repeating verses until dusk; they never left the chapel, so there is no final arrival elsewhere to extract.", "label": 0}
-{"id": "1298", "text": "rest your head on my shoulder", "label": 0}
-{"id": "1189", "text": "they plan to meet in the garden tomorrow", "label": 0}
-{"id": "3143", "text": "thinking about the bridge lights only", "label": 0}
-{"id": "1703", "text": "i dreamed of sitting in the library alcove", "label": 0}
-{"id": "706", "text": "From the tavern’s noise we slipped into the cellar below, the air heavy with old barrels.", "label": 1}
-{"id": "1299", "text": "whisper in my ear softly", "label": 0}
-{"id": "194", "text": "okay okay we ended up inside the markeet?? haha spelling aside, grabbed fruit and laughed too loud.", "label": 1}
-{"id": "150", "text": "After wandering for half an hour we finally sneaked into the castle, it looked spooky but also kind of exciting at night lol.", "label": 1}
-{"id": "1896", "text": "join me on the cathedral steps", "label": 1}
-{"id": "1721", "text": "wait with me in the guild hall", "label": 1}
-{"id": "166", "text": "We literally circled back into the tavern again, no new place at all, just same loud crowd waiting.", "label": 0}
-{"id": "798", "text": "We skipped the porch, went past the well, and met in the chapel nave beside the candles.", "label": 1}
-{"id": "3042", "text": "meet me in mirko’s apartment", "label": 1}
-{"id": "1708", "text": "she hoped we could dance in the courtyard", "label": 0}
-{"id": "1903", "text": "i’m thinking of you in the garden", "label": 0}
-{"id": "1009", "text": "we hoped to sit in the observatory yard next day", "label": 0}
-{"id": "1793", "text": "i dreamed of joining you in the map room", "label": 0}
-{"id": "209", "text": "Thinking we might head to the chapel before everyone gathers there.", "label": 1}
-{"id": "1036", "text": "wine", "label": 0}
-{"id": "345", "text": "I wanna go to a church, take your hand and lead you inside softly lit by candles", "label": 0}
-{"id": "1940", "text": "we planned to gather on the cathedral steps later", "label": 0}
-{"id": "628", "text": "I feel the succubus press closer to me in the bathhouse, her voice low and teasing, yet we remain inside the steamy room together.", "label": 0}
-{"id": "1569", "text": "meet me at the riverbank", "label": 1}
-{"id": "1163", "text": "imagine us in the tavern", "label": 0}
-{"id": "796", "text": "We went through the vineyard gate, ignored the fountain, and settled in the wine cellar under the manor.", "label": 1}
-{"id": "998", "text": "we dreamt of walking into the market square tomorrow evening", "label": 0}
-{"id": "1741", "text": "he wished to hide with her in the tower room", "label": 0}
-{"id": "1753", "text": "step into the courtyard well with me", "label": 1}
-{"id": "319", "text": "began at harbor, past customs shed, through warehouse row, guards shouted, we sprinted across yard and hid in office", "label": 1}
-{"id": "1171", "text": "he was resting on the fountain edge", "label": 0}
-{"id": "2042", "text": "we plan to visit the map room next week", "label": 0}
-{"id": "844", "text": "returned to the workshop after repairs", "label": 1}
-{"id": "222", "text": "can we head to the dungeon quickly, feels creepy but exciting.", "label": 1}
-{"id": "3090", "text": "follow me to the hot springs", "label": 1}
-{"id": "3052", "text": "meet me at the heroes’ dormitory entrance", "label": 1}
-{"id": "1436", "text": "rest your head on me", "label": 0}
-{"id": "1543", "text": "accompany me to the garden", "label": 1}
-{"id": "386", "text": "I’m gonna drag you across market and end up together in bathhouse", "label": 1}
-{"id": "1516", "text": "walk hand in hand with me in the market square", "label": 1}
-{"id": "705", "text": "We passed the stone circle deep in the forest clearing, moonlight shining on the mossy rocks.", "label": 1}
-{"id": "37", "text": "Both of us enter the forest slowly.", "label": 1}
-{"id": "1062", "text": "always by your side", "label": 0}
-{"id": "3006", "text": "dreaming of the training ground tomorrow", "label": 0}
-{"id": "355", "text": "I wanna go church... or maybe tavrn? idk lol can't decide, let's stay here", "label": 0}
-{"id": "107", "text": "hmm, I think we sneak into the tavern, please hurry, lol quietly.", "label": 1}
-{"id": "1910", "text": "someday let’s visit the castle gardens", "label": 0}
-{"id": "34", "text": "We walk to the gates side by side.", "label": 1}
-{"id": "1086", "text": "kiss my hand gently", "label": 0}
-{"id": "2099", "text": "just imagining the guild hall music", "label": 0}
-{"id": "1829", "text": "come with me into the crypt", "label": 1}
-{"id": "832", "text": "back at the riverside cabin finally", "label": 1}
-{"id": "1153", "text": "dance with me in the hall", "label": 1}
-{"id": "1783", "text": "wait with me in the guild hall", "label": 1}
-{"id": "2320", "text": "maybe later we’ll go to the cloister", "label": 0}
-{"id": "1089", "text": "hold my arm tightly", "label": 0}
-{"id": "3019", "text": "walk with me to the rooftop view", "label": 1}
-{"id": "750", "text": "still staying in guild hall tonight", "label": 0}
-{"id": "3045", "text": "i dreamed of us in mirko’s apartment", "label": 0}
-{"id": "2240", "text": "follow me to the garden gate", "label": 1}
-{"id": "5", "text": "We walk to the shop side by side.", "label": 1}
-{"id": "334", "text": "after sparring yard, we check watchtower, then mess hall for water, down spiral to old hall, and finish in armory", "label": 1}
-{"id": "94", "text": "I guide you into the temple without a word.", "label": 1}
-{"id": "351", "text": "walking market then chapel then nah too loud, we sneak off and end inside brothel", "label": 1}
-{"id": "488", "text": "I’m not walking to courtyard, my legs hurt too much", "label": 0}
-{"id": "1667", "text": "she wished to join me in the banquet hall", "label": 0}
-{"id": "873", "text": "we made it back to the secret passage", "label": 1}
-{"id": "775", "text": "hanging around outside hidden cellar", "label": 0}
-{"id": "2108", "text": "we plan to visit the throne hall later", "label": 0}
-{"id": "754", "text": "we keep staying in wine cellar", "label": 0}
-{"id": "1418", "text": "wait for me in the tower", "label": 1}
-{"id": "1720", "text": "hide with me in the greenhouse", "label": 1}
-{"id": "1233", "text": "let’s proceed to the guild hall", "label": 1}
-{"id": "519", "text": "From marketplace we slipped between stalls heavy with fruit, pushed toward city gate crowded with soldiers, climbed stairwell that circled outer wall, explored archive where dust covered scrolls, but closed doors forced us onward, until we found ourselves in armory lined with steel.", "label": 1}
-{"id": "2054", "text": "maybe later we’ll sit in the gallery", "label": 0}
-{"id": "809", "text": "Past the herb garden we passed the fountain and assembled in the cloister arches.", "label": 1}
-{"id": "2339", "text": "maybe later we’ll go to the gatehouse", "label": 0}
-{"id": "501", "text": "We arrived in armory already, the guard let us inside", "label": 1}
-{"id": "1303", "text": "press your cheek against mine", "label": 0}
-{"id": "902", "text": "hurried to the bus terminal", "label": 1}
-{"id": "3171", "text": "walk with me to the fountain", "label": 1}
-{"id": "552", "text": "Leaving armry behind, we walked lane, and came at last into chapel", "label": 1}
-{"id": "583", "text": "I said not going anywhere, sat by well, yet we rose, moved across plaza, skipped saloon despite laughter, climbed narrow stair, and finally stood together on rooftop under stars.", "label": 1}
-{"id": "634", "text": "I lean on the counter while the elf archer teases me about my stamina inside the tavern. We don’t leave the tavern at all.", "label": 0}
-{"id": "533", "text": "Leaving stable yard we crossed small bridge, paused in plaza alive with jugglers, went into alley dripping with rain, entered bakery full of warm smell, and finally rested inside tavrn noisy with songs.", "label": 1}
-{"id": "1435", "text": "we were resting on the fountain edge", "label": 0}
-{"id": "1577", "text": "imagine us in the tavern", "label": 0}
-{"id": "1091", "text": "private moment together", "label": 0}
-{"id": "2337", "text": "i’m thinking about the bridge lights", "label": 0}
-{"id": "1067", "text": "standing in the snow", "label": 0}
-{"id": "645", "text": "I wanna fuck her in a church", "label": 0}
-{"id": "227", "text": "Don’t forget, we must head to the forest to gather herbs.", "label": 1}
-{"id": "425", "text": "I will take you to the church tomorrow after the banquet", "label": 0}
-{"id": "1066", "text": "waiting under the rain", "label": 0}
-{"id": "1369", "text": "I lifted him on my shoulder and brought him into the observatory", "label": 1}
-{"id": "1517", "text": "imagine holding my hand in the market square", "label": 0}
-{"id": "1904", "text": "we planned to meet in the library later", "label": 0}
-{"id": "424", "text": "I will guide you out of courtyard, up spiral stair, and into observatory", "label": 1}
-{"id": "2077", "text": "we planned to check the harbor tomorrow", "label": 0}
-{"id": "1138", "text": "burn with desire", "label": 0}
-{"id": "2101", "text": "i wish to rest near the fountain later", "label": 0}
-{"id": "24", "text": "We walk to the castle side by side.", "label": 1}
-{"id": "1046", "text": "look at you now", "label": 0}
-{"id": "1430", "text": "he hoped to dance in the castle yard", "label": 0}
-{"id": "326", "text": "still holding my hand, we leave inn yard, cross courtyard, try library but too busy, loop by guild hall, check tower, change mind, end up where it's warm and private in sauna", "label": 1}
-{"id": "1911", "text": "only watching the courtyard from here", "label": 0}
-{"id": "3040", "text": "thinking about the subway station noise", "label": 0}
-{"id": "291", "text": "met at fountain, detoured around bazaar, you pulled me through side street, past bakery smell mmm, then into curtained doorway of brothel", "label": 1}
-{"id": "1751", "text": "come to the observatory dome", "label": 1}
-{"id": "1134", "text": "kiss my hand softly", "label": 0}
-{"id": "3034", "text": "follow me to the subway station rn", "label": 1}
-{"id": "561", "text": "After leaving campfire in forest clearing, we crossed bridge above foaming river, hurried across muddy field, passed ruined barn, circled orchard edge, climbed narrow tower stair, and ended with breathless laughter under stars on the rooftop above silent town.", "label": 1}
-{"id": "1477", "text": "wait in the tower for me", "label": 1}
-{"id": "1847", "text": "sit with me at the harbor pier", "label": 1}
-{"id": "1548", "text": "i dreamed we went to the garden", "label": 0}
-{"id": "1093", "text": "dreaming with closed eyes", "label": 0}
-{"id": "75", "text": "People say the guild hall looks different at night.", "label": 0}
-{"id": "1302", "text": "lay your head in my hands", "label": 0}
-{"id": "2310", "text": "just imagine us at the riverbank", "label": 0}
-{"id": "48", "text": "We make our way to the shop tonight.", "label": 1}
-{"id": "1429", "text": "we planned to go to the market square", "label": 0}
-{"id": "1292", "text": "he carried me in his arms into the bedroom", "label": 1}
-{"id": "451", "text": "Do you wanna go somewhere but I never name the place", "label": 0}
-{"id": "1039", "text": "lol", "label": 0}
-{"id": "1715", "text": "wait with me in the courtyard", "label": 1}
-{"id": "1290", "text": "holding my hand, we entered the library together", "label": 1}
-{"id": "1415", "text": "meet me at the fountain", "label": 1}
-{"id": "1204", "text": "come with us into the courtyard", "label": 1}
-{"id": "3152", "text": "walk with me to the study", "label": 1}
-{"id": "764", "text": "staying here in porch, not leaving", "label": 0}
-{"id": "1874", "text": "come with me into the war room", "label": 1}
-{"id": "3060", "text": "meet me in the gym hall tonight", "label": 1}
-{"id": "2293", "text": "follow me to the bakery", "label": 1}
-{"id": "965", "text": "academy - west tower - the alchemical laboratory", "label": 1}
-{"id": "3173", "text": "i hope we sit by the fountain later", "label": 0}
-{"id": "62", "text": "We left the gates and went back inside.", "label": 0}
-{"id": "1172", "text": "they continued talking in the cloister but never left", "label": 0}
-{"id": "1544", "text": "walk slowly with me to the garden", "label": 1}
-{"id": "717", "text": "We left the temple yard, passed incense smoke, and finally prayed inside the inner sanctum.", "label": 1}
-{"id": "1231", "text": "she moved into the observatory room quietly", "label": 1}
-{"id": "176", "text": "Lmao no new place, we just walked back into the tavern again cause it was raining outside badly.", "label": 0}
-{"id": "1151", "text": "follow me to the balcony", "label": 1}
-{"id": "571", "text": "We moved past armory, ran into orchard, crossed saloon threshold, peeked into greenhouse, but then my message cut off, no clear arrival, just noise and broken sentence left hanging", "label": 0}
-{"id": "65", "text": "People say the castle looks different at night.", "label": 0}
-{"id": "986", "text": "after leaving the garden gate we immediately entered it again", "label": 0}
-{"id": "780", "text": "walking around porch again and again", "label": 0}
-{"id": "680", "text": "I rush out of the tavern door, run down the street, and keep going without any idea where to stop.", "label": 0}
-{"id": "384", "text": "We must plan but keep repeating tavern tavrn tavern, never actually going there", "label": 0}
-{"id": "1699", "text": "they planned to sit together by the fountain", "label": 0}
-{"id": "520", "text": "We started in courtyard lit by torches, wandered through the gallery where paintings hung crooked, peeked inside throne room too silent, backed away to corridor filled with whispers, and finally arrived in vault sealed with iron doors.", "label": 1}
-{"id": "1144", "text": "walk with me forever", "label": 0}
-{"id": "1404", "text": "I leaned on his shoulder while we rested", "label": 0}
-{"id": "21", "text": "I take her hand and we jump to the gates.", "label": 1}
-{"id": "308", "text": "we met at fountain, wandered through bazaar, across bridge, into library but too loud, then around guild hall, and finished tucked away inside archive", "label": 1}
-{"id": "694", "text": "I move away from the bonfire, step into a dark path, and just continue with no end point.", "label": 0}
-{"id": "1", "text": "Let's head into the gates before it gets dark.", "label": 1}
-{"id": "709", "text": "After crossing the cloister we entered the choir inside the cathedral where voices echoed.", "label": 1}
-{"id": "3112", "text": "thinking about the festival stage crowd", "label": 0}
-{"id": "2231", "text": "meet me in the war room", "label": 1}
-{"id": "244", "text": "The tavern music was loud but we didn’t go in, just danced outside.", "label": 0}
-{"id": "751", "text": "we are staying in market square now", "label": 0}
-{"id": "1023", "text": "Imagine us right here in the cloister garden", "label": 0}
-{"id": "974", "text": "museum - ancient artifacts - egyptian mummy display hall", "label": 1}
-{"id": "587", "text": "We rejected tower climb, refused smithy, said no to tavrn noise, wandered orchard path aimlessly, until surrendering to quiet we ended in greenhouse glowing softly.", "label": 1}
-{"id": "1310", "text": "she grabbed my wrist and pulled me into the tavern", "label": 1}
-{"id": "2313", "text": "we hoped to sit in the library alcove someday", "label": 0}
-{"id": "945", "text": "polishing armor in the guard barracks", "label": 1}
-{"id": "2103", "text": "i’m thinking about the map room plan", "label": 0}
-{"id": "3026", "text": "follow me down the dark alley", "label": 1}
-{"id": "1476", "text": "wait for me in the courtyard", "label": 1}
-{"id": "3108", "text": "follow me backstage now", "label": 1}
-{"id": "6", "text": "I guide you into the dungeon without a word.", "label": 1}
-{"id": "1407", "text": "I laid my head on her chest", "label": 0}
-{"id": "3105", "text": "meet me backstage at the festival stage", "label": 1}
-{"id": "999", "text": "he wished to enter the throne room next morning", "label": 0}
-{"id": "618", "text": "We waited on the riverside pier for hours, counting barges and reading letters; the account shows no departure and thus no destination reached at the end.", "label": 0}
-{"id": "1487", "text": "imagine us meeting in the tavern", "label": 0}
-{"id": "871", "text": "back at the forge after midnight", "label": 1}
-{"id": "1632", "text": "meet me in the guild hall", "label": 1}
-{"id": "1828", "text": "meet me under the bell tower", "label": 1}
-{"id": "76", "text": "We talked about the shop but never moved.", "label": 0}
-{"id": "95", "text": "We make our way to the castle tonight.", "label": 1}
-{"id": "1840", "text": "hide with me in the wine cellar", "label": 1}
-{"id": "903", "text": "lurking near the old cemetery gate", "label": 0}
-{"id": "746", "text": "staying here near temple courtyard, plans postponed, we remain in place", "label": 0}
-{"id": "2102", "text": "we planned to gather at the river gate later", "label": 0}
-{"id": "279", "text": "messengers waited as we entered hall of council slowly", "label": 1}
-{"id": "766", "text": "still staying inside nave with group", "label": 0}
-{"id": "1901", "text": "follow me to the balcony rail", "label": 1}
-{"id": "125", "text": "Where should we even go, any ideas at all, lol?", "label": 0}
-{"id": "1032", "text": "I picture us right here in the skylight court", "label": 0}
-{"id": "1167", "text": "just watching the balcony from afar", "label": 0}
-{"id": "1358", "text": "he laid his head on my shoulder", "label": 0}
-{"id": "769", "text": "going around tavern all evening", "label": 0}
-{"id": "1804", "text": "follow me to the balcony", "label": 1}
-{"id": "339", "text": "we grab cloaks at keep gate, loop around courtyard, try chapel then choir too loud, I point to side door and we end up in observatory", "label": 1}
-{"id": "1781", "text": "sit with me at the river gate", "label": 1}
-{"id": "581", "text": "I shouted never dungeon, not this time, we roamed courtyard, avoided smithy noise, rejected tower stair, but finally reached bathhouse where steam wrapped us.", "label": 1}
-{"id": "885", "text": "waiting at the train platform for the next departure", "label": 0}
-{"id": "1825", "text": "meet me in the kitchen", "label": 1}
-{"id": "1136", "text": "sit here with me", "label": 0}
-{"id": "256", "text": "tempple stories again haha, didn’t even walk anywhere", "label": 0}
-{"id": "2063", "text": "i dreamed we waited in the tower once", "label": 0}
-{"id": "714", "text": "Past the garden hedge we stopped near a gazebo painted white, vines curling around its pillars.", "label": 1}
-{"id": "1482", "text": "walk with me into the castle yard", "label": 1}
-{"id": "819", "text": "prayer hall - we crossed the cloister and prayed together in silence.", "label": 1}
-{"id": "1242", "text": "he was resting on the tower steps", "label": 0}
-{"id": "596", "text": "Starting at the village square, we followed the riverbank, crossed the wooden bridge, and ended up in the watchtower.", "label": 1}
-{"id": "327", "text": "i whisper consent first, red/yellow/green ok? we stroll from plaza to garden, then across bridge, we joke about dungeon no, and finally sink onto cushions inside teahouse", "label": 1}
-{"id": "612", "text": "The guards kept their post in the tower through the storm, never leaving the platform; no arrival anywhere else is present in this account.", "label": 0}
-{"id": "187", "text": "Didn’t even step anywhere man, just wasted time chatting about tomorrow plans while standing outside in the cold.", "label": 0}
-{"id": "1309", "text": "touch my hand and smile", "label": 0}
-{"id": "2311", "text": "i wish we were at the bakery already", "label": 0}
-{"id": "2045", "text": "maybe later let’s meet at the riverbank", "label": 0}
-{"id": "1361", "text": "I pulled him by the arm into the chapel", "label": 1}
-{"id": "285", "text": "we slipped out of tavern after teasing each other, wandered along rainy street, ducked through side gate by castle, you tugged my hand toward quieter place and we ended up whispering in warm glow of bathhouse", "label": 1}
-{"id": "860", "text": "arrived at the city gates before sunset", "label": 1}
-{"id": "59", "text": "We stood still, thinking about the plan.", "label": 0}
-{"id": "1618", "text": "i imagined coming with you into the banquet hall", "label": 0}
-{"id": "23", "text": "Shall we step onto the guild hall right away?", "label": 1}
-{"id": "1515", "text": "hold onto me in the market square", "label": 1}
-{"id": "459", "text": "We finally ended in garden, where fountain sparkled and flowers surrounded us", "label": 1}
-{"id": "1914", "text": "we planned to meet in the hall but not now", "label": 0}
-{"id": "662", "text": "We walked across the temple courtyard and prayed finally inside the inner sanctum heavy with incense.", "label": 1}
-{"id": "917", "text": "stationed permanently at the guard post", "label": 0}
-{"id": "374", "text": "We must take your hand, walk past chapel, go along alley, and finally step into vault", "label": 1}
-{"id": "1630", "text": "meet me in the greenhouse", "label": 1}
-{"id": "684", "text": "I wander past the orchard, follow the fence line, and keep rambling without settling anywhere specific.", "label": 0}
-{"id": "985", "text": "we stepped out of the tavern door but quickly went back inside", "label": 0}
-{"id": "2046", "text": "i’m thinking about the garden gate, not moving", "label": 0}
-{"id": "1547", "text": "imagine us walking together into the garden", "label": 0}
-{"id": "112", "text": "alright, I think we make our way to the square, it's fine, tbh for a minute.", "label": 1}
-{"id": "3035", "text": "meet me at the subway station platform", "label": 1}
-{"id": "1489", "text": "imagine exploring the dungeon someday", "label": 0}
-{"id": "1890", "text": "meet me by the courtyard fountain", "label": 1}
-{"id": "573", "text": "I typed dungeon dungeon again and again, then castle maybe, bathhouse maybe, but we never actually entered any of them, it was just spamming places without choosing.", "label": 0}
-{"id": "1225", "text": "we went into the banquet hall together", "label": 1}
-{"id": "250", "text": "we totallly talked bout the tavren again lol, but no move at all", "label": 0}
-{"id": "564", "text": "We wandered away from smithy sparks, ducked under arch into alley, crossed saloon where music spilled out, climbed tower stair halfway but turned back, slipped through archive hall dusty with scrolls, and finally rested together in bathhouse thick with steam.", "label": 1}
-{"id": "1509", "text": "dance with me while holding my hand in the market square", "label": 1}
-{"id": "3022", "text": "imagine the rooftop city lights", "label": 0}
-{"id": "2084", "text": "someday we’ll climb the bell tower", "label": 0}
-{"id": "711", "text": "From the tavern hall we slipped into the back room, whispers and dice games all around.", "label": 1}
-{"id": "1054", "text": "stand by me forever", "label": 0}
-{"id": "1884", "text": "walk with me into the greenhouse", "label": 1}
-{"id": "1606", "text": "come with me onto the terrace", "label": 1}
-{"id": "1481", "text": "come with me to the fountain", "label": 1}
-{"id": "1652", "text": "join me in the banquet hall", "label": 1}
-{"id": "663", "text": "After crossing the market stalls we entered the secret passage behind the tapestry.", "label": 1}
-{"id": "522", "text": "We left noisy saloon full of laughter, moved down lantern-lit street, turned into alley lined with shuttered shops, paused near blacksmith hammering late, slipped into courtyard shadowed by ivy, and finally rested inside shrine glowing with incense smoke.", "label": 1}
-{"id": "402", "text": "Can we sneak from keep into orchard, down a path, and sit together in garden", "label": 1}
-{"id": "1348", "text": "rest your head against my chest", "label": 0}
-{"id": "678", "text": "I move past the market stalls, push through the crowd, but then just keep wandering without stopping anywhere.", "label": 0}
-{"id": "763", "text": "we are staying in hidden cellar", "label": 0}
-{"id": "1528", "text": "she dreamed of meeting me hand in hand in the market square", "label": 0}
-{"id": "98", "text": "market?? or what lol, we didn't move anyway", "label": 0}
-{"id": "360", "text": "I wanna go to market, oh wait no, just teasing you, staying in room", "label": 0}
-{"id": "1338", "text": "she guided me with a hand on my back into the cloister", "label": 1}
-{"id": "42", "text": "We move into the square quietly.", "label": 1}
-{"id": "88", "text": "shoop shoop, no movement today", "label": 0}
-{"id": "636", "text": "I push her against the guild hall wall, kissing her neck, not moving us anywhere else.", "label": 0}
-{"id": "1541", "text": "come along to the garden with me", "label": 1}
-{"id": "1308", "text": "hide behind my back", "label": 0}
-{"id": "45", "text": "I guide you into the gates without a word.", "label": 1}
-{"id": "2044", "text": "we’re only watching the bridge from here", "label": 0}
-{"id": "1820", "text": "let's sit in the gallery", "label": 1}
-{"id": "643", "text": "She rides me on the velvet chair inside the brothel chamber, our cries echoing, but the narrative never leaves the room.", "label": 0}
-{"id": "821", "text": "watch tower - we ascended the spiral stair and posted at the top above the gate.", "label": 1}
-{"id": "391", "text": "We finally arrived at shrine after leaving inn yard and passing orchard", "label": 1}
-{"id": "728", "text": "We climbed through the castle stair and ended in the watch tower overlooking the valley.", "label": 1}
-{"id": "1846", "text": "dance with me in the banquet hall", "label": 1}
-{"id": "1257", "text": "whisper in my ear", "label": 0}
-{"id": "2234", "text": "follow me to the map room", "label": 1}
-{"id": "3096", "text": "thinking about mountain hot springs rn", "label": 0}
-{"id": "3165", "text": "come with me to the riverbank pls", "label": 1}
-{"id": "3136", "text": "meet me in the map room", "label": 1}
-{"id": "2304", "text": "join me up on the cathedral steps", "label": 1}
-{"id": "1214", "text": "they planned to gather in the courtyard", "label": 0}
-{"id": "1859", "text": "join me at the riverbank", "label": 1}
-{"id": "2302", "text": "wait together on the cathedral steps", "label": 1}
-{"id": "955", "text": "castle - main hall - throne room where the king sits", "label": 1}
-{"id": "518", "text": "At first we lingered in garden, then followed stream into forest clearing, stumbled across old bridge above rushing water, paused at ruined tower watching lightning in distance, hurried through muddy road near tavrn, and ended the journey inside dungeon carved in stone.", "label": 1}
-{"id": "531", "text": "Our steps carried us away from rooftop balcony, through gallery decorated with portraits, down stairwell into throne room echoing with silence, across chamber full of guards, and at last into vault with its locked iron chest.", "label": 1}
-{"id": "204", "text": "ok ok let’s head to the temple, maybe it’s quiet inside now.", "label": 1}
-{"id": "1007", "text": "I was dreaming about being at the rose fountain at noon", "label": 0}
-{"id": "1030", "text": "Can we be together right here in the observatory tower?", "label": 0}
-{"id": "1558", "text": "we nearly entered the garden but stopped", "label": 0}
-{"id": "1092", "text": "side by side forever", "label": 0}
-{"id": "410", "text": "We must hurry but keep writing market market, nothing actually chosen", "label": 0}
-{"id": "1858", "text": "sit with me in the library alcove", "label": 1}
-{"id": "1143", "text": "lost in your smile", "label": 0}
-{"id": "1722", "text": "hide with me in the pantry", "label": 1}
-{"id": "723", "text": "From the academy gates we hurried across the yard and ended inside the lecture hall buzzing with voices.", "label": 1}
-{"id": "1483", "text": "dance with me in the hall", "label": 1}
-{"id": "3178", "text": "come meet me on the bridge", "label": 1}
-{"id": "1599", "text": "follow me to the crypt", "label": 1}
-{"id": "1101", "text": "covered by shadows", "label": 0}
-{"id": "3017", "text": "follow me to the skyscraper rooftop", "label": 1}
-{"id": "731", "text": "I left the docks, climbed the stairs, and opened the bell tower where the ropes swung.", "label": 1}
-{"id": "3132", "text": "we planned to meet at the harbor next week", "label": 0}
-{"id": "332", "text": "started in courtyard, rain drives us under arcade, we test door of brothel but i say not today, we circle around and choose soft light of bathhouse", "label": 1}
-{"id": "162", "text": "Man I swear we’re lost, maybe we should just stay here on the street and not move into the temple again.", "label": 0}
-{"id": "756", "text": "we are staying in throne hall today", "label": 0}
-{"id": "12", "text": "I take her hand and we jump to the forest.", "label": 1}
-{"id": "1099", "text": "burning with fire inside", "label": 0}
-{"id": "350", "text": "I wanna take u to garden, hold u close near fountain", "label": 0}
-{"id": "1293", "text": "she pulled me by the hand into the dungeon", "label": 1}
-{"id": "1354", "text": "he wrapped his arms around my waist", "label": 0}
-{"id": "555", "text": "We left tavrn at dawn, stumbled into crowded market where vendors shouted and smoke from grills filled the air, crossed plaza buzzing with jugglers, paused near chapel doors but didn’t enter, circled the old well, and finally descended spiral steps into dungeon dark and cold.", "label": 1}
+{"id": "3699", "text": "I'm blushing ?", "label": 0}
+{"id": "3700", "text": "wait for me on a gallery!!", "label": 1}
+{"id": "3701", "text": "Stay beside abbey!", "label": 0}
+{"id": "3702", "text": "We left the temple yard, passed incense smoke, and finally prayed inside the inner sanctum.", "label": 1}
+{"id": "3703", "text": "i dream of us in the war room, just a thought", "label": 0}
+{"id": "3704", "text": "meet  me  there  outside  the  crypt!!", "label": 1}
+{"id": "3705", "text": "We did not roam through the vineyards yesterday", "label": 0}
+{"id": "3706", "text": "started in plaza, ran through gardens, hand in hand through shadowed gallery, we sneaked past guards and hid together inside observatory", "label": 1}
+{"id": "3707", "text": "*blushes* lolol ok brb, not moving, rain outside wowww", "label": 0}
+{"id": "3708", "text": "step onto a harbor!", "label": 1}
+{"id": "3709", "text": "duuuungeon spammmm not actually going anywhere, just writing nonsense", "label": 0}
+{"id": "3710", "text": "Escort Us To The City Walls ?", "label": 1}
+{"id": "3711", "text": "sit together on the chair", "label": 0}
+{"id": "3712", "text": "We have to run from smithy, cut through the barracks, and finally rest in armory", "label": 1}
+{"id": "3713", "text": "rest your cheek against mine", "label": 0}
+{"id": "3714", "text": "dance with me while holding my hand in the market square", "label": 1}
+{"id": "3715", "text": "Honestly, let's chill; walking nowhere right now, in a sec.", "label": 0}
+{"id": "3716", "text": "Walk along the promenade to map room ?", "label": 1}
+{"id": "3717", "text": "Near  Cathedral  Crypt!", "label": 0}
+{"id": "3718", "text": "sneak  into  the  bell  tower!!", "label": 1}
+{"id": "3719", "text": "staying here inside guild hall, music is loud and we won't go elsewhere", "label": 0}
+{"id": "3720", "text": "I marched into the guild hall yesterday", "label": 1}
+{"id": "3721", "text": "under a tavern booth ?", "label": 0}
+{"id": "3722", "text": "let’s get inside the observatory", "label": 1}
+{"id": "3723", "text": "Gatehouse is crowded ?", "label": 0}
+{"id": "3724", "text": "walk with me to the academy library", "label": 1}
+{"id": "3725", "text": "hold me close", "label": 0}
+{"id": "3726", "text": "Descend Into Archway ?", "label": 1}
+{"id": "3727", "text": "stay close to me", "label": 0}
+{"id": "3728", "text": "ducked behind the market stalls", "label": 1}
+{"id": "3729", "text": "she hoped to join me at the garden gate", "label": 0}
+{"id": "3730", "text": "Come With Me Onto Library Alcove", "label": 1}
+{"id": "3731", "text": "No entry to a bathhouse!!", "label": 0}
+{"id": "3732", "text": "I’ll take you by hand, run through square, and hide with you in dungeon", "label": 1}
+{"id": "3733", "text": "look only at me", "label": 0}
+{"id": "3734", "text": "gather  near  waterfall!!", "label": 1}
+{"id": "3735", "text": "imagine us in the inn yard ?", "label": 0}
+{"id": "3736", "text": "we go to the tavren?? haha, hurry up!", "label": 1}
+{"id": "3737", "text": "we were resting on the fountain edge", "label": 0}
+{"id": "3738", "text": "Bring me into a armory", "label": 1}
+{"id": "3739", "text": "i wish we were in the garden", "label": 0}
+{"id": "3740", "text": "dance with me at the garden gate", "label": 1}
+{"id": "3741", "text": "Maybe in a meadow", "label": 0}
+{"id": "3742", "text": "join me around map room!", "label": 1}
+{"id": "3743", "text": "We have to move fast, market? docks? chapel? no decision made", "label": 0}
+{"id": "3744", "text": "meet me in the kitchen", "label": 1}
+{"id": "3745", "text": "We did not go into the courtyard yesterday", "label": 0}
+{"id": "3746", "text": "step into temple!!", "label": 1}
+{"id": "3747", "text": "perched on the cathedral steps", "label": 0}
+{"id": "3748", "text": "I moved from salun to stabel yard, then went into armry at last", "label": 1}
+{"id": "3749", "text": "They stayed out of the library and never moved inside", "label": 0}
+{"id": "3750", "text": "sit with me in the tavern booth", "label": 1}
+{"id": "3751", "text": "we were only thinking about being in the war room tomorrow", "label": 0}
+{"id": "3752", "text": "We Two Enter A Cellar", "label": 1}
+{"id": "3753", "text": "just imagining the guild hall music", "label": 0}
+{"id": "3754", "text": "organizing books at the library archive", "label": 1}
+{"id": "3755", "text": "we nearly entered the garden but stopped", "label": 0}
+{"id": "3756", "text": "holding my hand, we stepped into the tower", "label": 1}
+{"id": "3757", "text": "I dreamed about meeting you in the hall", "label": 0}
+{"id": "3758", "text": "take my hand to terrace ?", "label": 1}
+{"id": "3759", "text": "war  room  is  crowded.", "label": 0}
+{"id": "3760", "text": "cross the throne room.", "label": 1}
+{"id": "3761", "text": "imagine us beside the battlefield", "label": 0}
+{"id": "3762", "text": "Okay okay, rushing with you through the gates even though it feels reckless, but fine let’s do it fast.", "label": 1}
+{"id": "3763", "text": "Leaving market stalls we circled smithy, ran toward tavrn, shouted about dungeon then castle, kept changing our mind, and ended back at start laughing with no real place reached.", "label": 0}
+{"id": "3764", "text": "After crossing the castle hall we descended the stairs into the throne hall below.", "label": 1}
+{"id": "3765", "text": "Come sit on me...", "label": 0}
+{"id": "3766", "text": "Let'S Sit By The Cathedral Steps", "label": 1}
+{"id": "3767", "text": "Hug Me Beside The Vineyards.", "label": 0}
+{"id": "3768", "text": "meet me in the library", "label": 1}
+{"id": "3769", "text": "they imagined waiting at the riverbank one day", "label": 0}
+{"id": "3770", "text": "Walk  with  us  along  the  cathedral  steps!", "label": 1}
+{"id": "3771", "text": "sleep on my bed tonight", "label": 0}
+{"id": "3772", "text": "holding hands, we leave guild hall, down alley, up tower stairs then nope, across bridge, and finally under stars on rooftop", "label": 1}
+{"id": "3773", "text": "i imagined us meeting on the terrace", "label": 0}
+{"id": "3774", "text": "I went into the library half an hour ago", "label": 1}
+{"id": "3775", "text": "just imagine us at promenade!", "label": 0}
+{"id": "3776", "text": "campfire goodbye, over ridge, by waterfall spray, into cave then out, through gate and finally inside castle keep", "label": 1}
+{"id": "3777", "text": "We Can Cuddle At A Watchtower!!", "label": 0}
+{"id": "3778", "text": "Make Our Way To Harbor!!", "label": 1}
+{"id": "3779", "text": "We move over the bridge, splash through puddles, but then there’s just nothing at the end.", "label": 0}
+{"id": "3780", "text": "lead us to the archway", "label": 1}
+{"id": "3781", "text": "wandering around cathedral walls but not inside", "label": 0}
+{"id": "3782", "text": "walk with me to the garden gate", "label": 1}
+{"id": "3783", "text": "i dreamed of sitting in the tavern booth", "label": 0}
+{"id": "3784", "text": "meet me on a harbor quay...", "label": 1}
+{"id": "3785", "text": "Just Imagine Us At Fountain.", "label": 0}
+{"id": "3786", "text": "returned to the river bend", "label": 1}
+{"id": "3787", "text": "We are not entering chapel, the bells are too loud", "label": 0}
+{"id": "3788", "text": "We go to the gates together now.", "label": 1}
+{"id": "3789", "text": "thinking of lanterns in the city park", "label": 0}
+{"id": "3790", "text": "let's meet in a old oak tree!", "label": 1}
+{"id": "3791", "text": "staying here in forest clearing until dawn, no travel tonight", "label": 0}
+{"id": "3792", "text": "Can we sneak from keep into orchard, down a path, and sit together in garden", "label": 1}
+{"id": "3793", "text": "Could be at study ?", "label": 0}
+{"id": "3794", "text": "listen, I think we walk to the guild hall, we'll see, tbh just in case.", "label": 1}
+{"id": "3795", "text": "staying here in library corner reading quietly, not heading to any location", "label": 0}
+{"id": "3796", "text": "Wander through observatory", "label": 1}
+{"id": "3797", "text": "Around waterfall.", "label": 0}
+{"id": "3798", "text": "We finally arrived in saloon after skipping tavern and crossing the dusty road", "label": 1}
+{"id": "3799", "text": "lie by here!", "label": 0}
+{"id": "3800", "text": "join me in the guild hall", "label": 1}
+{"id": "3801", "text": "just beside me forever", "label": 0}
+{"id": "3802", "text": "climb up to the ramparts with me", "label": 1}
+{"id": "3803", "text": "Could Be At The Gallery.", "label": 0}
+{"id": "3804", "text": "forging swords in the blacksmith workshop", "label": 1}
+{"id": "3805", "text": "The tavern looked so bright but we never stepped in, just kept walking past.", "label": 0}
+{"id": "3806", "text": "we go to a garden gate now!!", "label": 1}
+{"id": "3807", "text": "Come sit on me ?", "label": 0}
+{"id": "3808", "text": "Walk along the promenade!!", "label": 1}
+{"id": "3809", "text": "still sitting in the same chair since this morning", "label": 0}
+{"id": "3810", "text": "back to a war room!", "label": 1}
+{"id": "3811", "text": "thinking about the armory", "label": 0}
+{"id": "3812", "text": "follow the path into a grand hall!!", "label": 1}
+{"id": "3813", "text": "Imagine Us Within The Inn Yard!", "label": 0}
+{"id": "3814", "text": "he led me by the waist into the guild hall", "label": 1}
+{"id": "3815", "text": "she planned to guide me into the garden", "label": 0}
+{"id": "3816", "text": "wander through the fountain...", "label": 1}
+{"id": "3817", "text": "I did not enter the hall and stayed outside yesterday", "label": 0}
+{"id": "3818", "text": "I pulled him by the arm into the chapel", "label": 1}
+{"id": "3819", "text": "he dreamed of coming into the war room", "label": 0}
+{"id": "3820", "text": "Come with me onto the market square!!", "label": 1}
+{"id": "3821", "text": "don’t tease me.", "label": 0}
+{"id": "3822", "text": "follow me to the bakery", "label": 1}
+{"id": "3823", "text": "they only looked at the observatory roof", "label": 0}
+{"id": "3824", "text": "Let's meet in a grand hall", "label": 1}
+{"id": "3825", "text": "She presses me against the bookshelf in the library, whispering filthy words, but the entire act happens only in the library.", "label": 0}
+{"id": "3826", "text": "follow me to the bridge now", "label": 1}
+{"id": "3827", "text": "he wished to sit with her in the banquet hall", "label": 0}
+{"id": "3828", "text": "join  me  around  a  bakery!", "label": 1}
+{"id": "3829", "text": "Come Sit On Me!!", "label": 0}
+{"id": "3830", "text": "wander through the cathedral steps", "label": 1}
+{"id": "3831", "text": "Under a war room.", "label": 0}
+{"id": "3832", "text": "We came into observatory and looked at the stars above", "label": 1}
+{"id": "3833", "text": "pls forgive me...", "label": 0}
+{"id": "3834", "text": "climb up to a kitchen!", "label": 1}
+{"id": "3835", "text": "By a war room!!", "label": 0}
+{"id": "3836", "text": "take my hand as we enter the market square", "label": 1}
+{"id": "3837", "text": "just imagine us at the riverbank", "label": 0}
+{"id": "3838", "text": "Started in markte, crossed churhc, and finally came into libary", "label": 1}
+{"id": "3839", "text": "I play with Aqua in the bathhouse as she splashes water and teases me, but the entire moment stays in that same bathhouse.", "label": 0}
+{"id": "3840", "text": "Fine fine, running together into the dungeon before sunrise felt thrilling though a bit too dangerous lol.", "label": 1}
+{"id": "3841", "text": "they remained in the market square", "label": 0}
+{"id": "3842", "text": "We  Both  Enter  The  Armory...", "label": 1}
+{"id": "3843", "text": "stand against the door", "label": 0}
+{"id": "3844", "text": "Through the guild hall we skipped the hearth corner and convened in the back room behind the drapes.", "label": 1}
+{"id": "3845", "text": "We did not step into the corridor yesterday", "label": 0}
+{"id": "3846", "text": "wait for me at map room tonight!", "label": 1}
+{"id": "3847", "text": "sit with me under docks...", "label": 0}
+{"id": "3848", "text": "Wait for me at a war room tonight...", "label": 1}
+{"id": "3849", "text": "i hoped we could dance in the hall someday", "label": 0}
+{"id": "3850", "text": "We denied guild hall entry, refused tower stair, laughed away tavrn noise, wandered orchard path, and despite protests finished night in shrine filled with candles.", "label": 1}
+{"id": "3851", "text": "Press me to a library alcove...", "label": 0}
+{"id": "3852", "text": "factory - production line - quality control inspection booth", "label": 1}
+{"id": "3853", "text": "Lie by here!!", "label": 0}
+{"id": "3854", "text": "From the academy library we entered a hidden stair, ending in the arcane chamber full of glyphs.", "label": 1}
+{"id": "3855", "text": "rest at harbor quay", "label": 0}
+{"id": "3856", "text": "come with me to the night beach", "label": 1}
+{"id": "3857", "text": "Lay with me in a abbey ?", "label": 0}
+{"id": "3858", "text": "Run With Us To The Temple...", "label": 1}
+{"id": "3859", "text": "stay outside the balcony", "label": 0}
+{"id": "3860", "text": "Wait by cathedral steps for me!", "label": 1}
+{"id": "3861", "text": "imagine danger in the dark alley", "label": 0}
+{"id": "3862", "text": "Let's sit in the gatehouse!", "label": 1}
+{"id": "3863", "text": "We must not enter archive, it’s locked and restricted", "label": 0}
+{"id": "3864", "text": "We should leave fountain, pass the gardens, and enter the greenhouse together", "label": 1}
+{"id": "3865", "text": "I won’t step into brothel, I don’t want to go there", "label": 0}
+{"id": "3866", "text": "arm in arm, we walked into the cloister", "label": 1}
+{"id": "3867", "text": "Lie  By  City  Walls", "label": 0}
+{"id": "3868", "text": "take my hand to a city walls", "label": 1}
+{"id": "3869", "text": "imagine us at a lighthouse!", "label": 0}
+{"id": "3870", "text": "dash to terrace!!", "label": 1}
+{"id": "3871", "text": "the armory is crowded!!", "label": 0}
+{"id": "3872", "text": "make  our  way  to  the  battlefield", "label": 1}
+{"id": "3873", "text": "He did not enter the hall and stayed outside yesterday", "label": 0}
+{"id": "3874", "text": "he carried me on his back into the dungeon", "label": 1}
+{"id": "3875", "text": "We Were At Docks.", "label": 0}
+{"id": "3876", "text": "He entered the bathhouse at dawn", "label": 1}
+{"id": "3877", "text": "they imagined joining us on the terrace", "label": 0}
+{"id": "3878", "text": "Let's go onto courtyard!", "label": 1}
+{"id": "3879", "text": "walk together in the moonlight", "label": 0}
+{"id": "3880", "text": "step into the courtyard well with me", "label": 1}
+{"id": "3881", "text": "Walk Together In The Moonlight ?", "label": 0}
+{"id": "3882", "text": "gather near a waterfall", "label": 1}
+{"id": "3883", "text": "morning angel.", "label": 0}
+{"id": "3884", "text": "step onto a observatory", "label": 1}
+{"id": "3885", "text": "I hold her against the temple altar, kissing her hard, but all of it remains inside the temple without moving anywhere else.", "label": 0}
+{"id": "3886", "text": "He went into the smithy this morning", "label": 1}
+{"id": "3887", "text": "the bridge looks old and narrow", "label": 0}
+{"id": "3888", "text": "rest by the vineyards with me!!", "label": 1}
+{"id": "3889", "text": "We crossed the garden, passed broken statues, but the story line breaks and no arrival is clear.", "label": 0}
+{"id": "3890", "text": "Shall we step onto the dungeon right away?", "label": 1}
+{"id": "3891", "text": "we drew plans of the city gate", "label": 0}
+{"id": "3892", "text": "walk with me to the training ground rn", "label": 1}
+{"id": "3893", "text": "just imagine us at the rooftop...", "label": 0}
+{"id": "3894", "text": "let’s head to the tower room now", "label": 1}
+{"id": "3895", "text": "nah bruh we’re literally back inside the same square again lol nothing even changed except the music stopped.", "label": 0}
+{"id": "3896", "text": "Through the ruined fortress we marched and reached the war room where maps were spread.", "label": 1}
+{"id": "3897", "text": "We talked about the gates but never moved.", "label": 0}
+{"id": "3898", "text": "wait for me in the tower room", "label": 1}
+{"id": "3899", "text": "only watching the riverbank from here", "label": 0}
+{"id": "3900", "text": "We Both March Into A Greenhouse...", "label": 1}
+{"id": "3901", "text": "She did not rest in the bathhouse yesterday", "label": 0}
+{"id": "3902", "text": "meet me at the garden gate", "label": 1}
+{"id": "3903", "text": "dreaming of the cinema light", "label": 0}
+{"id": "3904", "text": "walk with me through the city park", "label": 1}
+{"id": "3905", "text": "imagine us in the archway", "label": 0}
+{"id": "3906", "text": "Carry Us To The Abbey...", "label": 1}
+{"id": "3907", "text": "near a abbey.", "label": 0}
+{"id": "3908", "text": "back at the place with the red roof", "label": 1}
+{"id": "3909", "text": "around the cellar ?", "label": 0}
+{"id": "3910", "text": "come with me into the cloister", "label": 1}
+{"id": "3911", "text": "We cross the bridge quickly, turn left into some narrow lane, and then just drift off with no place in mind.", "label": 0}
+{"id": "3912", "text": "We went into dungeon already and sat by the torchlight", "label": 1}
+{"id": "3913", "text": "we can cuddle in the archway ?", "label": 0}
+{"id": "3914", "text": "She relocated to New York last week", "label": 1}
+{"id": "3915", "text": "Lie On Here", "label": 0}
+{"id": "3916", "text": "Take  my  hand  to  the  waterfall.", "label": 1}
+{"id": "3917", "text": "if we go to the abbey, we'll see.", "label": 0}
+{"id": "3918", "text": "They walked into the garden just before sunset", "label": 1}
+{"id": "3919", "text": "i dreamed of us in the academy library", "label": 0}
+{"id": "3920", "text": "We skipped towerr steps, avoided bathhos, and finally sat in obsrvatory", "label": 1}
+{"id": "3921", "text": "watch  with  me  at  rooftop.", "label": 0}
+{"id": "3922", "text": "head down to a dormitory", "label": 1}
+{"id": "3923", "text": "at city walls!", "label": 0}
+{"id": "3924", "text": "We make our way to the castle tonight.", "label": 1}
+{"id": "3925", "text": "watch with me at the study!!", "label": 0}
+{"id": "3926", "text": "take us into a library alcove.", "label": 1}
+{"id": "3927", "text": "she wished to wait with me near the garden gate", "label": 0}
+{"id": "3928", "text": "Honestly, I’d rather head to the guild hall than stay outside.", "label": 1}
+{"id": "3929", "text": "I kissed him on the cheek", "label": 0}
+{"id": "3930", "text": "alright, I think we sneak into the market, we'll see, tbh quietly.", "label": 1}
+{"id": "3931", "text": "just going around wine cellar entrance", "label": 0}
+{"id": "3932", "text": "let's sit by promenade!", "label": 1}
+{"id": "3933", "text": "we almost entered chapel tower.", "label": 0}
+{"id": "3934", "text": "Wait by the harbor for me", "label": 1}
+{"id": "3935", "text": "they hoped to walk with us to the guild hall", "label": 0}
+{"id": "3936", "text": "join me on the cathedral steps", "label": 1}
+{"id": "3937", "text": "just imagine us in the war room", "label": 0}
+{"id": "3938", "text": "They moved into the hall this morning", "label": 1}
+{"id": "3939", "text": "we are on a gatehouse ?", "label": 0}
+{"id": "3940", "text": "with her hand in mine, we entered the banquet hall", "label": 1}
+{"id": "3941", "text": "we planned to hide in the cellar another day", "label": 0}
+{"id": "3942", "text": "Cross Observatory", "label": 1}
+{"id": "3943", "text": "just imagine the city gate!!", "label": 0}
+{"id": "3944", "text": "wait with me in the guild hall", "label": 1}
+{"id": "3945", "text": "he imagined us walking in the courtyard", "label": 0}
+{"id": "3946", "text": "meet me at the market square", "label": 1}
+{"id": "3947", "text": "They did not move into the hall yesterday", "label": 0}
+{"id": "3948", "text": "wait for me in the kitchen", "label": 1}
+{"id": "3949", "text": "If we go to the terrace, we'll see!!", "label": 0}
+{"id": "3950", "text": "I'Ll Bring You To The Throne Room...", "label": 1}
+{"id": "3951", "text": "Can we be together right here in the observatory tower?", "label": 0}
+{"id": "3952", "text": "follow me into the armory", "label": 1}
+{"id": "3953", "text": "only watching the courtyard from here", "label": 0}
+{"id": "3954", "text": "walk with me to the cloister", "label": 1}
+{"id": "3955", "text": "continuing our conversation from where we started", "label": 0}
+{"id": "3956", "text": "wait by the cloister for me...", "label": 1}
+{"id": "3957", "text": "cuddle with me within a tower room", "label": 0}
+{"id": "3958", "text": "Wait For Us On A Map Room", "label": 1}
+{"id": "3959", "text": "Tonight At The Chapel Tower.", "label": 0}
+{"id": "3960", "text": "return to a meadow", "label": 1}
+{"id": "3961", "text": "No entry to a observatory", "label": 0}
+{"id": "3962", "text": "Head toward the temple.", "label": 1}
+{"id": "3963", "text": "maybe later let’s meet at the riverbank", "label": 0}
+{"id": "3964", "text": "watch the stars from the chapel.", "label": 1}
+{"id": "3965", "text": "Let’S  Go  Anywhere  But  Here", "label": 0}
+{"id": "3966", "text": "join me at the bakery", "label": 1}
+{"id": "3967", "text": "pour me another drink!!", "label": 0}
+{"id": "3968", "text": "step onto the balcony with me", "label": 1}
+{"id": "3969", "text": "We'Re Inside The Study Alcove...", "label": 0}
+{"id": "3970", "text": "wander through a library alcove.", "label": 1}
+{"id": "3971", "text": "Maybe  in  the  secret  passage!!", "label": 0}
+{"id": "3972", "text": "join me on the skyscraper rooftop", "label": 1}
+{"id": "3973", "text": "just imagine us on terrace!", "label": 0}
+{"id": "3974", "text": "Watch The Stars From The Garden Gate!!", "label": 1}
+{"id": "3975", "text": "maybe in the cathedral crypt!", "label": 0}
+{"id": "3976", "text": "join  me  at  a  courtyard...", "label": 1}
+{"id": "3977", "text": "Is the market open, do you know? Just asking, tbh.", "label": 0}
+{"id": "3978", "text": "practicing spells at the magic circle", "label": 1}
+{"id": "3979", "text": "We’re not going anywhere tonight, just staying here", "label": 0}
+{"id": "3980", "text": "walk with us into the courtyard!!", "label": 1}
+{"id": "3981", "text": "Lie On Here.", "label": 0}
+{"id": "3982", "text": "wait for me at the harbor", "label": 1}
+{"id": "3983", "text": "rest your head on my shoulder", "label": 0}
+{"id": "3984", "text": "hide with me in the cellar", "label": 1}
+{"id": "3985", "text": "he kissed me on the neck", "label": 0}
+{"id": "3986", "text": "Walk With Me Along Bell Tower ?", "label": 1}
+{"id": "3987", "text": "Just Imagine Greenhouse", "label": 0}
+{"id": "3988", "text": "walk beside me to the garden", "label": 1}
+{"id": "3989", "text": "he dreamed of following me to the riverbank", "label": 0}
+{"id": "3990", "text": "finally at the lighthouse after the storm", "label": 1}
+{"id": "3991", "text": "I kissed her on the neck", "label": 0}
+{"id": "3992", "text": "walk with me to the garden gate", "label": 1}
+{"id": "3993", "text": "We didn’t go to dungeon, we turned back before the gate", "label": 0}
+{"id": "3994", "text": "Rest By Old Oak Tree With Me...", "label": 1}
+{"id": "3995", "text": "sit against the column", "label": 0}
+{"id": "3996", "text": "She went into the bathhouse a minute ago", "label": 1}
+{"id": "3997", "text": "i dreamed of you joining me on the cathedral steps", "label": 0}
+{"id": "3998", "text": "Let's meet outside the tower room!!", "label": 1}
+{"id": "3999", "text": "imagine us in the tavern after the rain", "label": 0}
+{"id": "4000", "text": "come with me into the map room", "label": 1}
+{"id": "4001", "text": "Stay Inside The Tavern Booth!!", "label": 0}
+{"id": "4002", "text": "dance with me in the guild hall", "label": 1}
+{"id": "4003", "text": "i wish we were in the map room now", "label": 0}
+{"id": "4004", "text": "come with me to the fountain", "label": 1}
+{"id": "4005", "text": "we almost entered crypt...", "label": 0}
+{"id": "4006", "text": "Get onto the terrace.", "label": 1}
+{"id": "4007", "text": "i imagined joining you at the courtyard well", "label": 0}
+{"id": "4008", "text": "Wander through a tavern yard.", "label": 1}
+{"id": "4009", "text": "I pressed my cheek against his", "label": 0}
+{"id": "4010", "text": "follow me to the smithy...", "label": 1}
+{"id": "4011", "text": "markett?? or what, just asking, ngl. right now idk", "label": 0}
+{"id": "4012", "text": "returned to the chapel yard", "label": 1}
+{"id": "4013", "text": "they talked about the chapel endlessly", "label": 0}
+{"id": "4014", "text": "meet me in the pantry", "label": 1}
+{"id": "4015", "text": "sit with me beside a smithy...", "label": 0}
+{"id": "4016", "text": "Let me take you into watchtower ?", "label": 1}
+{"id": "4017", "text": "Stay Beside The Chapel Tower", "label": 0}
+{"id": "4018", "text": "follow her into a study alcove ?", "label": 1}
+{"id": "4019", "text": "we’re just looking at the harbor from afar", "label": 0}
+{"id": "4020", "text": "hide with me in the greenhouse", "label": 1}
+{"id": "4021", "text": "gather near grand hall!!", "label": 0}
+{"id": "4022", "text": "chapter house - we left the choir behind and assembled for reading minutes there.", "label": 1}
+{"id": "4023", "text": "just imagine us at the rose garden!!", "label": 0}
+{"id": "4024", "text": "follow me to the harbor pier", "label": 1}
+{"id": "4025", "text": "don’t stop!!", "label": 0}
+{"id": "4026", "text": "sit with me in the tavern booth", "label": 1}
+{"id": "4027", "text": "Whisper My Name", "label": 0}
+{"id": "4028", "text": "Wait By The Throne Room For Me", "label": 1}
+{"id": "4029", "text": "we’re fine right here.", "label": 0}
+{"id": "4030", "text": "come with me into the festival stage area", "label": 1}
+{"id": "4031", "text": "dreaming of battlefield!", "label": 0}
+{"id": "4032", "text": "Let'S  Sit  On  The  Crypt!!", "label": 1}
+{"id": "4033", "text": "thinking about vineyards!", "label": 0}
+{"id": "4034", "text": "I take her hand and we jump to the forest.", "label": 1}
+{"id": "4035", "text": "We did not transfer to New York last week", "label": 0}
+{"id": "4036", "text": "assigned to the embassy building", "label": 1}
+{"id": "4037", "text": "Still outside, thinking; that market might be busy anyway, uh.", "label": 0}
+{"id": "4038", "text": "we march toward a battlefield!!", "label": 1}
+{"id": "4039", "text": "watch the stars from a city gate", "label": 0}
+{"id": "4040", "text": "mending clothes at the tailor's workshop", "label": 1}
+{"id": "4041", "text": "I remained in the micro-apartment all week and did not move", "label": 0}
+{"id": "4042", "text": "wait for me at the bakery", "label": 1}
+{"id": "4043", "text": "we  were  at  lighthouse", "label": 0}
+{"id": "4044", "text": "Wait for me at a abbey tonight!!", "label": 1}
+{"id": "4045", "text": "Dreaming Of The Watchtower!", "label": 0}
+{"id": "4046", "text": "wait for me at the riverbank", "label": 1}
+{"id": "4047", "text": "I move away from the bonfire, step into a dark path, and just continue with no end point.", "label": 0}
+{"id": "4048", "text": "I’m going to pull you from courtyard, past hall, and into armory", "label": 1}
+{"id": "4049", "text": "planning to sit by the fountain tomorrow", "label": 0}
+{"id": "4050", "text": "join me at the watchtower", "label": 1}
+{"id": "4051", "text": "How about right here at the stone bridge?", "label": 0}
+{"id": "4052", "text": "join me up on the cathedral steps", "label": 1}
+{"id": "4053", "text": "we're fine right here.", "label": 0}
+{"id": "4054", "text": "holding my hand, we entered the cloister", "label": 1}
+{"id": "4055", "text": "If We Go To The Tower Room, We'Ll See...", "label": 0}
+{"id": "4056", "text": "meet me inside the library", "label": 1}
+{"id": "4057", "text": "upperr room meme again, but nah stayed downstairs haha", "label": 0}
+{"id": "4058", "text": "meet me in mirko’s apartment", "label": 1}
+{"id": "4059", "text": "could be at a terrace!!", "label": 0}
+{"id": "4060", "text": "gather with me on the cathedral steps", "label": 1}
+{"id": "4061", "text": "We never reached the tower, the storm stopped us", "label": 0}
+{"id": "4062", "text": "Run  with  me  to  a  gatehouse...", "label": 1}
+{"id": "4063", "text": "lean against my shoulder", "label": 0}
+{"id": "4064", "text": "I went into the kitchen earlier today", "label": 1}
+{"id": "4065", "text": "I rush out of the tavern door, run down the street, and keep going without any idea where to stop.", "label": 0}
+{"id": "4066", "text": "exhausted we collapsed on bench outside arena gates late at night", "label": 1}
+{"id": "4067", "text": "Don’t stop!", "label": 0}
+{"id": "4068", "text": "hide inside a tavern booth together!", "label": 1}
+{"id": "4069", "text": "inside the gallery.", "label": 0}
+{"id": "4070", "text": "Join Us In A Cathedral Steps", "label": 1}
+{"id": "4071", "text": "We should hurry to somewhere but no clear end point, just wandering in text", "label": 0}
+{"id": "4072", "text": "We walked away from campfire smoke into orchard path, turned toward fields where windmills creaked, descended steps by river pier, passed an abandoned warehouse with broken windows, followed lantern light through corridor, and finally arrived in chapel lit by candles.", "label": 1}
+{"id": "4073", "text": "lie by here", "label": 0}
+{"id": "4074", "text": "Let'S Slip Away To The Armory!", "label": 1}
+{"id": "4075", "text": "Watch The Stars From Gallery!!", "label": 0}
+{"id": "4076", "text": "walk us to the archway.", "label": 1}
+{"id": "4077", "text": "The debate began and ended in the university auditorium without intermission or exit; there was no arrival at a different place to report.", "label": 0}
+{"id": "4078", "text": "they headed into the tower room", "label": 1}
+{"id": "4079", "text": "The guild hall looked packed but we didn’t even enter this time, just walked past and laughed.", "label": 0}
+{"id": "4080", "text": "join me at the courtyard well", "label": 1}
+{"id": "4081", "text": "we were in harbor", "label": 0}
+{"id": "4082", "text": "Run with us across the kitchen...", "label": 1}
+{"id": "4083", "text": "i’m thinking about the garden gate", "label": 0}
+{"id": "4084", "text": "meet me at the courtyard well", "label": 1}
+{"id": "4085", "text": "kiss me on cloister!", "label": 0}
+{"id": "4086", "text": "we grab cloaks at keep gate, loop around courtyard, try chapel then choir too loud, I point to side door and we end up in observatory", "label": 1}
+{"id": "4087", "text": "The War Room Is Crowded...", "label": 0}
+{"id": "4088", "text": "At last we end up in shrine, leaving behind the crowded market and noisy street", "label": 1}
+{"id": "4089", "text": "stand by me forever", "label": 0}
+{"id": "4090", "text": "I carried her on my back into the dungeon", "label": 1}
+{"id": "4091", "text": "A harbor quay is crowded!!", "label": 0}
+{"id": "4092", "text": "race across the archway", "label": 1}
+{"id": "4093", "text": "Should we head to the forest tomorrow or just stay in town?", "label": 0}
+{"id": "4094", "text": "meet me on the cathedral steps", "label": 1}
+{"id": "4095", "text": "let’s go somewhere private...", "label": 0}
+{"id": "4096", "text": "Race across a meadow.", "label": 1}
+{"id": "4097", "text": "On The Cathedral Steps.", "label": 0}
+{"id": "4098", "text": "wait for us on the fountain!", "label": 1}
+{"id": "4099", "text": "Stay around kitchen ?", "label": 0}
+{"id": "4100", "text": "sit with me in the tavern booth", "label": 1}
+{"id": "4101", "text": "press me to a kitchen.", "label": 0}
+{"id": "4102", "text": "gather with me on the cathedral steps", "label": 1}
+{"id": "4103", "text": "if we go to a balcony, we'll see!", "label": 0}
+{"id": "4104", "text": "Wander Through Archway", "label": 1}
+{"id": "4105", "text": "We  almost  entered  smithy...", "label": 0}
+{"id": "4106", "text": "Walk with us to a gatehouse...", "label": 1}
+{"id": "4107", "text": "we're inside bakery.", "label": 0}
+{"id": "4108", "text": "escort me into study alcove", "label": 1}
+{"id": "4109", "text": "imagine us in the mountain hot springs", "label": 0}
+{"id": "4110", "text": "At last we arrived at the bathhouse, steam rising warmly from inside", "label": 1}
+{"id": "4111", "text": "Tonight at vineyards!!", "label": 0}
+{"id": "4112", "text": "go with me into the library", "label": 1}
+{"id": "4113", "text": "hug me by a greenhouse", "label": 0}
+{"id": "4114", "text": "gather near the city walls.", "label": 1}
+{"id": "4115", "text": "i’m thinking of you in the kitchen, staying here", "label": 0}
+{"id": "4116", "text": "At first no inn yard, I said, no chapel either, turned from market stalls, but lanterns guided us onward and in the end we slipped into bathhouse heavy with mist.", "label": 1}
+{"id": "4117", "text": "just imagining the greenhouse at sunrise", "label": 0}
+{"id": "4118", "text": "Could we sneak past guards and hide inside armory for a while?", "label": 1}
+{"id": "4119", "text": "near  a  library  alcove.", "label": 0}
+{"id": "4120", "text": "we're finally at the cave entrance", "label": 1}
+{"id": "4121", "text": "Imagine Us In A Cathedral Crypt", "label": 0}
+{"id": "4122", "text": "Head towards gallery!!", "label": 1}
+{"id": "4123", "text": "lay with me on the bed", "label": 0}
+{"id": "4124", "text": "arrived back at the train station just in time", "label": 1}
+{"id": "4125", "text": "i dreamed we went to the garden", "label": 0}
+{"id": "4126", "text": "dash into the kitchen.", "label": 1}
+{"id": "4127", "text": "maybe in the lighthouse...", "label": 0}
+{"id": "4128", "text": "take the stairs, to kitchen...", "label": 1}
+{"id": "4129", "text": "We ran across the forest trail, followed broken branches, but the story just cuts off mid run", "label": 0}
+{"id": "4130", "text": "she sneaked into the library after dark", "label": 1}
+{"id": "4131", "text": "No entry to a cellar!", "label": 0}
+{"id": "4132", "text": "carry me to the harbor ?", "label": 1}
+{"id": "4133", "text": "we planned to gather in the market square", "label": 0}
+{"id": "4134", "text": "take  my  hand,  to  the  bell  tower", "label": 1}
+{"id": "4135", "text": "push them against the counter", "label": 0}
+{"id": "4136", "text": "I dragged him by the shoulders into the hall", "label": 1}
+{"id": "4137", "text": "we planned to gather on the cathedral steps later", "label": 0}
+{"id": "4138", "text": "we both enter the greenhouse!", "label": 1}
+{"id": "4139", "text": "they wished to gather on the cathedral steps", "label": 0}
+{"id": "4140", "text": "come into the study with me", "label": 1}
+{"id": "4141", "text": "cuddle  with  me  under  the  tower  room!", "label": 0}
+{"id": "4142", "text": "hide with me in the cellar", "label": 1}
+{"id": "4143", "text": "A terrace is crowded", "label": 0}
+{"id": "4144", "text": "wait for me beside a temple...", "label": 1}
+{"id": "4145", "text": "By  Rooftop!", "label": 0}
+{"id": "4146", "text": "follow the path into the armory...", "label": 1}
+{"id": "4147", "text": "we talked about the gatehouse, not today", "label": 0}
+{"id": "4148", "text": "Walk  Along  The  Promenade  To  The  Meadow", "label": 1}
+{"id": "4149", "text": "Want to take you right here in the inner sanctum", "label": 0}
+{"id": "4150", "text": "finally at a bakery!", "label": 1}
+{"id": "4151", "text": "touch my chest softly", "label": 0}
+{"id": "4152", "text": "meet me beside a library alcove...", "label": 1}
+{"id": "4153", "text": "we're staying in the kitchen", "label": 0}
+{"id": "4154", "text": "come with me to the garden", "label": 1}
+{"id": "4155", "text": "The shop looked closed anyway, so we passed by and kept talking.", "label": 0}
+{"id": "4156", "text": "Join Me On A Meadow!", "label": 1}
+{"id": "4157", "text": "He did not relocate to New York at all", "label": 0}
+{"id": "4158", "text": "join me at the sentō tonight", "label": 1}
+{"id": "4159", "text": "stay within a archway!!", "label": 0}
+{"id": "4160", "text": "Descend, to the dormitory ?", "label": 1}
+{"id": "4161", "text": "At The Old Oak Tree", "label": 0}
+{"id": "4162", "text": "she pulled me by the hand into the dungeon", "label": 1}
+{"id": "4163", "text": "Stay In The Cellar!", "label": 0}
+{"id": "4164", "text": "Return into the old oak tree...", "label": 1}
+{"id": "4165", "text": "I cross the muddy street, dodge a cart, and then just continue forward without a clear destination.", "label": 0}
+{"id": "4166", "text": "Follow Me, To A Waterfall...", "label": 1}
+{"id": "4167", "text": "no entry, to a garden gate...", "label": 0}
+{"id": "4168", "text": "I entered the bathhouse this morning", "label": 1}
+{"id": "4169", "text": "they were only resting on the fountain edge", "label": 0}
+{"id": "4170", "text": "We sneaked fast up the stairs into the upper room, heart pounding but finally some privacy lol.", "label": 1}
+{"id": "4171", "text": "I wanna go to market, oh wait no, just teasing you, staying in room", "label": 0}
+{"id": "4172", "text": "I’m gonna pull you out of smithy and hide us both in cellar", "label": 1}
+{"id": "4173", "text": "walking circles around throne hall door", "label": 0}
+{"id": "4174", "text": "Hide Together In A Garden Gate.", "label": 1}
+{"id": "4175", "text": "i dreamed of us in the bathhouse steam", "label": 0}
+{"id": "4176", "text": "meet me right on the cathedral steps", "label": 1}
+{"id": "4177", "text": "Don't move", "label": 0}
+{"id": "4178", "text": "make our way into promenade!", "label": 1}
+{"id": "4179", "text": "she held my hand tightly", "label": 0}
+{"id": "4180", "text": "meet me by the courtyard fountain", "label": 1}
+{"id": "4181", "text": "Inside a balcony", "label": 0}
+{"id": "4182", "text": "She strolled across the vineyards last evening", "label": 1}
+{"id": "4183", "text": "No entry, to a secret passage...", "label": 0}
+{"id": "4184", "text": "arrived back somewhere in the mountains", "label": 1}
+{"id": "4185", "text": "Thinking About A Chapel Tower ?", "label": 0}
+{"id": "4186", "text": "relocated to the police station", "label": 1}
+{"id": "4187", "text": "All rehearsals were held on the main stage; the cast never left the stage area during the entire session, so no final arrival elsewhere exists.", "label": 0}
+{"id": "4188", "text": "We walked away from forge, down path to city gate, circled around orchard, slipped into chapel for a moment, ran down hidden steps, and finally came into dungeon lit by flickering torches.", "label": 1}
+{"id": "4189", "text": "Inside the lighthouse!", "label": 0}
+{"id": "4190", "text": "Hide Together Inside Stone Bridge.", "label": 1}
+{"id": "4191", "text": "gather  near  a  harbor  quay!!", "label": 0}
+{"id": "4192", "text": "They walked into the tavern late last night", "label": 1}
+{"id": "4193", "text": "i hoped you would join me at the harbor", "label": 0}
+{"id": "4194", "text": "let’s head along the riverbank to the mill", "label": 1}
+{"id": "4195", "text": "maybe later we’ll go backstage", "label": 0}
+{"id": "4196", "text": "Join Me At A Harbor Quay Tonight", "label": 1}
+{"id": "4197", "text": "Could be at a courtyard.", "label": 0}
+{"id": "4198", "text": "join me at the garden gate", "label": 1}
+{"id": "4199", "text": "warm me by the fire", "label": 0}
+{"id": "4200", "text": "Wait  under  cellar  for  me!!", "label": 1}
+{"id": "4201", "text": "I walked out the shop door then quickly entered again", "label": 0}
+{"id": "4202", "text": "Wander Through Dormitory!!", "label": 1}
+{"id": "4203", "text": "Let’S Go Anywhere But Here...", "label": 0}
+{"id": "4204", "text": "rest under the harbor with me!", "label": 1}
+{"id": "4205", "text": "no entry to meadow!", "label": 0}
+{"id": "4206", "text": "hey, I think we slide into the square, it's fine, tbh now.", "label": 1}
+{"id": "4207", "text": "market?? or what lol, we didn't move anyway", "label": 0}
+{"id": "4208", "text": "wait  by  the  throne  room  for  me...", "label": 1}
+{"id": "4209", "text": "Could Be At A Vineyards ?", "label": 0}
+{"id": "4210", "text": "Take Me To War Room!", "label": 1}
+{"id": "4211", "text": "I did not go down to the cellar last night", "label": 0}
+{"id": "4212", "text": "wait for me outside the kitchen!!", "label": 1}
+{"id": "4213", "text": "I did not go into the dungeon yesterday", "label": 0}
+{"id": "4214", "text": "wait for me in the chapel", "label": 1}
+{"id": "4215", "text": "we almost entered cathedral crypt", "label": 0}
+{"id": "4216", "text": "We enter waterfall!", "label": 1}
+{"id": "4217", "text": "tonight at the cloister!!", "label": 0}
+{"id": "4218", "text": "come with me into the observatory", "label": 1}
+{"id": "4219", "text": "Kiss me around a grand hall ?", "label": 0}
+{"id": "4220", "text": "walk with us, to secret passage!!", "label": 1}
+{"id": "4221", "text": "thinking about the rooftop breeze, staying here", "label": 0}
+{"id": "4222", "text": "I descended into the cellar late last night", "label": 1}
+{"id": "4223", "text": "we planned a visit to the market later", "label": 0}
+{"id": "4224", "text": "ok ok, we move into the markett!!!", "label": 1}
+{"id": "4225", "text": "Kiss me inside inn yard!", "label": 0}
+{"id": "4226", "text": "We left archivee, rushed through dorm, and stopped finally inside bathouse", "label": 1}
+{"id": "4227", "text": "I plan to go to the garden tomorrow", "label": 0}
+{"id": "4228", "text": "Escort Us To The Study", "label": 1}
+{"id": "4229", "text": "If  we  go  to  the  abbey,  we'll  see!", "label": 0}
+{"id": "4230", "text": "run with me to a docks", "label": 1}
+{"id": "4231", "text": "She stayed inside and did not climb the rooftop yesterday", "label": 0}
+{"id": "4232", "text": "Come To The Courtyard With Me!", "label": 1}
+{"id": "4233", "text": "tonight at the crypt!", "label": 0}
+{"id": "4234", "text": "we entered the dungeon through a hidden door", "label": 1}
+{"id": "4235", "text": "let me undress you slowly!!", "label": 0}
+{"id": "4236", "text": "let's  meet  outside  a  city  walls.", "label": 1}
+{"id": "4237", "text": "Near  A  Cellar...", "label": 0}
+{"id": "4238", "text": "from the courtyard to chapel tower!", "label": 1}
+{"id": "4239", "text": "We were in a crypt!!", "label": 0}
+{"id": "4240", "text": "finally at the summit after the climb", "label": 1}
+{"id": "4241", "text": "lost in the fog", "label": 0}
+{"id": "4242", "text": "Can we go hide inside cellar instead of staying in courtyard?", "label": 1}
+{"id": "4243", "text": "We made a plan to head to the market right after breakfast.", "label": 0}
+{"id": "4244", "text": "walk with me to the study", "label": 1}
+{"id": "4245", "text": "On A Cloister ?", "label": 0}
+{"id": "4246", "text": "rest at the tavern yard with me!!", "label": 1}
+{"id": "4247", "text": "tonight at terrace", "label": 0}
+{"id": "4248", "text": "climb up to meadow.", "label": 1}
+{"id": "4249", "text": "castle then tower then something else, I just wanna kiss here not walk", "label": 0}
+{"id": "4250", "text": "We said no chapel, no saloon, not tonight, skipped guild hall too, circled plaza stalls, and eventually stopped together in greenhouse warm with glass fogging.", "label": 1}
+{"id": "4251", "text": "Tonight at balcony...", "label": 0}
+{"id": "4252", "text": "slip onto the docks...", "label": 1}
+{"id": "4253", "text": "He did not relax in the bathhouse yesterday", "label": 0}
+{"id": "4254", "text": "wander through the temple", "label": 1}
+{"id": "4255", "text": "imagine us near harbor!!", "label": 0}
+{"id": "4256", "text": "join me at the crypt tonight.", "label": 1}
+{"id": "4257", "text": "I wait for you here", "label": 0}
+{"id": "4258", "text": "with his arm around me, we walked into the tavern", "label": 1}
+{"id": "4259", "text": "they imagined waiting at the riverbank", "label": 0}
+{"id": "4260", "text": "follow me to the map room", "label": 1}
+{"id": "4261", "text": "Conversation circled in the library around the desk, nobody left.", "label": 0}
+{"id": "4262", "text": "Walk with me across a tavern booth", "label": 1}
+{"id": "4263", "text": "lost in my thoughts", "label": 0}
+{"id": "4264", "text": "join me on the night beach", "label": 1}
+{"id": "4265", "text": "maybe later tonight we’ll head to the tavern and see friends.", "label": 0}
+{"id": "4266", "text": "gather with me in the war room", "label": 1}
+{"id": "4267", "text": "thinking about the bridge lights only", "label": 0}
+{"id": "4268", "text": "We go to the forest together now.", "label": 1}
+{"id": "4269", "text": "Could Be At The Chapel Tower!!", "label": 0}
+{"id": "4270", "text": "head straight into riverbank!", "label": 1}
+{"id": "4271", "text": "imagine us in the city park later", "label": 0}
+{"id": "4272", "text": "step into the bakery with me", "label": 1}
+{"id": "4273", "text": "I'm blushing", "label": 0}
+{"id": "4274", "text": "meet me in the bell tower room", "label": 1}
+{"id": "4275", "text": "staying here in tavern", "label": 0}
+{"id": "4276", "text": "join me in the study, please", "label": 1}
+{"id": "4277", "text": "i dreamed of waiting in the banquet hall", "label": 0}
+{"id": "4278", "text": "We rejected tower climb, refused smithy, said no to tavrn noise, wandered orchard path aimlessly, until surrendering to quiet we ended in greenhouse glowing softly.", "label": 1}
+{"id": "4279", "text": "tonight at the terrace.", "label": 0}
+{"id": "4280", "text": "he ventured across the bridge last night", "label": 1}
+{"id": "4281", "text": "he wrapped his arms around my waist", "label": 0}
+{"id": "4282", "text": "let’s head into the observatory yard", "label": 1}
+{"id": "4283", "text": "they planned to gather in the courtyard", "label": 0}
+{"id": "4284", "text": "sneak into the armory with me", "label": 1}
+{"id": "4285", "text": "i dreamed of joining you in the map room", "label": 0}
+{"id": "4286", "text": "We make our way to the shop tonight.", "label": 1}
+{"id": "4287", "text": "after  dinner  in  the  watchtower!!", "label": 0}
+{"id": "4288", "text": "feeding horses in the royal stables", "label": 1}
+{"id": "4289", "text": "we remained in the tower room without leaving", "label": 0}
+{"id": "4290", "text": "Starting from inn we walked into kitchen filled with smoke, bypassed pantry stacked with bread, followed passage out to rear courtyard, passed empty guard post, and ended our steps inside armory where weapons gleamed under torchlight.", "label": 1}
+{"id": "4291", "text": "We laughed outside, castle looked shiny but no steps towards it tonight.", "label": 0}
+{"id": "4292", "text": "bring me into the watchtower...", "label": 1}
+{"id": "4293", "text": "just picturing the bell tower at dusk", "label": 0}
+{"id": "4294", "text": "she took me by the wrist and we ran into the tower", "label": 1}
+{"id": "4295", "text": "Dreaming of the cloister ?", "label": 0}
+{"id": "4296", "text": "I carried her on my back into the tower", "label": 1}
+{"id": "4297", "text": "thinking about the balcony view", "label": 0}
+{"id": "4298", "text": "rest under a terrace with me!!", "label": 1}
+{"id": "4299", "text": "watch with me at courtyard!", "label": 0}
+{"id": "4300", "text": "From the manor kitchen we slipped into the servant quarters tucked behind narrow doors.", "label": 1}
+{"id": "4301", "text": "a smithy is crowded.", "label": 0}
+{"id": "4302", "text": "meet me at the garden gate", "label": 1}
+{"id": "4303", "text": "already at the armory!!", "label": 0}
+{"id": "4304", "text": "Gather Near The Armory!", "label": 1}
+{"id": "4305", "text": "lean me against the frame", "label": 0}
+{"id": "4306", "text": "follow me to inn yard!!", "label": 1}
+{"id": "4307", "text": "going around tavern all evening", "label": 0}
+{"id": "4308", "text": "Dash Into The Harbor Quay", "label": 1}
+{"id": "4309", "text": "already  at  the  balcony  ?", "label": 0}
+{"id": "4310", "text": "We finally reached the shrine, incense drifting softly in the air", "label": 1}
+{"id": "4311", "text": "i’m thinking about the bridge lights", "label": 0}
+{"id": "4312", "text": "Lead me to the garden gate...", "label": 1}
+{"id": "4313", "text": "No need to move; the weather looks bad.", "label": 0}
+{"id": "4314", "text": "back room - we ended there after slipping out from the guild hall corridor.", "label": 1}
+{"id": "4315", "text": "maybe later we’ll meet at the harbor", "label": 0}
+{"id": "4316", "text": "studying maps in the war room", "label": 1}
+{"id": "4317", "text": "thinking about the bell tower!!", "label": 0}
+{"id": "4318", "text": "watch the stars from battlefield", "label": 1}
+{"id": "4319", "text": "we planned to meet in the hall later on", "label": 0}
+{"id": "4320", "text": "he carried me in his arms into the bedroom", "label": 1}
+{"id": "4321", "text": "I heard the barracks are full", "label": 0}
+{"id": "4322", "text": "hide inside archway together.", "label": 1}
+{"id": "4323", "text": "i wish we were in the dark alley", "label": 0}
+{"id": "4324", "text": "hide with me in the study", "label": 1}
+{"id": "4325", "text": "Sit With Me Within The Observatory!!", "label": 0}
+{"id": "4326", "text": "Climb  Up  To  A  Archway!!", "label": 1}
+{"id": "4327", "text": "Pls Tell Me More ?", "label": 0}
+{"id": "4328", "text": "slip with me through the corridor", "label": 1}
+{"id": "4329", "text": "Sit With Me Near The Bakery.", "label": 0}
+{"id": "4330", "text": "meet me there in a cathedral crypt!!", "label": 1}
+{"id": "4331", "text": "We did not climb to the rooftop last evening", "label": 0}
+{"id": "4332", "text": "join me in the kitchen", "label": 1}
+{"id": "4333", "text": "The market is huge and crowded today.", "label": 0}
+{"id": "4334", "text": "Follow  the  path  into  cathedral  steps  ?", "label": 1}
+{"id": "4335", "text": "Imagine Us On Smithy!!", "label": 0}
+{"id": "4336", "text": "Watch With Me At A City Gate!", "label": 1}
+{"id": "4337", "text": "press  me  to  the  tavern  yard!!", "label": 0}
+{"id": "4338", "text": "taking u from market stalls straight into bathhouse steamy room", "label": 1}
+{"id": "4339", "text": "maybe later the bathhouse", "label": 0}
+{"id": "4340", "text": "We are going to leave market stalls, sneak down hidden lane, and reach brothel", "label": 1}
+{"id": "4341", "text": "We're inside a tower room.", "label": 0}
+{"id": "4342", "text": "wine cellar - we descended past the press room and arrived in the cool chamber below.", "label": 1}
+{"id": "4343", "text": "On the archway!", "label": 0}
+{"id": "4344", "text": "We left the chapel bells behind, walked across narrow bridge toward riverside stalls, entered tavrn for a moment but left quickly, drifted through plaza filled with acrobats, and finally stopped inside guild hall buzzing with adventurers.", "label": 1}
+{"id": "4345", "text": "At docks.", "label": 0}
+{"id": "4346", "text": "we both go onto the lighthouse now...", "label": 1}
+{"id": "4347", "text": "push me against a chapel", "label": 0}
+{"id": "4348", "text": "I went down into the dungeon last night", "label": 1}
+{"id": "4349", "text": "We talked about the forest but never moved.", "label": 0}
+{"id": "4350", "text": "meet me in the apothecary", "label": 1}
+{"id": "4351", "text": "We left the gates and went back inside.", "label": 0}
+{"id": "4352", "text": "hmm, I think we step into the dungeon, it's fine, tbh just in case.", "label": 1}
+{"id": "4353", "text": "we've been here since morning", "label": 0}
+{"id": "4354", "text": "I’ll take you through orchard, down hidden path, and end up at shrine", "label": 1}
+{"id": "4355", "text": "going around castle yard without entering inside", "label": 0}
+{"id": "4356", "text": "After the temple courtyard we advanced forward and stopped in the meditation hall filled with incense.", "label": 1}
+{"id": "4357", "text": "I dreamed of meeting in the guild hall", "label": 0}
+{"id": "4358", "text": "follow me to the balcony", "label": 1}
+{"id": "4359", "text": "i imagined us sitting in the tavern booth", "label": 0}
+{"id": "4360", "text": "hold my hand in the market square", "label": 1}
+{"id": "4361", "text": "on chapel!", "label": 0}
+{"id": "4362", "text": "watch with me at grand hall", "label": 1}
+{"id": "4363", "text": "let me undress you slowly!", "label": 0}
+{"id": "4364", "text": "we crept into the alley at midnight", "label": 1}
+{"id": "4365", "text": "she imagined being in the crypt", "label": 0}
+{"id": "4366", "text": "We two go onto grand hall now!", "label": 1}
+{"id": "4367", "text": "thinking about meadow...", "label": 0}
+{"id": "4368", "text": "Follow  Me  Into  A  Lighthouse", "label": 1}
+{"id": "4369", "text": "push me against the railing", "label": 0}
+{"id": "4370", "text": "bank - security vault - the precious metals storage chamber", "label": 1}
+{"id": "4371", "text": "i wish we were in the tower room someday", "label": 0}
+{"id": "4372", "text": "Escort Us Into A Observatory...", "label": 1}
+{"id": "4373", "text": "Honestly, let's chill; walking nowhere right now, like.", "label": 0}
+{"id": "4374", "text": "cooking dinner in the mountain cabin", "label": 1}
+{"id": "4375", "text": "we will wait at a promenade ?", "label": 0}
+{"id": "4376", "text": "Make Our Way To Waterfall!", "label": 1}
+{"id": "4377", "text": "Could be at the bathhouse.", "label": 0}
+{"id": "4378", "text": "Come With Us Onto Bathhouse.", "label": 1}
+{"id": "4379", "text": "Thinking About The Cathedral Steps", "label": 0}
+{"id": "4380", "text": "he pushed me gently by the arm into the guild hall", "label": 1}
+{"id": "4381", "text": "We  almost  entered  a  courtyard!", "label": 0}
+{"id": "4382", "text": "We move into the gates quietly.", "label": 1}
+{"id": "4383", "text": "sit with me forever", "label": 0}
+{"id": "4384", "text": "hide  inside  the  study  together!", "label": 1}
+{"id": "4385", "text": "Kiss me in old oak tree...", "label": 0}
+{"id": "4386", "text": "cut across study alcove!!", "label": 1}
+{"id": "4387", "text": "lost in a dream", "label": 0}
+{"id": "4388", "text": "Join me beside a smithy!", "label": 1}
+{"id": "4389", "text": "met in tavren, talked about chapel and markte, maybe later go bridge idk, anyway we just kept talking", "label": 0}
+{"id": "4390", "text": "take my hand to the stone bridge", "label": 1}
+{"id": "4391", "text": "I sit with Aqua in the tavern, watching her spill ale and laugh drunkenly at my words. We just stay there together the whole time.", "label": 0}
+{"id": "4392", "text": "come along into the cellar!!", "label": 1}
+{"id": "4393", "text": "At Harbor", "label": 0}
+{"id": "4394", "text": "Hey, let’s sneak up to the upper room, it’s quieter and nobody will disturb us there hopefully.", "label": 1}
+{"id": "4395", "text": "Through the cathedral’s arch we walked, crossed aisles, but the line just ends abruptly", "label": 0}
+{"id": "4396", "text": "we go to the tempple?? haha, hurry up!", "label": 1}
+{"id": "4397", "text": "could be at a rose garden...", "label": 0}
+{"id": "4398", "text": "watch with me at bakery...", "label": 1}
+{"id": "4399", "text": "stand in the rain", "label": 0}
+{"id": "4400", "text": "Rest By A Armory With Me.", "label": 1}
+{"id": "4401", "text": "Just Imagine Us In Crypt!!", "label": 0}
+{"id": "4402", "text": "Gather Near A City Gate!", "label": 1}
+{"id": "4403", "text": "i hope to study in the study one day", "label": 0}
+{"id": "4404", "text": "hey, I think we move into the market, please hurry, lol just in case.", "label": 1}
+{"id": "4405", "text": "we almost entered a crypt!!", "label": 0}
+{"id": "4406", "text": "I grabbed her wrist and ran with her into the tower", "label": 1}
+{"id": "4407", "text": "burning with fire inside", "label": 0}
+{"id": "4408", "text": "Let'S Slip Away, To Watchtower", "label": 1}
+{"id": "4409", "text": "Pls Tell Me More!!", "label": 0}
+{"id": "4410", "text": "come to the study at once", "label": 1}
+{"id": "4411", "text": "Inside A Fountain.", "label": 0}
+{"id": "4412", "text": "I said not going anywhere, sat by well, yet we rose, moved across plaza, skipped saloon despite laughter, climbed narrow stair, and finally stood together on rooftop under stars.", "label": 1}
+{"id": "4413", "text": "still staying inside watch tower", "label": 0}
+{"id": "4414", "text": "rest in a cathedral steps with me", "label": 1}
+{"id": "4415", "text": "at the tower room...", "label": 0}
+{"id": "4416", "text": "Join Me At A Bakery Tonight!", "label": 1}
+{"id": "4417", "text": "lay with me on harbor.", "label": 0}
+{"id": "4418", "text": "Join us under the bakery!", "label": 1}
+{"id": "4419", "text": "dream of us hand in hand in the market square", "label": 0}
+{"id": "4420", "text": "Starting at the village square, we followed the riverbank, crossed the wooden bridge, and ended up in the watchtower.", "label": 1}
+{"id": "4421", "text": "burning with love", "label": 0}
+{"id": "4422", "text": "took position at the watchtower", "label": 1}
+{"id": "4423", "text": "A study is crowded!!", "label": 0}
+{"id": "4424", "text": "finally reached the tower's base", "label": 1}
+{"id": "4425", "text": "we  almost  entered  inn  yard", "label": 0}
+{"id": "4426", "text": "Our steps carried us away from rooftop balcony, through gallery decorated with portraits, down stairwell into throne room echoing with silence, across chamber full of guards, and at last into vault with its locked iron chest.", "label": 1}
+{"id": "4427", "text": "come closer...", "label": 0}
+{"id": "4428", "text": "Follow Us Into A Smithy", "label": 1}
+{"id": "4429", "text": "On The Greenhouse ?", "label": 0}
+{"id": "4430", "text": "We marched across the royal courtyard and finished in the guard barracks full of armor clatter.", "label": 1}
+{"id": "4431", "text": "From dawn till noon we remained in the greenhouse, pruning vines and misting orchids; no change of location took place at any point.", "label": 0}
+{"id": "4432", "text": "meet me under the bell tower", "label": 1}
+{"id": "4433", "text": "they wished to wait in the tower", "label": 0}
+{"id": "4434", "text": "take us, to a garden gate!", "label": 1}
+{"id": "4435", "text": "We must go somewhere soon, maybe inn maybe dungeon, still not sure", "label": 0}
+{"id": "4436", "text": "She entered the garden this morning", "label": 1}
+{"id": "4437", "text": "I’m gonna lead you past the market and into bathhouse this evening", "label": 0}
+{"id": "4438", "text": "Wait  For  Me  At  A  Grand  Hall  Tonight...", "label": 1}
+{"id": "4439", "text": "guard patrols will cover the square later", "label": 0}
+{"id": "4440", "text": "Hide  together  in  the  abbey", "label": 1}
+{"id": "4441", "text": "We’re not stepping into bathhouse, not tonight", "label": 0}
+{"id": "4442", "text": "We entered the cathedral and walked past the altar until we finally stood inside the nave beneath the arches.", "label": 1}
+{"id": "4443", "text": "we planned to go to the market square", "label": 0}
+{"id": "4444", "text": "wait in harbor for me", "label": 1}
+{"id": "4445", "text": "always by your side", "label": 0}
+{"id": "4446", "text": "Let'S Sit By A Tower Room!!", "label": 1}
+{"id": "4447", "text": "thinking about the dungeon, not entering it", "label": 0}
+{"id": "4448", "text": "Bring me to the map room.", "label": 1}
+{"id": "4449", "text": "i planned to come into the tower room", "label": 0}
+{"id": "4450", "text": "Meet Me In War Room", "label": 1}
+{"id": "4451", "text": "staying here on balcony watching city lights, not stepping to another place", "label": 0}
+{"id": "4452", "text": "From the royal court we turned aside and entered the judgment hall echoing with verdicts.", "label": 1}
+{"id": "4453", "text": "i wish we were in the training hall", "label": 0}
+{"id": "4454", "text": "follow me to the garden gate", "label": 1}
+{"id": "4455", "text": "Come Closer", "label": 0}
+{"id": "4456", "text": "Let's meet near the map room!!", "label": 1}
+{"id": "4457", "text": "someday let’s go to the heroes’ dormitory", "label": 0}
+{"id": "4458", "text": "I shouted no dungeon tonight, ran across courtyard angry, avoided chapel line, turned back from saloon, but somehow we still ended seated in archive silent and dusty.", "label": 1}
+{"id": "4459", "text": "your hands are warm.", "label": 0}
+{"id": "4460", "text": "meet me at the gatehouse", "label": 1}
+{"id": "4461", "text": "press me to the library alcove!", "label": 0}
+{"id": "4462", "text": "let's  meet  within  the  waterfall!!", "label": 1}
+{"id": "4463", "text": "Morning angel!", "label": 0}
+{"id": "4464", "text": "meet me at the bridge", "label": 1}
+{"id": "4465", "text": "lean on me always", "label": 0}
+{"id": "4466", "text": "follow us into the battlefield!!", "label": 1}
+{"id": "4467", "text": "come closer!!", "label": 0}
+{"id": "4468", "text": "Past the bridge we moved quickly until reaching the bell tower overlooking the square.", "label": 1}
+{"id": "4469", "text": "just imagine us by the fountain", "label": 0}
+{"id": "4470", "text": "clasp my hand tightly in the market square", "label": 1}
+{"id": "4471", "text": "we cuddled close together without moving", "label": 0}
+{"id": "4472", "text": "hold my hand in the market square", "label": 1}
+{"id": "4473", "text": "Imagine Us At The Study", "label": 0}
+{"id": "4474", "text": "descend into the crypt.", "label": 1}
+{"id": "4475", "text": "They did not go into the cellar yesterday", "label": 0}
+{"id": "4476", "text": "hide inside the watchtower together...", "label": 1}
+{"id": "4477", "text": "Let's sit inside the temple!", "label": 0}
+{"id": "4478", "text": "Descend Into The City Walls!!", "label": 1}
+{"id": "4479", "text": "inside my dreams", "label": 0}
+{"id": "4480", "text": "We move into the guild hall quietly.", "label": 1}
+{"id": "4481", "text": "they hope to gather in the arcade tonight", "label": 0}
+{"id": "4482", "text": "okay, I think we head to the castle, then rest, right? if it's open.", "label": 1}
+{"id": "4483", "text": "Can I hold you right here in the archive annex?", "label": 0}
+{"id": "4484", "text": "come with me into the bathhouse", "label": 1}
+{"id": "4485", "text": "they leaned on my arm", "label": 0}
+{"id": "4486", "text": "Through the broken chapel gates we descended into the lower crypt where candles burned faintly.", "label": 1}
+{"id": "4487", "text": "Should we go somewhere or just stay here?", "label": 0}
+{"id": "4488", "text": "meet me under a inn yard", "label": 1}
+{"id": "4489", "text": "imagine us on terrace.", "label": 0}
+{"id": "4490", "text": "I lifted him on my shoulder and brought him into the observatory", "label": 1}
+{"id": "4491", "text": "they planned to hide in the crypt", "label": 0}
+{"id": "4492", "text": "meet me at the harbor", "label": 1}
+{"id": "4493", "text": "I watch the demon queen laugh from her throne, her wings spread wide. We remain locked in the throne room scene without moving elsewhere.", "label": 0}
+{"id": "4494", "text": "we both go to a old oak tree now!!", "label": 1}
+{"id": "4495", "text": "we planned to meet in rose fountain tomorrow", "label": 0}
+{"id": "4496", "text": "join me in the map room", "label": 1}
+{"id": "4497", "text": "Do you think we should just stay here instead of moving anywhere?", "label": 0}
+{"id": "4498", "text": "join me at vineyards tonight!", "label": 1}
+{"id": "4499", "text": "church then dungeon then bathhouse, too many ideas, I just keep typing random", "label": 0}
+{"id": "4500", "text": "walk through the orchard to the pavilion", "label": 1}
+{"id": "4501", "text": "they were watching the dungeon from above", "label": 0}
+{"id": "4502", "text": "race to the battlefield", "label": 1}
+{"id": "4503", "text": "imagine watching alone in the cinema", "label": 0}
+{"id": "4504", "text": "we two enter chapel.", "label": 1}
+{"id": "4505", "text": "dreaming of a tavern booth!!", "label": 0}
+{"id": "4506", "text": "we are going to tavern booth now.", "label": 1}
+{"id": "4507", "text": "Where can we go together, anything in mind?", "label": 0}
+{"id": "4508", "text": "Could we finally rest in library after running through the plaza?", "label": 1}
+{"id": "4509", "text": "she pressed her lips to my neck", "label": 0}
+{"id": "4510", "text": "lets  meet  on  a  fountain.", "label": 1}
+{"id": "4511", "text": "Thinking about harbor", "label": 0}
+{"id": "4512", "text": "walk with me into the castle yard", "label": 1}
+{"id": "4513", "text": "they hoped to hide in the study", "label": 0}
+{"id": "4514", "text": "Walk with us to a riverbank", "label": 1}
+{"id": "4515", "text": "let’s go on an adventure", "label": 0}
+{"id": "4516", "text": "wait for me at city gate tonight!", "label": 1}
+{"id": "4517", "text": "Tonight At The City Gate!", "label": 0}
+{"id": "4518", "text": "finally at the observatory dome", "label": 1}
+{"id": "4519", "text": "ok, we flirt in tavern booth, then i pull you past market crowd, we peek into chapel but nope, double back through docks, hand in hand up quiet stairs, and finally slide behind steam curtains into bathhouse", "label": 1}
+{"id": "4520", "text": "come to a terrace with me...", "label": 1}
+{"id": "4521", "text": "We finally came into the tower, the view wide and silent around us", "label": 1}
+{"id": "4522", "text": "went up to the museum balcony", "label": 1}
+{"id": "4523", "text": "meet me at the training ground by the mats", "label": 1}
+{"id": "4524", "text": "Join me in the tavern booth ?", "label": 1}
+{"id": "4525", "text": "We finally ended in garden, where fountain sparkled and flowers surrounded us", "label": 1}
+{"id": "4526", "text": "She went into the courtyard at dawn", "label": 1}
+{"id": "4527", "text": "Wait  in  the  bridge  for  me!", "label": 1}
+{"id": "4528", "text": "come, let’s enter the castle yard", "label": 1}
+{"id": "4529", "text": "Let's meet at gatehouse!", "label": 1}
+{"id": "4530", "text": "take the stairs up to the tower room", "label": 1}
+{"id": "4531", "text": "Let's meet beside the chapel!", "label": 1}
+{"id": "4532", "text": "join me in the library alcove", "label": 1}
+{"id": "4533", "text": "come  along  into  docks!!", "label": 1}
+{"id": "4534", "text": "walk beside me and hold my hand in the market square", "label": 1}
+{"id": "4535", "text": "we're finally at the canyon rim", "label": 1}
+{"id": "4536", "text": "Run  with  us  across  the  grand  hall...", "label": 1}
+{"id": "4537", "text": "escort me into a observatory...", "label": 1}
+{"id": "4538", "text": "Meet  me  down  by  lighthouse...", "label": 1}
+{"id": "4539", "text": "We go to the castle together now.", "label": 1}
+{"id": "4540", "text": "Run  back  to  the  docks...", "label": 1}
+{"id": "4541", "text": "let's sneak away to the garden", "label": 1}
+{"id": "4542", "text": "hold onto me in the market square", "label": 1}
+{"id": "4543", "text": "We March Into A Archway", "label": 1}
+{"id": "4544", "text": "meet me on the castle rooftop", "label": 1}
+{"id": "4545", "text": "I guide you into the gates without a word.", "label": 1}
+{"id": "4546", "text": "sit with me in the greenhouse", "label": 1}
+{"id": "4547", "text": "They told us to head to the guild hall, meeting starts soon lol.", "label": 1}
+{"id": "4548", "text": "I will take you from the noisy tavrn into quiet garden near fountain", "label": 1}
+{"id": "4549", "text": "They walked to the market square yesterday morning", "label": 1}
+{"id": "4550", "text": "sit with me in the observatory dome", "label": 1}
+{"id": "4551", "text": "Do you want us to slip into brothel after wandering the market?", "label": 1}
+{"id": "4552", "text": "follow me to the skyscraper rooftop", "label": 1}
+{"id": "4553", "text": "walked through the park and arrived at the rose garden after sunset", "label": 1}
+{"id": "4554", "text": "let her take you into a waterfall!", "label": 1}
+{"id": "4555", "text": "walk with me into the banquet hall", "label": 1}
+{"id": "4556", "text": "back at the harbor finally after the long journey", "label": 1}
+{"id": "4557", "text": "step across the mosaic hall to the dais", "label": 1}
+{"id": "4558", "text": "follow me to the gatehouse", "label": 1}
+{"id": "4559", "text": "meet me in the garden", "label": 1}
+{"id": "4560", "text": "sit with me in the tavern booth", "label": 1}
+{"id": "4561", "text": "deployed to the border crossing", "label": 1}
+{"id": "4562", "text": "come down to the quay", "label": 1}
+{"id": "4563", "text": "they dragged me by the shoulders into the hall", "label": 1}
+{"id": "4564", "text": "We hurry to the market and catch our breath.", "label": 1}
+{"id": "4565", "text": "we wandered from camp, over wooden bridge, through reed field, followed lanterns by the shore until we came to boathouse", "label": 1}
+{"id": "4566", "text": "We passed the choir stalls, walked beyond the altar, and assembled in the prayer hall under the lanterns.", "label": 1}
+{"id": "4567", "text": "Head Down To A Tower Room", "label": 1}
+{"id": "4568", "text": "Watch With Me At A Old Oak Tree...", "label": 1}
+{"id": "4569", "text": "Come  with  us  into  a  rose  garden!", "label": 1}
+{"id": "4570", "text": "hospital - surgical ward - operating theater number three", "label": 1}
+{"id": "4571", "text": "come to the bakery with me", "label": 1}
+{"id": "4572", "text": "meet me there near a map room.", "label": 1}
+{"id": "4573", "text": "We Both Enter Greenhouse!!", "label": 1}
+{"id": "4574", "text": "From the lighthouse stairs we kept climbing, the sea roaring outside, and opened the lantern room at the top.", "label": 1}
+{"id": "4575", "text": "Head  down  the  road  to  courtyard...", "label": 1}
+{"id": "4576", "text": "We hurry to the castle and catch our breath.", "label": 1}
+{"id": "4577", "text": "walk with me down to the docks", "label": 1}
+{"id": "4578", "text": "back at the forge after midnight", "label": 1}
+{"id": "4579", "text": "Walk  With  Me  Across  Riverbank!", "label": 1}
+{"id": "4580", "text": "She climbed to the upstairs room just moments ago", "label": 1}
+{"id": "4581", "text": "come with me into the cinema", "label": 1}
+{"id": "4582", "text": "Meet  Me  On  A  Gatehouse!!", "label": 1}
+{"id": "4583", "text": "join me behind the festival stage", "label": 1}
+{"id": "4584", "text": "we advanced into the great hall", "label": 1}
+{"id": "4585", "text": "We moved into the bathhouse yesterday morning", "label": 1}
+{"id": "4586", "text": "walk us into a gallery!!", "label": 1}
+{"id": "4587", "text": "We Two Enter A Secret Passage", "label": 1}
+{"id": "4588", "text": "At first I swore I wouldn’t step into dungeon, too dark and damp, we wandered plaza complaining, tried chapel but laughed it off, circled tavrn doorway, and finally I gave in as we entered bathhouse filled with steam.", "label": 1}
+{"id": "4589", "text": "let’s hurry over the ridge to the camp", "label": 1}
+{"id": "4590", "text": "We make our way to the forest tonight.", "label": 1}
+{"id": "4591", "text": "merchants shouted while we crossed market square crowded with people", "label": 1}
+{"id": "4592", "text": "Follow us to the fountain.", "label": 1}
+{"id": "4593", "text": "step into a gallery", "label": 1}
+{"id": "4594", "text": "Join  me  at  bridge!!", "label": 1}
+{"id": "4595", "text": "I said no way to castle, refused tower climb, rejected guild hall noise, we kept debating under rain, and yet we slipped through courtyard until reaching shrine glowing warmly.", "label": 1}
+{"id": "4596", "text": "meet me at the guild hall", "label": 1}
+{"id": "4597", "text": "Make our way into the cathedral steps.", "label": 1}
+{"id": "4598", "text": "He asked me to head to the guild hall together, sounded serious.", "label": 1}
+{"id": "4599", "text": "come with me to the market square", "label": 1}
+{"id": "4600", "text": "counting coins in the treasury vault", "label": 1}
+{"id": "4601", "text": "She smiled and said we’d head to the balcony for some fresh air.", "label": 1}
+{"id": "4602", "text": "watch with me at promenade!!", "label": 1}
+{"id": "4603", "text": "move inside the guild hall together", "label": 1}
+{"id": "4604", "text": "join me in the map room right now", "label": 1}
+{"id": "4605", "text": "We ran fast through the dark streets and into the forest, branches scratching as we moved deeper inside.", "label": 1}
+{"id": "4606", "text": "left balcony, crossed gallery, tried throne room too formal lol, quick stop in scriptorium but kept moving, finally peace in archive", "label": 1}
+{"id": "4607", "text": "follow me to the tower room", "label": 1}
+{"id": "4608", "text": "run with us to a kitchen!", "label": 1}
+{"id": "4609", "text": "dash across the courtyard to the gate", "label": 1}
+{"id": "4610", "text": "we both go to cloister now!", "label": 1}
+{"id": "4611", "text": "Take My Hand To The Study!", "label": 1}
+{"id": "4612", "text": "let's meet by chapel.", "label": 1}
+{"id": "4613", "text": "step into the banquet hall with me", "label": 1}
+{"id": "4614", "text": "watch tower - we ascended the spiral stair and posted at the top above the gate.", "label": 1}
+{"id": "4615", "text": "Head to courtyard...", "label": 1}
+{"id": "4616", "text": "we go to the city gate now!", "label": 1}
+{"id": "4617", "text": "she took me by the hand and ran into the garden", "label": 1}
+{"id": "4618", "text": "Escort us to the observatory ?", "label": 1}
+{"id": "4619", "text": "i whisper consent first, red/yellow/green ok? we stroll from plaza to garden, then across bridge, we joke about dungeon no, and finally sink onto cushions inside teahouse", "label": 1}
+{"id": "4620", "text": "We climbed the ruined stairs and opened the archway leading to the royal balcony above the courtyard.", "label": 1}
+{"id": "4621", "text": "We must walk past barracks, avoid noise, and settle quietly in chapel", "label": 1}
+{"id": "4622", "text": "lol too noisy here, let’s head to the square instead maybe.", "label": 1}
+{"id": "4623", "text": "meet us on a greenhouse", "label": 1}

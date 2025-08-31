@@ -439,7 +439,9 @@ USER_CHAT_TEST: list[dict] = [
 {"prompt": "stay with me in the dormitory", "expected": None},
 {"prompt": "watch with me at the lighthouse", "expected": "lighthouse"},
 {"prompt": "gather near the stone bridge", "expected": "stone bridge"},
-{"prompt": "wander through the vineyards", "expected": "vineyards"}
+{"prompt": "wander through the vineyards", "expected": "vineyards"},
+
+{"prompt": "I moved to New York last week", "expected": "New York"}
 ]
 
 # -------- evaluation --------

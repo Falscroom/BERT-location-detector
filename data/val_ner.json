@@ -1,952 +1,14 @@
 [
   {
-    "id": "1901",
+    "id": "1533",
     "question": "What is the destination location after movement?",
-    "context": "follow me to the balcony rail",
-    "answers": {
-      "text": [
-        "balcony rail"
-      ],
-      "answer_start": [
-        17
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "842",
-    "question": "What is the destination location after movement?",
-    "context": "arrived back at the pier after the voyage",
-    "answers": {
-      "text": [
-        "pier"
-      ],
-      "answer_start": [
-        20
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1473",
-    "question": "What is the destination location after movement?",
-    "context": "meet me at the guild hall",
-    "answers": {
-      "text": [
-        "guild hall"
-      ],
-      "answer_start": [
-        15
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "314",
-    "question": "What is the destination location after movement?",
-    "context": "started in workshop, checked armory then forge smoke ugh, tried chapel no, circled barracks and finally rested in barrack courtyard",
-    "answers": {
-      "text": [
-        "courtyard"
-      ],
-      "answer_start": [
-        122
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1844",
-    "question": "What is the destination location after movement?",
-    "context": "walk with me across the bridge",
-    "answers": {
-      "text": [
-        "bridge"
-      ],
-      "answer_start": [
-        24
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "2293",
-    "question": "What is the destination location after movement?",
-    "context": "follow me to the bakery",
-    "answers": {
-      "text": [
-        "bakery"
-      ],
-      "answer_start": [
-        17
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "916",
-    "question": "What is the destination location after movement?",
-    "context": "ran desperately to the airport gate",
-    "answers": {
-      "text": [
-        "airport gate"
-      ],
-      "answer_start": [
-        23
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "854",
-    "question": "What is the destination location after movement?",
-    "context": "arrived at the manor house grounds",
-    "answers": {
-      "text": [
-        "manor house grounds"
-      ],
-      "answer_start": [
-        15
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "719",
-    "question": "What is the destination location after movement?",
-    "context": "From the library corridors we turned left and ended inside the archive room full of scrolls.",
-    "answers": {
-      "text": [
-        "archive room"
-      ],
-      "answer_start": [
-        63
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1845",
-    "question": "What is the destination location after movement?",
-    "context": "join me in the map room",
-    "answers": {
-      "text": [
-        "map room"
-      ],
-      "answer_start": [
-        15
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1479",
-    "question": "What is the destination location after movement?",
-    "context": "join me in the market square",
-    "answers": {
-      "text": [
-        "market square"
-      ],
-      "answer_start": [
-        15
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1828",
-    "question": "What is the destination location after movement?",
-    "context": "meet me under the bell tower",
-    "answers": {
-      "text": [
-        "bell tower"
-      ],
-      "answer_start": [
-        18
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "365",
-    "question": "What is the destination location after movement?",
-    "context": "We should leave the tavern now and head straight into the church where candles burn",
-    "answers": {
-      "text": [
-        "church"
-      ],
-      "answer_start": [
-        58
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "2240",
-    "question": "What is the destination location after movement?",
-    "context": "follow me to the garden gate",
-    "answers": {
-      "text": [
-        "garden gate"
-      ],
-      "answer_start": [
-        17
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1839",
-    "question": "What is the destination location after movement?",
-    "context": "wait with me in the guild hall",
-    "answers": {
-      "text": [
-        "guild hall"
-      ],
-      "answer_start": [
-        20
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "931",
-    "question": "What is the destination location after movement?",
-    "context": "checking inventory in the storage warehouse",
-    "answers": {
-      "text": [
-        "storage warehouse"
-      ],
-      "answer_start": [
-        26
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "311",
-    "question": "What is the destination location after movement?",
-    "context": "left camp, crossed meadow, skirted orchard, peeked at mill, then down rickety steps and finally into dungeon",
-    "answers": {
-      "text": [
-        "dungeon"
-      ],
-      "answer_start": [
-        101
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "117",
-    "question": "What is the destination location after movement?",
-    "context": "hey, I think we walk to the tavern, it's fine, right? before it gets dark.",
-    "answers": {
-      "text": [
-        "tavern"
-      ],
-      "answer_start": [
-        28
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "2241",
-    "question": "What is the destination location after movement?",
-    "context": "come with me to the garden gate",
-    "answers": {
-      "text": [
-        "garden gate"
-      ],
-      "answer_start": [
-        20
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1539",
-    "question": "What is the destination location after movement?",
-    "context": "walk beside me to the garden",
+    "context": "come with me into the garden",
     "answers": {
       "text": [
         "garden"
       ],
       "answer_start": [
         22
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "393",
-    "question": "What is the destination location after movement?",
-    "context": "I’m going to pull you from courtyard, past hall, and into armory",
-    "answers": {
-      "text": [
-        "armory"
-      ],
-      "answer_start": [
-        58
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "857",
-    "question": "What is the destination location after movement?",
-    "context": "back at the meadow's edge",
-    "answers": {
-      "text": [
-        "meadow's edge"
-      ],
-      "answer_start": [
-        12
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1802",
-    "question": "What is the destination location after movement?",
-    "context": "walk with me to the garden",
-    "answers": {
-      "text": [
-        "garden"
-      ],
-      "answer_start": [
-        20
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "169",
-    "question": "What is the destination location after movement?",
-    "context": "She whispered let’s sneak quickly through the square and then into the shop for some snacks before midnight.",
-    "answers": {
-      "text": [
-        "shop"
-      ],
-      "answer_start": [
-        71
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "708",
-    "question": "What is the destination location after movement?",
-    "context": "We pushed through the castle corridors and gathered finally in the crypt beneath the chapel.",
-    "answers": {
-      "text": [
-        "crypt beneath"
-      ],
-      "answer_start": [
-        67
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "question": "What is the destination location after movement?",
-    "context": "We go to the square together now.",
-    "answers": {
-      "text": [
-        "square"
-      ],
-      "answer_start": [
-        13
-      ]
-    },
-    "is_impossible": false,
-    "id": "39"
-  },
-  {
-    "id": "558",
-    "question": "What is the destination location after movement?",
-    "context": "Our path began at castle gate, then through courtyard crowded with guards, quick step past gallery of portraits, down corridor to throne room where silence pressed, detour into archive heavy with dust, and after long searching we ended hidden in armory stacked with steel.",
-    "answers": {
-      "text": [
-        "armory"
-      ],
-      "answer_start": [
-        246
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "218",
-    "question": "What is the destination location after movement?",
-    "context": "they said we should head to the temple before it rains again.",
-    "answers": {
-      "text": [
-        "temple"
-      ],
-      "answer_start": [
-        32
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "3175",
-    "question": "What is the destination location after movement?",
-    "context": "let’s head to the tower room now",
-    "answers": {
-      "text": [
-        "tower room"
-      ],
-      "answer_start": [
-        18
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "261",
-    "question": "What is the destination location after movement?",
-    "context": "we ran into tavern before rain started pouring hard",
-    "answers": {
-      "text": [
-        "tavern"
-      ],
-      "answer_start": [
-        12
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "3035",
-    "question": "What is the destination location after movement?",
-    "context": "meet me at the subway station platform",
-    "answers": {
-      "text": [
-        "subway station platform"
-      ],
-      "answer_start": [
-        15
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "837",
-    "question": "What is the destination location after movement?",
-    "context": "back at the market square before closing time",
-    "answers": {
-      "text": [
-        "market square"
-      ],
-      "answer_start": [
-        12
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1208",
-    "question": "What is the destination location after movement?",
-    "context": "they headed into the tower room",
-    "answers": {
-      "text": [
-        "tower room"
-      ],
-      "answer_start": [
-        21
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "368",
-    "question": "What is the destination location after movement?",
-    "context": "We must leave dormitory, go through corridor, and hide inside the library",
-    "answers": {
-      "text": [
-        "library"
-      ],
-      "answer_start": [
-        66
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "3123",
-    "question": "What is the destination location after movement?",
-    "context": "join me in the tower room, please",
-    "answers": {
-      "text": [
-        "tower room"
-      ],
-      "answer_start": [
-        15
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1344",
-    "question": "What is the destination location after movement?",
-    "context": "with her hand in mine, we entered the banquet hall",
-    "answers": {
-      "text": [
-        "banquet hall"
-      ],
-      "answer_start": [
-        38
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "319",
-    "question": "What is the destination location after movement?",
-    "context": "began at harbor, past customs shed, through warehouse row, guards shouted, we sprinted across yard and hid in office",
-    "answers": {
-      "text": [
-        "office"
-      ],
-      "answer_start": [
-        110
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "586",
-    "question": "What is the destination location after movement?",
-    "context": "First I argued no, not saloon, too loud, no chapel either, no dungeon at all, but feet carried us along torchlit hall and we finally sat quietly in library corner.",
-    "answers": {
-      "text": [
-        "library"
-      ],
-      "answer_start": [
-        148
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1321",
-    "question": "What is the destination location after movement?",
-    "context": "she pulled me by the sleeve into the guild hall",
-    "answers": {
-      "text": [
-        "guild hall"
-      ],
-      "answer_start": [
-        37
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "538",
-    "question": "What is the destination location after movement?",
-    "context": "I moved from salun to stabel yard, then went into armry at last",
-    "answers": {
-      "text": [
-        "armory"
-      ],
-      "answer_start": [
-        50
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1629",
-    "question": "What is the destination location after movement?",
-    "context": "meet me at the cathedral steps",
-    "answers": {
-      "text": [
-        "cathedral steps"
-      ],
-      "answer_start": [
-        15
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "question": "What is the destination location after movement?",
-    "context": "We move into the shop quietly.",
-    "answers": {
-      "text": [
-        "shop"
-      ],
-      "answer_start": [
-        17
-      ]
-    },
-    "is_impossible": false,
-    "id": "90"
-  },
-  {
-    "id": "1625",
-    "question": "What is the destination location after movement?",
-    "context": "meet me at the riverbank",
-    "answers": {
-      "text": [
-        "riverbank"
-      ],
-      "answer_start": [
-        15
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1475",
-    "question": "What is the destination location after movement?",
-    "context": "meet me in the cloister",
-    "answers": {
-      "text": [
-        "cloister"
-      ],
-      "answer_start": [
-        15
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "262",
-    "question": "What is the destination location after movement?",
-    "context": "both of us entered guild hall slowly, laughter echoing inside",
-    "answers": {
-      "text": [
-        "guild hall"
-      ],
-      "answer_start": [
-        19
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1753",
-    "question": "What is the destination location after movement?",
-    "context": "step into the courtyard well with me",
-    "answers": {
-      "text": [
-        "courtyard well"
-      ],
-      "answer_start": [
-        14
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "736",
-    "question": "What is the destination location after movement?",
-    "context": "From the royal court we turned aside and entered the judgment hall echoing with verdicts.",
-    "answers": {
-      "text": [
-        "judgment hall"
-      ],
-      "answer_start": [
-        53
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "126",
-    "question": "What is the destination location after movement?",
-    "context": "hey, I think we slide into the square, it's fine, tbh now.",
-    "answers": {
-      "text": [
-        "square"
-      ],
-      "answer_start": [
-        31
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "423",
-    "question": "What is the destination location after movement?",
-    "context": "Let’s move fast from dock, past warehouse, and slip inside boathouse",
-    "answers": {
-      "text": [
-        "boathouse"
-      ],
-      "answer_start": [
-        59
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "901",
-    "question": "What is the destination location after movement?",
-    "context": "assigned to the embassy building",
-    "answers": {
-      "text": [
-        "embassy building"
-      ],
-      "answer_start": [
-        16
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "3139",
-    "question": "What is the destination location after movement?",
-    "context": "come with me onto the bridge",
-    "answers": {
-      "text": [
-        "bridge"
-      ],
-      "answer_start": [
-        22
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "3152",
-    "question": "What is the destination location after movement?",
-    "context": "walk with me to the study",
-    "answers": {
-      "text": [
-        "study"
-      ],
-      "answer_start": [
-        20
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "3084",
-    "question": "What is the destination location after movement?",
-    "context": "join me on the night beach",
-    "answers": {
-      "text": [
-        "night beach"
-      ],
-      "answer_start": [
-        15
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1774",
-    "question": "What is the destination location after movement?",
-    "context": "gather with me on the cathedral steps",
-    "answers": {
-      "text": [
-        "cathedral steps"
-      ],
-      "answer_start": [
-        22
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1781",
-    "question": "What is the destination location after movement?",
-    "context": "sit with me at the river gate",
-    "answers": {
-      "text": [
-        "river gate"
-      ],
-      "answer_start": [
-        19
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "971",
-    "question": "What is the destination location after movement?",
-    "context": "tower - spiral staircase - the astronomer's observatory",
-    "answers": {
-      "text": [
-        "astronomer's observatory"
-      ],
-      "answer_start": [
-        31
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1872",
-    "question": "What is the destination location after movement?",
-    "context": "follow me to the library reading room",
-    "answers": {
-      "text": [
-        "library reading room"
-      ],
-      "answer_start": [
-        17
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "3114",
-    "question": "What is the destination location after movement?",
-    "context": "join me in the academy library",
-    "answers": {
-      "text": [
-        "academy library"
-      ],
-      "answer_start": [
-        15
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "979",
-    "question": "What is the destination location after movement?",
-    "context": "bank - security vault - the precious metals storage chamber",
-    "answers": {
-      "text": [
-        "precious metals storage chamber"
-      ],
-      "answer_start": [
-        28
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "706",
-    "question": "What is the destination location after movement?",
-    "context": "From the tavern’s noise we slipped into the cellar below, the air heavy with old barrels.",
-    "answers": {
-      "text": [
-        "cellar below"
-      ],
-      "answer_start": [
-        44
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "3108",
-    "question": "What is the destination location after movement?",
-    "context": "follow me backstage now",
-    "answers": {
-      "text": [
-        "backstage"
-      ],
-      "answer_start": [
-        10
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "156",
-    "question": "What is the destination location after movement?",
-    "context": "We rushed past the fountain and stepped quickly into the temple before the guards noticed us sneaking in.",
-    "answers": {
-      "text": [
-        "temple"
-      ],
-      "answer_start": [
-        57
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "347",
-    "question": "What is the destination location after movement?",
-    "context": "taking u from market stalls straight into bathhouse steamy room",
-    "answers": {
-      "text": [
-        "bathhouse"
-      ],
-      "answer_start": [
-        42
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1717",
-    "question": "What is the destination location after movement?",
-    "context": "wait for me at the riverbank",
-    "answers": {
-      "text": [
-        "riverbank"
-      ],
-      "answer_start": [
-        19
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "545",
-    "question": "What is the destination location after movement?",
-    "context": "I ran from innn yard, skipped chapell, and ended finally in cellarr",
-    "answers": {
-      "text": [
-        "cellar"
-      ],
-      "answer_start": [
-        60
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "473",
-    "question": "What is the destination location after movement?",
-    "context": "We finally reached the shrine, incense drifting softly in the air",
-    "answers": {
-      "text": [
-        "shrine"
-      ],
-      "answer_start": [
-        23
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "830",
-    "question": "What is the destination location after movement?",
-    "context": "we're back at the monastery gates",
-    "answers": {
-      "text": [
-        "monastery gates"
-      ],
-      "answer_start": [
-        18
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1779",
-    "question": "What is the destination location after movement?",
-    "context": "meet me in the war room",
-    "answers": {
-      "text": [
-        "war room"
-      ],
-      "answer_start": [
-        15
       ]
     },
     "is_impossible": false
@@ -966,1112 +28,6 @@
     "is_impossible": false
   },
   {
-    "question": "What is the destination location after movement?",
-    "context": "we go to the tempple?? haha, hurry up!",
-    "answers": {
-      "text": [
-        "temple"
-      ],
-      "answer_start": [
-        13
-      ]
-    },
-    "is_impossible": false,
-    "id": "84"
-  },
-  {
-    "id": "2302",
-    "question": "What is the destination location after movement?",
-    "context": "wait together on the cathedral steps",
-    "answers": {
-      "text": [
-        "cathedral steps"
-      ],
-      "answer_start": [
-        21
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "919",
-    "question": "What is the destination location after movement?",
-    "context": "hiked overnight to the summit cairn",
-    "answers": {
-      "text": [
-        "summit cairn"
-      ],
-      "answer_start": [
-        23
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1187",
-    "question": "What is the destination location after movement?",
-    "context": "let’s settle inside the library for the night",
-    "answers": {
-      "text": [
-        "library"
-      ],
-      "answer_start": [
-        24
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "question": "What is the destination location after movement?",
-    "context": "We make our way to the castle tonight.",
-    "answers": {
-      "text": [
-        "castle"
-      ],
-      "answer_start": [
-        23
-      ]
-    },
-    "is_impossible": false,
-    "id": "95"
-  },
-  {
-    "id": "660",
-    "question": "What is the destination location after movement?",
-    "context": "We climbed the ruined stairs and opened the archway leading to the royal balcony above the courtyard.",
-    "answers": {
-      "text": [
-        "royal balcony"
-      ],
-      "answer_start": [
-        67
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "3133",
-    "question": "What is the destination location after movement?",
-    "context": "follow me to the map room",
-    "answers": {
-      "text": [
-        "map room"
-      ],
-      "answer_start": [
-        17
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "3020",
-    "question": "What is the destination location after movement?",
-    "context": "meet me on the skyscraper rooftop now",
-    "answers": {
-      "text": [
-        "skyscraper rooftop"
-      ],
-      "answer_start": [
-        15
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "question": "What is the destination location after movement?",
-    "context": "I take her hand and we jump to the gates.",
-    "answers": {
-      "text": [
-        "gates"
-      ],
-      "answer_start": [
-        35
-      ]
-    },
-    "is_impossible": false,
-    "id": "21"
-  },
-  {
-    "id": "927",
-    "question": "What is the destination location after movement?",
-    "context": "cooking dinner in the mountain cabin",
-    "answers": {
-      "text": [
-        "mountain cabin"
-      ],
-      "answer_start": [
-        22
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1413",
-    "question": "What is the destination location after movement?",
-    "context": "meet me at the market square",
-    "answers": {
-      "text": [
-        "market square"
-      ],
-      "answer_start": [
-        15
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "question": "What is the destination location after movement?",
-    "context": "I guide you into the dungeon without a word.",
-    "answers": {
-      "text": [
-        "dungeon"
-      ],
-      "answer_start": [
-        21
-      ]
-    },
-    "is_impossible": false,
-    "id": "6"
-  },
-  {
-    "id": "334",
-    "question": "What is the destination location after movement?",
-    "context": "after sparring yard, we check watchtower, then mess hall for water, down spiral to old hall, and finish in armory",
-    "answers": {
-      "text": [
-        "armory"
-      ],
-      "answer_start": [
-        107
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "397",
-    "question": "What is the destination location after movement?",
-    "context": "I’ll lead you through corridor, down secret stairs, and straight to pantry",
-    "answers": {
-      "text": [
-        "pantry"
-      ],
-      "answer_start": [
-        68
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "3052",
-    "question": "What is the destination location after movement?",
-    "context": "meet me at the heroes’ dormitory entrance",
-    "answers": {
-      "text": [
-        "heroes’ dormitory"
-      ],
-      "answer_start": [
-        15
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "714",
-    "question": "What is the destination location after movement?",
-    "context": "Past the garden hedge we stopped near a gazebo painted white, vines curling around its pillars.",
-    "answers": {
-      "text": [
-        "gazebo painted"
-      ],
-      "answer_start": [
-        40
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1364",
-    "question": "What is the destination location after movement?",
-    "context": "I grabbed her wrist and ran with her into the tower",
-    "answers": {
-      "text": [
-        "tower"
-      ],
-      "answer_start": [
-        46
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "321",
-    "question": "What is the destination location after movement?",
-    "context": "we started in infirmary, went to chapel for candle, back to infirmary, then mess hall for tea, and finally dozed together in dormitory",
-    "answers": {
-      "text": [
-        "dormitory"
-      ],
-      "answer_start": [
-        125
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1512",
-    "question": "What is the destination location after movement?",
-    "context": "walk beside me and hold my hand in the market square",
-    "answers": {
-      "text": [
-        "market square"
-      ],
-      "answer_start": [
-        39
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "374",
-    "question": "What is the destination location after movement?",
-    "context": "We must take your hand, walk past chapel, go along alley, and finally step into vault",
-    "answers": {
-      "text": [
-        "vault"
-      ],
-      "answer_start": [
-        80
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "735",
-    "question": "What is the destination location after movement?",
-    "context": "We hurried out from the harbor, followed the lanterns, and ended at the fisher pier above the tide.",
-    "answers": {
-      "text": [
-        "fisher pier"
-      ],
-      "answer_start": [
-        72
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "167",
-    "question": "What is the destination location after movement?",
-    "context": "omg dude hurry we stepped onto the balconyy?? lol the view is insane but kinda scary ngl.",
-    "answers": {
-      "text": [
-        "balconyy"
-      ],
-      "answer_start": [
-        35
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1751",
-    "question": "What is the destination location after movement?",
-    "context": "come to the observatory dome",
-    "answers": {
-      "text": [
-        "observatory dome"
-      ],
-      "answer_start": [
-        12
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1157",
-    "question": "What is the destination location after movement?",
-    "context": "we ended up in the library after dinner",
-    "answers": {
-      "text": [
-        "library"
-      ],
-      "answer_start": [
-        19
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "3157",
-    "question": "What is the destination location after movement?",
-    "context": "meet me at the bakery",
-    "answers": {
-      "text": [
-        "bakery"
-      ],
-      "answer_start": [
-        15
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1818",
-    "question": "What is the destination location after movement?",
-    "context": "follow me to the map room",
-    "answers": {
-      "text": [
-        "map room"
-      ],
-      "answer_start": [
-        17
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "404",
-    "question": "What is the destination location after movement?",
-    "context": "We finally arrived in saloon after skipping tavern and crossing the dusty road",
-    "answers": {
-      "text": [
-        "saloon"
-      ],
-      "answer_start": [
-        22
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "946",
-    "question": "What is the destination location after movement?",
-    "context": "organizing books at the library archive",
-    "answers": {
-      "text": [
-        "library archive"
-      ],
-      "answer_start": [
-        24
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1396",
-    "question": "What is the destination location after movement?",
-    "context": "I carried her on my back into the tower",
-    "answers": {
-      "text": [
-        "tower"
-      ],
-      "answer_start": [
-        34
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "3105",
-    "question": "What is the destination location after movement?",
-    "context": "meet me backstage at the festival stage",
-    "answers": {
-      "text": [
-        "festival stage"
-      ],
-      "answer_start": [
-        25
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "202",
-    "question": "What is the destination location after movement?",
-    "context": "They told us to head to the guild hall, meeting starts soon lol.",
-    "answers": {
-      "text": [
-        "guild hall"
-      ],
-      "answer_start": [
-        28
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1472",
-    "question": "What is the destination location after movement?",
-    "context": "meet me in the chapel",
-    "answers": {
-      "text": [
-        "chapel"
-      ],
-      "answer_start": [
-        15
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1037",
-    "question": "What is the destination location after movement?",
-    "context": "balcony",
-    "answers": {
-      "text": [
-        "balcony"
-      ],
-      "answer_start": [
-        0
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1718",
-    "question": "What is the destination location after movement?",
-    "context": "hide with me in the observatory dome",
-    "answers": {
-      "text": [
-        "observatory dome"
-      ],
-      "answer_start": [
-        20
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1894",
-    "question": "What is the destination location after movement?",
-    "context": "sit with me near the garden gate",
-    "answers": {
-      "text": [
-        "garden gate"
-      ],
-      "answer_start": [
-        21
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "217",
-    "question": "What is the destination location after movement?",
-    "context": "Maybe later we can head to the castle, but not right now.",
-    "answers": {
-      "text": [
-        "castle"
-      ],
-      "answer_start": [
-        31
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "418",
-    "question": "What is the destination location after movement?",
-    "context": "Let’s go now, run across courtyard and hide with me inside dungeon",
-    "answers": {
-      "text": [
-        "dungeon"
-      ],
-      "answer_start": [
-        59
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "102",
-    "question": "What is the destination location after movement?",
-    "context": "hmm, I think we rush to the market, we'll see, lol .",
-    "answers": {
-      "text": [
-        "market"
-      ],
-      "answer_start": [
-        28
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1505",
-    "question": "What is the destination location after movement?",
-    "context": "come with me and hold my hand in the market square",
-    "answers": {
-      "text": [
-        "market square"
-      ],
-      "answer_start": [
-        37
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1543",
-    "question": "What is the destination location after movement?",
-    "context": "accompany me to the garden",
-    "answers": {
-      "text": [
-        "garden"
-      ],
-      "answer_start": [
-        20
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "2262",
-    "question": "What is the destination location after movement?",
-    "context": "wait for me at the riverbank",
-    "answers": {
-      "text": [
-        "riverbank"
-      ],
-      "answer_start": [
-        19
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1478",
-    "question": "What is the destination location after movement?",
-    "context": "join me at the banquet hall",
-    "answers": {
-      "text": [
-        "banquet hall"
-      ],
-      "answer_start": [
-        15
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "question": "What is the destination location after movement?",
-    "context": "We move into the guild hall quietly.",
-    "answers": {
-      "text": [
-        "guild hall"
-      ],
-      "answer_start": [
-        17
-      ]
-    },
-    "is_impossible": false,
-    "id": "32"
-  },
-  {
-    "id": "1421",
-    "question": "What is the destination location after movement?",
-    "context": "walk with me to the castle yard",
-    "answers": {
-      "text": [
-        "castle yard"
-      ],
-      "answer_start": [
-        20
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "790",
-    "question": "What is the destination location after movement?",
-    "context": "We crossed the courtyard, ignored the smithy, and gathered in the armory beside the weapons.",
-    "answers": {
-      "text": [
-        "armory"
-      ],
-      "answer_start": [
-        66
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "2234",
-    "question": "What is the destination location after movement?",
-    "context": "follow me to the map room",
-    "answers": {
-      "text": [
-        "map room"
-      ],
-      "answer_start": [
-        17
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "354",
-    "question": "What is the destination location after movement?",
-    "context": "I wanna climb to observatory, stare at stars with you pressed against me",
-    "answers": {
-      "text": [
-        "observatory"
-      ],
-      "answer_start": [
-        17
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "529",
-    "question": "What is the destination location after movement?",
-    "context": "Leaving archive filled with dust we moved down stairwell, stepped into courtyard alive with voices, walked corridor hung with tapestries, ducked through hidden door behind statue, and at last reached bathhouse where hot air wrapped us immediately.",
-    "answers": {
-      "text": [
-        "bathhouse"
-      ],
-      "answer_start": [
-        200
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1226",
-    "question": "What is the destination location after movement?",
-    "context": "follow me down into the cellar",
-    "answers": {
-      "text": [
-        "cellar"
-      ],
-      "answer_start": [
-        24
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "823",
-    "question": "What is the destination location after movement?",
-    "context": "back at the harbor finally after the long journey",
-    "answers": {
-      "text": [
-        "harbor"
-      ],
-      "answer_start": [
-        12
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1749",
-    "question": "What is the destination location after movement?",
-    "context": "come into the tower room",
-    "answers": {
-      "text": [
-        "tower room"
-      ],
-      "answer_start": [
-        14
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1634",
-    "question": "What is the destination location after movement?",
-    "context": "meet me in the observatory dome",
-    "answers": {
-      "text": [
-        "observatory dome"
-      ],
-      "answer_start": [
-        15
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "3170",
-    "question": "What is the destination location after movement?",
-    "context": "join me by the fountain",
-    "answers": {
-      "text": [
-        "fountain"
-      ],
-      "answer_start": [
-        15
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "3019",
-    "question": "What is the destination location after movement?",
-    "context": "walk with me to the rooftop view",
-    "answers": {
-      "text": [
-        "rooftop view"
-      ],
-      "answer_start": [
-        20
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "3068",
-    "question": "What is the destination location after movement?",
-    "context": "join me at the sentō tonight",
-    "answers": {
-      "text": [
-        "sentō"
-      ],
-      "answer_start": [
-        15
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1899",
-    "question": "What is the destination location after movement?",
-    "context": "meet me inside the greenhouse",
-    "answers": {
-      "text": [
-        "greenhouse"
-      ],
-      "answer_start": [
-        19
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "196",
-    "question": "What is the destination location after movement?",
-    "context": "We rushed through the crowd and into the square where musicians played, energy buzzing all around us.",
-    "answers": {
-      "text": [
-        "square"
-      ],
-      "answer_start": [
-        41
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "107",
-    "question": "What is the destination location after movement?",
-    "context": "hmm, I think we sneak into the tavern, please hurry, lol quietly.",
-    "answers": {
-      "text": [
-        "tavern"
-      ],
-      "answer_start": [
-        31
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "915",
-    "question": "What is the destination location after movement?",
-    "context": "ascended to the tower balcony",
-    "answers": {
-      "text": [
-        "tower balcony"
-      ],
-      "answer_start": [
-        16
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "701",
-    "question": "What is the destination location after movement?",
-    "context": "We passed through the palace gates, crossed the banquet hall, and ended in the throne hall filled with banners.",
-    "answers": {
-      "text": [
-        "throne hall"
-      ],
-      "answer_start": [
-        79
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "878",
-    "question": "What is the destination location after movement?",
-    "context": "finally arrived at what's-its-name",
-    "answers": {
-      "text": [
-        "what's-its-name"
-      ],
-      "answer_start": [
-        19
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1745",
-    "question": "What is the destination location after movement?",
-    "context": "come to the guild hall together",
-    "answers": {
-      "text": [
-        "guild hall"
-      ],
-      "answer_start": [
-        12
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "541",
-    "question": "What is the destination location after movement?",
-    "context": "Left the churhc quickly, crossed plazza, and hid together in dungeonn",
-    "answers": {
-      "text": [
-        "dungeon"
-      ],
-      "answer_start": [
-        61
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "3018",
-    "question": "What is the destination location after movement?",
-    "context": "join me on the skyscraper rooftop",
-    "answers": {
-      "text": [
-        "skyscraper rooftop"
-      ],
-      "answer_start": [
-        15
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "question": "What is the destination location after movement?",
-    "context": "We hurry to the forest and catch our breath.",
-    "answers": {
-      "text": [
-        "forest"
-      ],
-      "answer_start": [
-        16
-      ]
-    },
-    "is_impossible": false,
-    "id": "7"
-  },
-  {
-    "id": "1884",
-    "question": "What is the destination location after movement?",
-    "context": "walk with me into the greenhouse",
-    "answers": {
-      "text": [
-        "greenhouse"
-      ],
-      "answer_start": [
-        22
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1603",
-    "question": "What is the destination location after movement?",
-    "context": "come with me into the banquet hall",
-    "answers": {
-      "text": [
-        "banquet hall"
-      ],
-      "answer_start": [
-        22
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "3034",
-    "question": "What is the destination location after movement?",
-    "context": "follow me to the subway station rn",
-    "answers": {
-      "text": [
-        "subway station"
-      ],
-      "answer_start": [
-        17
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "928",
-    "question": "What is the destination location after movement?",
-    "context": "playing cards at the tavern table",
-    "answers": {
-      "text": [
-        "tavern"
-      ],
-      "answer_start": [
-        21
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1719",
-    "question": "What is the destination location after movement?",
-    "context": "wait for me in the chapel",
-    "answers": {
-      "text": [
-        "chapel"
-      ],
-      "answer_start": [
-        19
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "921",
-    "question": "What is the destination location after movement?",
-    "context": "queued impatiently at the ticket booth",
-    "answers": {
-      "text": [
-        "ticket booth"
-      ],
-      "answer_start": [
-        26
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "3164",
-    "question": "What is the destination location after movement?",
-    "context": "meet me at the riverbank",
-    "answers": {
-      "text": [
-        "riverbank"
-      ],
-      "answer_start": [
-        15
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "969",
-    "question": "What is the destination location after movement?",
-    "context": "warehouse - storage floor - the valuable goods section",
-    "answers": {
-      "text": [
-        "valuable goods section"
-      ],
-      "answer_start": [
-        32
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "544",
-    "question": "What is the destination location after movement?",
-    "context": "We left guild hal, hurried down bridg, and rested inside armoryy",
-    "answers": {
-      "text": [
-        "armory"
-      ],
-      "answer_start": [
-        57
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1293",
-    "question": "What is the destination location after movement?",
-    "context": "she pulled me by the hand into the dungeon",
-    "answers": {
-      "text": [
-        "dungeon"
-      ],
-      "answer_start": [
-        35
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "161",
-    "question": "What is the destination location after movement?",
-    "context": "Okay okay, rushing with you through the gates even though it feels reckless, but fine let’s do it fast.",
-    "answers": {
-      "text": [
-        "gates"
-      ],
-      "answer_start": [
-        40
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1228",
-    "question": "What is the destination location after movement?",
-    "context": "let’s sneak into the library after dark",
-    "answers": {
-      "text": [
-        "library"
-      ],
-      "answer_start": [
-        21
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "561",
-    "question": "What is the destination location after movement?",
-    "context": "After leaving campfire in forest clearing, we crossed bridge above foaming river, hurried across muddy field, passed ruined barn, circled orchard edge, climbed narrow tower stair, and ended with breathless laughter under stars on the rooftop above silent town.",
-    "answers": {
-      "text": [
-        "rooftop"
-      ],
-      "answer_start": [
-        234
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "385",
-    "question": "What is the destination location after movement?",
-    "context": "I will take you from the noisy tavrn into quiet garden near fountain",
-    "answers": {
-      "text": [
-        "garden"
-      ],
-      "answer_start": [
-        48
-      ]
-    },
-    "is_impossible": false
-  },
-  {
     "id": "316",
     "question": "What is the destination location after movement?",
     "context": "left arena, crowd noisy, we squeezed through vendor stalls, crossed bridge, paused in park gazebo, and ended the chase in greenhouse",
@@ -2086,351 +42,15 @@
     "is_impossible": false
   },
   {
-    "id": "349",
+    "id": "1340",
     "question": "What is the destination location after movement?",
-    "context": "dragging you from noisy square, down hidden steps, I end up in dungeon with you",
-    "answers": {
-      "text": [
-        "dungeon"
-      ],
-      "answer_start": [
-        63
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "3042",
-    "question": "What is the destination location after movement?",
-    "context": "meet me in mirko’s apartment",
-    "answers": {
-      "text": [
-        "mirko’s apartment"
-      ],
-      "answer_start": [
-        11
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "question": "What is the destination location after movement?",
-    "context": "Let's head into the square before it gets dark.",
-    "answers": {
-      "text": [
-        "square"
-      ],
-      "answer_start": [
-        20
-      ]
-    },
-    "is_impossible": false,
-    "id": "97"
-  },
-  {
-    "id": "1038",
-    "question": "What is the destination location after movement?",
-    "context": "cloister",
-    "answers": {
-      "text": [
-        "cloister"
-      ],
-      "answer_start": [
-        0
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "833",
-    "question": "What is the destination location after movement?",
-    "context": "arrived at the castle courtyard after the siege",
-    "answers": {
-      "text": [
-        "castle courtyard"
-      ],
-      "answer_start": [
-        15
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "265",
-    "question": "What is the destination location after movement?",
-    "context": "after sunset caravan stopped near castle on top of hill",
-    "answers": {
-      "text": [
-        "castle"
-      ],
-      "answer_start": [
-        34
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "297",
-    "question": "What is the destination location after movement?",
-    "context": "we rode out from stables, circled orchard, crossed meadow, splashed a stream, laughed at your silly sing, and stopped beside crumbling shrine",
-    "answers": {
-      "text": [
-        "shrine"
-      ],
-      "answer_start": [
-        135
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "3010",
-    "question": "What is the destination location after movement?",
-    "context": "join me at the city park fountain",
-    "answers": {
-      "text": [
-        "city park fountain"
-      ],
-      "answer_start": [
-        15
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "398",
-    "question": "What is the destination location after movement?",
-    "context": "I’m gonna rush through market stalls, dodge the guard, and meet you in tower",
+    "context": "holding my hand, we stepped into the tower",
     "answers": {
       "text": [
         "tower"
       ],
       "answer_start": [
-        71
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "848",
-    "question": "What is the destination location after movement?",
-    "context": "arrived at the fortress walls at dawn",
-    "answers": {
-      "text": [
-        "fortress walls"
-      ],
-      "answer_start": [
-        15
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "871",
-    "question": "What is the destination location after movement?",
-    "context": "back at the forge after midnight",
-    "answers": {
-      "text": [
-        "forge"
-      ],
-      "answer_start": [
-        12
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1890",
-    "question": "What is the destination location after movement?",
-    "context": "meet me by the courtyard fountain",
-    "answers": {
-      "text": [
-        "courtyard fountain"
-      ],
-      "answer_start": [
-        15
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "925",
-    "question": "What is the destination location after movement?",
-    "context": "drinking coffee at the corner cafe",
-    "answers": {
-      "text": [
-        "corner cafe"
-      ],
-      "answer_start": [
-        23
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1337",
-    "question": "What is the destination location after movement?",
-    "context": "they dragged me by the hand into the tavern",
-    "answers": {
-      "text": [
-        "tavern"
-      ],
-      "answer_start": [
         37
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "190",
-    "question": "What is the destination location after movement?",
-    "context": "We dashed fast and stepped into the upper room, barely catching breath but happy to finally hide there.",
-    "answers": {
-      "text": [
-        "upper room"
-      ],
-      "answer_start": [
-        36
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1857",
-    "question": "What is the destination location after movement?",
-    "context": "follow me to the throne hall",
-    "answers": {
-      "text": [
-        "throne hall"
-      ],
-      "answer_start": [
-        17
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "2281",
-    "question": "What is the destination location after movement?",
-    "context": "come to the bridge with me",
-    "answers": {
-      "text": [
-        "bridge"
-      ],
-      "answer_start": [
-        12
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "280",
-    "question": "What is the destination location after movement?",
-    "context": "finally we reached library hidden behind square full of noise",
-    "answers": {
-      "text": [
-        "library"
-      ],
-      "answer_start": [
-        19
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1856",
-    "question": "What is the destination location after movement?",
-    "context": "come with me into the greenhouse",
-    "answers": {
-      "text": [
-        "greenhouse"
-      ],
-      "answer_start": [
-        22
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1838",
-    "question": "What is the destination location after movement?",
-    "context": "join me at the garden gate",
-    "answers": {
-      "text": [
-        "garden gate"
-      ],
-      "answer_start": [
-        15
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "537",
-    "question": "What is the destination location after movement?",
-    "context": "We walked churh yard, slipped past guilld hall, and finally entered dungeonn",
-    "answers": {
-      "text": [
-        "dungeon"
-      ],
-      "answer_start": [
-        68
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1537",
-    "question": "What is the destination location after movement?",
-    "context": "stay close and walk with me into the garden",
-    "answers": {
-      "text": [
-        "garden"
-      ],
-      "answer_start": [
-        37
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "question": "What is the destination location after movement?",
-    "context": "We move into the castle quietly.",
-    "answers": {
-      "text": [
-        "castle"
-      ],
-      "answer_start": [
-        17
-      ]
-    },
-    "is_impossible": false,
-    "id": "13"
-  },
-  {
-    "id": "811",
-    "question": "What is the destination location after movement?",
-    "context": "Through the library corridor we skipped the study desk and ended in the archive room filled with charts.",
-    "answers": {
-      "text": [
-        "archive room"
-      ],
-      "answer_start": [
-        72
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "3165",
-    "question": "What is the destination location after movement?",
-    "context": "come with me to the riverbank pls",
-    "answers": {
-      "text": [
-        "riverbank"
-      ],
-      "answer_start": [
-        20
       ]
     },
     "is_impossible": false
@@ -2450,264 +70,12 @@
     "is_impossible": false
   },
   {
-    "id": "942",
+    "id": "706",
     "question": "What is the destination location after movement?",
-    "context": "washing clothes by the village well",
+    "context": "From the tavern’s noise we slipped into the cellar below, the air heavy with old barrels.",
     "answers": {
       "text": [
-        "village well"
-      ],
-      "answer_start": [
-        23
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "3136",
-    "question": "What is the destination location after movement?",
-    "context": "meet me in the map room",
-    "answers": {
-      "text": [
-        "map room"
-      ],
-      "answer_start": [
-        15
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "813",
-    "question": "What is the destination location after movement?",
-    "context": "back room - we ended there after slipping out from the guild hall corridor.",
-    "answers": {
-      "text": [
-        "back room"
-      ],
-      "answer_start": [
-        0
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "question": "What is the destination location after movement?",
-    "context": "Both of us enter the dungeon slowly.",
-    "answers": {
-      "text": [
-        "dungeon"
-      ],
-      "answer_start": [
-        21
-      ]
-    },
-    "is_impossible": false,
-    "id": "96"
-  },
-  {
-    "id": "796",
-    "question": "What is the destination location after movement?",
-    "context": "We went through the vineyard gate, ignored the fountain, and settled in the wine cellar under the manor.",
-    "answers": {
-      "text": [
-        "wine cellar"
-      ],
-      "answer_start": [
-        76
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "question": "What is the destination location after movement?",
-    "context": "somehow we end up inside the forrest, lol",
-    "answers": {
-      "text": [
-        "forest"
-      ],
-      "answer_start": [
-        29
-      ]
-    },
-    "is_impossible": false,
-    "id": "81"
-  },
-  {
-    "id": "3171",
-    "question": "What is the destination location after movement?",
-    "context": "walk with me to the fountain",
-    "answers": {
-      "text": [
-        "fountain"
-      ],
-      "answer_start": [
-        20
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1287",
-    "question": "What is the destination location after movement?",
-    "context": "he guided me with his hand into the courtyard",
-    "answers": {
-      "text": [
-        "courtyard"
-      ],
-      "answer_start": [
-        36
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "question": "What is the destination location after movement?",
-    "context": "Let's head into the gates before it gets dark.",
-    "answers": {
-      "text": [
-        "gates"
-      ],
-      "answer_start": [
-        20
-      ]
-    },
-    "is_impossible": false,
-    "id": "1"
-  },
-  {
-    "id": "524",
-    "question": "What is the destination location after movement?",
-    "context": "We left the barracks at midday, stepped over muddy training yard, paused at gate where guards questioned us, hurried through square filled with jugglers, slipped into arcade, and finally came to greenhouse filled with the scent of wet leaves.",
-    "answers": {
-      "text": [
-        "greenhouse"
-      ],
-      "answer_start": [
-        195
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "3178",
-    "question": "What is the destination location after movement?",
-    "context": "come meet me on the bridge",
-    "answers": {
-      "text": [
-        "bridge"
-      ],
-      "answer_start": [
-        20
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "282",
-    "question": "What is the destination location after movement?",
-    "context": "first we walked through garden with roses, then crossed bridge covered in moss, after that wandered near castle yard where guards shouted, and at last we reached guild hall filled with music and firelight",
-    "answers": {
-      "text": [
-        "guild hall"
-      ],
-      "answer_start": [
-        162
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "3158",
-    "question": "What is the destination location after movement?",
-    "context": "join me at the bakery this evening",
-    "answers": {
-      "text": [
-        "bakery this evening"
-      ],
-      "answer_start": [
-        15
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "369",
-    "question": "What is the destination location after movement?",
-    "context": "We have to run from smithy, cut through the barracks, and finally rest in armory",
-    "answers": {
-      "text": [
-        "armory"
-      ],
-      "answer_start": [
-        74
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1823",
-    "question": "What is the destination location after movement?",
-    "context": "follow me to the garden gate",
-    "answers": {
-      "text": [
-        "garden gate"
-      ],
-      "answer_start": [
-        17
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "2253",
-    "question": "What is the destination location after movement?",
-    "context": "walk with me to the study",
-    "answers": {
-      "text": [
-        "study"
-      ],
-      "answer_start": [
-        20
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "821",
-    "question": "What is the destination location after movement?",
-    "context": "watch tower - we ascended the spiral stair and posted at the top above the gate.",
-    "answers": {
-      "text": [
-        "watch tower"
-      ],
-      "answer_start": [
-        0
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "223",
-    "question": "What is the destination location after movement?",
-    "context": "She whispered we’d head to the balcony and hide for a while.",
-    "answers": {
-      "text": [
-        "balcony"
-      ],
-      "answer_start": [
-        31
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1310",
-    "question": "What is the destination location after movement?",
-    "context": "she grabbed my wrist and pulled me into the tavern",
-    "answers": {
-      "text": [
-        "tavern"
+        "cellar below"
       ],
       "answer_start": [
         44
@@ -2716,82 +84,82 @@
     "is_impossible": false
   },
   {
-    "id": "147",
+    "id": "928",
     "question": "What is the destination location after movement?",
-    "context": "okay, I think we make our way to the castle, it's fine, for real if it's open.",
+    "context": "playing cards at the tavern table",
     "answers": {
       "text": [
-        "castle"
+        "tavern"
       ],
       "answer_start": [
-        37
+        21
       ]
     },
     "is_impossible": false
   },
   {
-    "id": "534",
+    "id": "833",
     "question": "What is the destination location after movement?",
-    "context": "We walked away from forge, down path to city gate, circled around orchard, slipped into chapel for a moment, ran down hidden steps, and finally came into dungeon lit by flickering torches.",
+    "context": "arrived at the castle courtyard after the siege",
     "answers": {
       "text": [
-        "dungeon"
+        "castle courtyard"
       ],
       "answer_start": [
-        154
+        15
       ]
     },
     "is_impossible": false
   },
   {
-    "id": "294",
+    "id": "1473",
     "question": "What is the destination location after movement?",
-    "context": "we wandered from camp, over wooden bridge, through reed field, followed lanterns by the shore until we came to boathouse",
+    "context": "meet me at the guild hall",
     "answers": {
       "text": [
-        "boathouse"
+        "guild hall"
       ],
       "answer_start": [
-        111
+        15
       ]
     },
     "is_impossible": false
   },
   {
-    "id": "869",
+    "id": "3123",
     "question": "What is the destination location after movement?",
-    "context": "finally arrived at the clock tower",
+    "context": "join me in the tower room, please",
     "answers": {
       "text": [
-        "clock tower"
+        "tower room"
       ],
       "answer_start": [
-        23
+        15
       ]
     },
     "is_impossible": false
   },
   {
-    "id": "3051",
+    "id": "1839",
     "question": "What is the destination location after movement?",
-    "context": "come with me into the heroes’ dormitory",
+    "context": "wait with me in the guild hall",
     "answers": {
       "text": [
-        "heroes’ dormitory"
+        "guild hall"
       ],
       "answer_start": [
-        22
+        20
       ]
     },
     "is_impossible": false
   },
   {
-    "id": "3145",
+    "id": "1872",
     "question": "What is the destination location after movement?",
-    "context": "follow me to the garden gate",
+    "context": "follow me to the library reading room",
     "answers": {
       "text": [
-        "garden gate"
+        "library reading room"
       ],
       "answer_start": [
         17
@@ -2800,127 +168,43 @@
     "is_impossible": false
   },
   {
-    "id": "312",
+    "id": "423",
     "question": "What is the destination location after movement?",
-    "context": "we flirted at bar, walked along quay, thought about lighthouse but wind strong, ducked under awning, and finally warmed up in sauna",
+    "context": "Let’s move fast from dock, past warehouse, and slip inside boathouse",
     "answers": {
       "text": [
-        "sauna"
+        "boathouse"
       ],
       "answer_start": [
-        126
+        59
       ]
     },
     "is_impossible": false
   },
   {
+    "id": "204",
     "question": "What is the destination location after movement?",
-    "context": "Shall we step onto the guild hall right away?",
+    "context": "ok ok let’s head to the temple, maybe it’s quiet inside now.",
     "answers": {
       "text": [
-        "guild hall"
+        "temple"
       ],
       "answer_start": [
-        23
-      ]
-    },
-    "is_impossible": false,
-    "id": "23"
-  },
-  {
-    "id": "1826",
-    "question": "What is the destination location after movement?",
-    "context": "walk with me to the bakery",
-    "answers": {
-      "text": [
-        "bakery"
-      ],
-      "answer_start": [
-        20
+        24
       ]
     },
     "is_impossible": false
   },
   {
-    "id": "2304",
+    "id": "837",
     "question": "What is the destination location after movement?",
-    "context": "join me up on the cathedral steps",
+    "context": "back at the market square before closing time",
     "answers": {
       "text": [
-        "cathedral steps"
+        "market square"
       ],
       "answer_start": [
-        18
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "323",
-    "question": "What is the destination location after movement?",
-    "context": "market noise pushed us to side street, then arcade, we tested door to guild hall but locked, circled and ended at counting house",
-    "answers": {
-      "text": [
-        "counting house"
-      ],
-      "answer_start": [
-        114
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "861",
-    "question": "What is the destination location after movement?",
-    "context": "finally back at the farm house",
-    "answers": {
-      "text": [
-        "farm house"
-      ],
-      "answer_start": [
-        20
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "583",
-    "question": "What is the destination location after movement?",
-    "context": "I said not going anywhere, sat by well, yet we rose, moved across plaza, skipped saloon despite laughter, climbed narrow stair, and finally stood together on rooftop under stars.",
-    "answers": {
-      "text": [
-        "rooftop"
-      ],
-      "answer_start": [
-        158
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "2256",
-    "question": "What is the destination location after movement?",
-    "context": "wait for me in the study",
-    "answers": {
-      "text": [
-        "study"
-      ],
-      "answer_start": [
-        19
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1565",
-    "question": "What is the destination location after movement?",
-    "context": "join me in the banquet hall",
-    "answers": {
-      "text": [
-        "banquet hall"
-      ],
-      "answer_start": [
-        15
+        12
       ]
     },
     "is_impossible": false
@@ -2940,12 +224,110 @@
     "is_impossible": false
   },
   {
-    "id": "1540",
+    "id": "545",
     "question": "What is the destination location after movement?",
-    "context": "let's sneak away to the garden",
+    "context": "I ran from innn yard, skipped chapell, and ended finally in cellarr",
     "answers": {
       "text": [
-        "garden"
+        "cellar"
+      ],
+      "answer_start": [
+        60
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "question": "What is the destination location after movement?",
+    "context": "We move into the shop quietly.",
+    "answers": {
+      "text": [
+        "shop"
+      ],
+      "answer_start": [
+        17
+      ]
+    },
+    "is_impossible": false,
+    "id": "90"
+  },
+  {
+    "id": "537",
+    "question": "What is the destination location after movement?",
+    "context": "We walked churh yard, slipped past guilld hall, and finally entered dungeonn",
+    "answers": {
+      "text": [
+        "dungeon"
+      ],
+      "answer_start": [
+        68
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1627",
+    "question": "What is the destination location after movement?",
+    "context": "meet me at the courtyard well",
+    "answers": {
+      "text": [
+        "courtyard well"
+      ],
+      "answer_start": [
+        15
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1664",
+    "question": "What is the destination location after movement?",
+    "context": "join me on the rooftop",
+    "answers": {
+      "text": [
+        "rooftop"
+      ],
+      "answer_start": [
+        15
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "question": "What is the destination location after movement?",
+    "context": "We move into the castle quietly.",
+    "answers": {
+      "text": [
+        "castle"
+      ],
+      "answer_start": [
+        17
+      ]
+    },
+    "is_impossible": false,
+    "id": "13"
+  },
+  {
+    "id": "101",
+    "question": "What is the destination location after movement?",
+    "context": "hmm, I think we move into the shop, no drama, for real if it's open.",
+    "answers": {
+      "text": [
+        "shop"
+      ],
+      "answer_start": [
+        30
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1187",
+    "question": "What is the destination location after movement?",
+    "context": "let’s settle inside the library for the night",
+    "answers": {
+      "text": [
+        "library"
       ],
       "answer_start": [
         24
@@ -2954,12 +336,26 @@
     "is_impossible": false
   },
   {
-    "id": "865",
+    "id": "14003",
     "question": "What is the destination location after movement?",
-    "context": "arrived back at the town square",
+    "context": "I moved to New York last week",
     "answers": {
       "text": [
-        "town square"
+        "New York"
+      ],
+      "answer_start": [
+        11
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1722",
+    "question": "What is the destination location after movement?",
+    "context": "hide with me in the pantry",
+    "answers": {
+      "text": [
+        "pantry"
       ],
       "answer_start": [
         20
@@ -2982,68 +378,12 @@
     "is_impossible": false
   },
   {
-    "id": "1827",
+    "id": "2241",
     "question": "What is the destination location after movement?",
-    "context": "gather with me on the cathedral steps",
+    "context": "come with me to the garden gate",
     "answers": {
       "text": [
-        "cathedral steps"
-      ],
-      "answer_start": [
-        22
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "840",
-    "question": "What is the destination location after movement?",
-    "context": "back at the inn's stable yard",
-    "answers": {
-      "text": [
-        "inn's stable yard"
-      ],
-      "answer_start": [
-        12
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "466",
-    "question": "What is the destination location after movement?",
-    "context": "At last we ended up in greenhouse, surrounded by warmth and bright plants",
-    "answers": {
-      "text": [
-        "greenhouse"
-      ],
-      "answer_start": [
-        23
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1596",
-    "question": "What is the destination location after movement?",
-    "context": "follow me to the riverbank",
-    "answers": {
-      "text": [
-        "riverbank"
-      ],
-      "answer_start": [
-        17
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1712",
-    "question": "What is the destination location after movement?",
-    "context": "hide with me in the cellar",
-    "answers": {
-      "text": [
-        "cellar"
+        "garden gate"
       ],
       "answer_start": [
         20
@@ -3052,40 +392,12 @@
     "is_impossible": false
   },
   {
-    "id": "824",
+    "id": "3003",
     "question": "What is the destination location after movement?",
-    "context": "finally reached the mountain peak at sunset",
+    "context": "join me in the training ground tonight",
     "answers": {
       "text": [
-        "mountain peak"
-      ],
-      "answer_start": [
-        20
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1340",
-    "question": "What is the destination location after movement?",
-    "context": "holding my hand, we stepped into the tower",
-    "answers": {
-      "text": [
-        "tower"
-      ],
-      "answer_start": [
-        37
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "2229",
-    "question": "What is the destination location after movement?",
-    "context": "join me in the war room right now",
-    "answers": {
-      "text": [
-        "war room"
+        "training ground"
       ],
       "answer_start": [
         15
@@ -3094,12 +406,68 @@
     "is_impossible": false
   },
   {
-    "id": "464",
+    "id": "714",
     "question": "What is the destination location after movement?",
-    "context": "At last we arrived at the bathhouse, steam rising warmly from inside",
+    "context": "Past the garden hedge we stopped near a gazebo painted white, vines curling around its pillars.",
     "answers": {
       "text": [
-        "bathhouse"
+        "gazebo painted"
+      ],
+      "answer_start": [
+        40
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "262",
+    "question": "What is the destination location after movement?",
+    "context": "both of us entered guild hall slowly, laughter echoing inside",
+    "answers": {
+      "text": [
+        "guild hall"
+      ],
+      "answer_start": [
+        19
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1413",
+    "question": "What is the destination location after movement?",
+    "context": "meet me at the market square",
+    "answers": {
+      "text": [
+        "market square"
+      ],
+      "answer_start": [
+        15
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1287",
+    "question": "What is the destination location after movement?",
+    "context": "he guided me with his hand into the courtyard",
+    "answers": {
+      "text": [
+        "courtyard"
+      ],
+      "answer_start": [
+        36
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "931",
+    "question": "What is the destination location after movement?",
+    "context": "checking inventory in the storage warehouse",
+    "answers": {
+      "text": [
+        "storage warehouse"
       ],
       "answer_start": [
         26
@@ -3108,127 +476,113 @@
     "is_impossible": false
   },
   {
-    "id": "1627",
+    "id": "2262",
     "question": "What is the destination location after movement?",
-    "context": "meet me at the courtyard well",
+    "context": "wait for me at the riverbank",
     "answers": {
       "text": [
-        "courtyard well"
+        "riverbank"
       ],
       "answer_start": [
-        15
+        19
       ]
     },
     "is_impossible": false
   },
   {
-    "id": "3128",
+    "id": "925",
     "question": "What is the destination location after movement?",
-    "context": "walk with me to the harbor now",
+    "context": "drinking coffee at the corner cafe",
     "answers": {
       "text": [
-        "harbor"
+        "corner cafe"
       ],
       "answer_start": [
-        20
+        23
       ]
     },
     "is_impossible": false
   },
   {
-    "id": "549",
+    "id": "282",
     "question": "What is the destination location after movement?",
-    "context": "We left archivee, rushed through dorm, and stopped finally inside bathouse",
+    "context": "first we walked through garden with roses, then crossed bridge covered in moss, after that wandered near castle yard where guards shouted, and at last we reached guild hall filled with music and firelight",
     "answers": {
       "text": [
-        "bathhouse"
+        "guild hall"
       ],
       "answer_start": [
-        66
+        162
       ]
     },
     "is_impossible": false
   },
   {
-    "id": "3011",
+    "id": "708",
     "question": "What is the destination location after movement?",
-    "context": "walk with me through the city park",
+    "context": "We pushed through the castle corridors and gathered finally in the crypt beneath the chapel.",
     "answers": {
       "text": [
-        "city park"
+        "crypt beneath"
       ],
       "answer_start": [
-        25
+        67
       ]
     },
     "is_impossible": false
   },
   {
-    "id": "1511",
+    "id": "1844",
     "question": "What is the destination location after movement?",
-    "context": "gather with me, holding hands, in the market square",
+    "context": "walk with me across the bridge",
     "answers": {
       "text": [
-        "market square"
+        "bridge"
       ],
       "answer_start": [
-        38
+        24
       ]
     },
     "is_impossible": false
   },
   {
-    "id": "815",
+    "id": "916",
     "question": "What is the destination location after movement?",
-    "context": "lantern room - we climbed the lighthouse stairs and stepped inside together.",
+    "context": "ran desperately to the airport gate",
     "answers": {
       "text": [
-        "lantern room"
+        "airport gate"
       ],
       "answer_start": [
-        0
+        23
       ]
     },
     "is_impossible": false
   },
   {
-    "id": "731",
+    "id": "3175",
     "question": "What is the destination location after movement?",
-    "context": "I left the docks, climbed the stairs, and opened the bell tower where the ropes swung.",
+    "context": "let’s head to the tower room now",
     "answers": {
       "text": [
-        "bell tower"
+        "tower room"
       ],
       "answer_start": [
-        53
+        18
       ]
     },
     "is_impossible": false
   },
   {
-    "id": "795",
+    "id": "1603",
     "question": "What is the destination location after movement?",
-    "context": "Crossing the battlements we passed the guard posts and waited in the watch tower above the gate.",
+    "context": "come with me into the banquet hall",
     "answers": {
       "text": [
-        "watch tower"
+        "banquet hall"
       ],
       "answer_start": [
-        69
-      ]
-    },
-    "is_impossible": false
-  },
-  {
-    "id": "1285",
-    "question": "What is the destination location after movement?",
-    "context": "take me by the hand and lead me into the garden",
-    "answers": {
-      "text": [
-        "garden"
-      ],
-      "answer_start": [
-        41
+        22
       ]
     },
     "is_impossible": false
@@ -3248,6 +602,888 @@
     "is_impossible": false
   },
   {
+    "id": "534",
+    "question": "What is the destination location after movement?",
+    "context": "We walked away from forge, down path to city gate, circled around orchard, slipped into chapel for a moment, ran down hidden steps, and finally came into dungeon lit by flickering torches.",
+    "answers": {
+      "text": [
+        "dungeon"
+      ],
+      "answer_start": [
+        154
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "656",
+    "question": "What is the destination location after movement?",
+    "context": "We crossed the nave quietly, opened the iron grate, and went down to the lower crypt under the altar.",
+    "answers": {
+      "text": [
+        "lower crypt"
+      ],
+      "answer_start": [
+        73
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1512",
+    "question": "What is the destination location after movement?",
+    "context": "walk beside me and hold my hand in the market square",
+    "answers": {
+      "text": [
+        "market square"
+      ],
+      "answer_start": [
+        39
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "323",
+    "question": "What is the destination location after movement?",
+    "context": "market noise pushed us to side street, then arcade, we tested door to guild hall but locked, circled and ended at counting house",
+    "answers": {
+      "text": [
+        "counting house"
+      ],
+      "answer_start": [
+        114
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "854",
+    "question": "What is the destination location after movement?",
+    "context": "arrived at the manor house grounds",
+    "answers": {
+      "text": [
+        "manor house grounds"
+      ],
+      "answer_start": [
+        15
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "319",
+    "question": "What is the destination location after movement?",
+    "context": "began at harbor, past customs shed, through warehouse row, guards shouted, we sprinted across yard and hid in office",
+    "answers": {
+      "text": [
+        "office"
+      ],
+      "answer_start": [
+        110
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "549",
+    "question": "What is the destination location after movement?",
+    "context": "We left archivee, rushed through dorm, and stopped finally inside bathouse",
+    "answers": {
+      "text": [
+        "bathhouse"
+      ],
+      "answer_start": [
+        66
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "2302",
+    "question": "What is the destination location after movement?",
+    "context": "wait together on the cathedral steps",
+    "answers": {
+      "text": [
+        "cathedral steps"
+      ],
+      "answer_start": [
+        21
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1208",
+    "question": "What is the destination location after movement?",
+    "context": "they headed into the tower room",
+    "answers": {
+      "text": [
+        "tower room"
+      ],
+      "answer_start": [
+        21
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "3163",
+    "question": "What is the destination location after movement?",
+    "context": "follow me to the riverbank",
+    "answers": {
+      "text": [
+        "riverbank"
+      ],
+      "answer_start": [
+        17
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1899",
+    "question": "What is the destination location after movement?",
+    "context": "meet me inside the greenhouse",
+    "answers": {
+      "text": [
+        "greenhouse"
+      ],
+      "answer_start": [
+        19
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1694",
+    "question": "What is the destination location after movement?",
+    "context": "sit with me on the rooftop",
+    "answers": {
+      "text": [
+        "rooftop"
+      ],
+      "answer_start": [
+        19
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "2252",
+    "question": "What is the destination location after movement?",
+    "context": "come to the study with me",
+    "answers": {
+      "text": [
+        "study"
+      ],
+      "answer_start": [
+        12
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "3129",
+    "question": "What is the destination location after movement?",
+    "context": "meet me at the harbor gate",
+    "answers": {
+      "text": [
+        "harbor gate"
+      ],
+      "answer_start": [
+        15
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "524",
+    "question": "What is the destination location after movement?",
+    "context": "We left the barracks at midday, stepped over muddy training yard, paused at gate where guards questioned us, hurried through square filled with jugglers, slipped into arcade, and finally came to greenhouse filled with the scent of wet leaves.",
+    "answers": {
+      "text": [
+        "greenhouse"
+      ],
+      "answer_start": [
+        195
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "3159",
+    "question": "What is the destination location after movement?",
+    "context": "follow me to the bakery",
+    "answers": {
+      "text": [
+        "bakery"
+      ],
+      "answer_start": [
+        17
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "3092",
+    "question": "What is the destination location after movement?",
+    "context": "come with me into the hot springs",
+    "answers": {
+      "text": [
+        "hot springs"
+      ],
+      "answer_start": [
+        22
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1364",
+    "question": "What is the destination location after movement?",
+    "context": "I grabbed her wrist and ran with her into the tower",
+    "answers": {
+      "text": [
+        "tower"
+      ],
+      "answer_start": [
+        46
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "question": "What is the destination location after movement?",
+    "context": "Let's head into the square before it gets dark.",
+    "answers": {
+      "text": [
+        "square"
+      ],
+      "answer_start": [
+        20
+      ]
+    },
+    "is_impossible": false,
+    "id": "97"
+  },
+  {
+    "id": "265",
+    "question": "What is the destination location after movement?",
+    "context": "after sunset caravan stopped near castle on top of hill",
+    "answers": {
+      "text": [
+        "castle"
+      ],
+      "answer_start": [
+        34
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "927",
+    "question": "What is the destination location after movement?",
+    "context": "cooking dinner in the mountain cabin",
+    "answers": {
+      "text": [
+        "mountain cabin"
+      ],
+      "answer_start": [
+        22
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "397",
+    "question": "What is the destination location after movement?",
+    "context": "I’ll lead you through corridor, down secret stairs, and straight to pantry",
+    "answers": {
+      "text": [
+        "pantry"
+      ],
+      "answer_start": [
+        68
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "261",
+    "question": "What is the destination location after movement?",
+    "context": "we ran into tavern before rain started pouring hard",
+    "answers": {
+      "text": [
+        "tavern"
+      ],
+      "answer_start": [
+        12
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "842",
+    "question": "What is the destination location after movement?",
+    "context": "arrived back at the pier after the voyage",
+    "answers": {
+      "text": [
+        "pier"
+      ],
+      "answer_start": [
+        20
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "840",
+    "question": "What is the destination location after movement?",
+    "context": "back at the inn's stable yard",
+    "answers": {
+      "text": [
+        "inn's stable yard"
+      ],
+      "answer_start": [
+        12
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1565",
+    "question": "What is the destination location after movement?",
+    "context": "join me in the banquet hall",
+    "answers": {
+      "text": [
+        "banquet hall"
+      ],
+      "answer_start": [
+        15
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1635",
+    "question": "What is the destination location after movement?",
+    "context": "meet me at the terrace",
+    "answers": {
+      "text": [
+        "terrace"
+      ],
+      "answer_start": [
+        15
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1539",
+    "question": "What is the destination location after movement?",
+    "context": "walk beside me to the garden",
+    "answers": {
+      "text": [
+        "garden"
+      ],
+      "answer_start": [
+        22
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "558",
+    "question": "What is the destination location after movement?",
+    "context": "Our path began at castle gate, then through courtyard crowded with guards, quick step past gallery of portraits, down corridor to throne room where silence pressed, detour into archive heavy with dust, and after long searching we ended hidden in armory stacked with steel.",
+    "answers": {
+      "text": [
+        "armory"
+      ],
+      "answer_start": [
+        246
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "871",
+    "question": "What is the destination location after movement?",
+    "context": "back at the forge after midnight",
+    "answers": {
+      "text": [
+        "forge"
+      ],
+      "answer_start": [
+        12
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1344",
+    "question": "What is the destination location after movement?",
+    "context": "with her hand in mine, we entered the banquet hall",
+    "answers": {
+      "text": [
+        "banquet hall"
+      ],
+      "answer_start": [
+        38
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "3050",
+    "question": "What is the destination location after movement?",
+    "context": "join me in the heroes’ dormitory",
+    "answers": {
+      "text": [
+        "heroes’ dormitory"
+      ],
+      "answer_start": [
+        15
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1720",
+    "question": "What is the destination location after movement?",
+    "context": "hide with me in the greenhouse",
+    "answers": {
+      "text": [
+        "greenhouse"
+      ],
+      "answer_start": [
+        20
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "932",
+    "question": "What is the destination location after movement?",
+    "context": "practicing spells at the magic circle",
+    "answers": {
+      "text": [
+        "magic circle"
+      ],
+      "answer_start": [
+        25
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "294",
+    "question": "What is the destination location after movement?",
+    "context": "we wandered from camp, over wooden bridge, through reed field, followed lanterns by the shore until we came to boathouse",
+    "answers": {
+      "text": [
+        "boathouse"
+      ],
+      "answer_start": [
+        111
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1421",
+    "question": "What is the destination location after movement?",
+    "context": "walk with me to the castle yard",
+    "answers": {
+      "text": [
+        "castle yard"
+      ],
+      "answer_start": [
+        20
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1774",
+    "question": "What is the destination location after movement?",
+    "context": "gather with me on the cathedral steps",
+    "answers": {
+      "text": [
+        "cathedral steps"
+      ],
+      "answer_start": [
+        22
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1037",
+    "question": "What is the destination location after movement?",
+    "context": "balcony",
+    "answers": {
+      "text": [
+        "balcony"
+      ],
+      "answer_start": [
+        0
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "question": "What is the destination location after movement?",
+    "context": "Shall we step onto the gates right away?",
+    "answers": {
+      "text": [
+        "gates"
+      ],
+      "answer_start": [
+        23
+      ]
+    },
+    "is_impossible": false,
+    "id": "14"
+  },
+  {
+    "id": "334",
+    "question": "What is the destination location after movement?",
+    "context": "after sparring yard, we check watchtower, then mess hall for water, down spiral to old hall, and finish in armory",
+    "answers": {
+      "text": [
+        "armory"
+      ],
+      "answer_start": [
+        107
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1472",
+    "question": "What is the destination location after movement?",
+    "context": "meet me in the chapel",
+    "answers": {
+      "text": [
+        "chapel"
+      ],
+      "answer_start": [
+        15
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "473",
+    "question": "What is the destination location after movement?",
+    "context": "We finally reached the shrine, incense drifting softly in the air",
+    "answers": {
+      "text": [
+        "shrine"
+      ],
+      "answer_start": [
+        23
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1847",
+    "question": "What is the destination location after movement?",
+    "context": "sit with me at the harbor pier",
+    "answers": {
+      "text": [
+        "harbor pier"
+      ],
+      "answer_start": [
+        19
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "3033",
+    "question": "What is the destination location after movement?",
+    "context": "join me in the subway station",
+    "answers": {
+      "text": [
+        "subway station"
+      ],
+      "answer_start": [
+        15
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1751",
+    "question": "What is the destination location after movement?",
+    "context": "come to the observatory dome",
+    "answers": {
+      "text": [
+        "observatory dome"
+      ],
+      "answer_start": [
+        12
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "question": "What is the destination location after movement?",
+    "context": "Both of us enter the dungeon slowly.",
+    "answers": {
+      "text": [
+        "dungeon"
+      ],
+      "answer_start": [
+        21
+      ]
+    },
+    "is_impossible": false,
+    "id": "96"
+  },
+  {
+    "id": "1718",
+    "question": "What is the destination location after movement?",
+    "context": "hide with me in the observatory dome",
+    "answers": {
+      "text": [
+        "observatory dome"
+      ],
+      "answer_start": [
+        20
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "817",
+    "question": "What is the destination location after movement?",
+    "context": "guard barracks - we walked through the palace wing and mustered under the racks.",
+    "answers": {
+      "text": [
+        "guard barracks"
+      ],
+      "answer_start": [
+        0
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1656",
+    "question": "What is the destination location after movement?",
+    "context": "join me at the cathedral steps",
+    "answers": {
+      "text": [
+        "cathedral steps"
+      ],
+      "answer_start": [
+        15
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "14029",
+    "question": "What is the destination location after movement?",
+    "context": "I hurried into the chapel before the rain",
+    "answers": {
+      "text": [
+        "chapel"
+      ],
+      "answer_start": [
+        19
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "289",
+    "question": "What is the destination location after movement?",
+    "context": "started in plaza, ran through gardens, hand in hand through shadowed gallery, we sneaked past guards and hid together inside observatory",
+    "answers": {
+      "text": [
+        "observatory"
+      ],
+      "answer_start": [
+        125
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "354",
+    "question": "What is the destination location after movement?",
+    "context": "I wanna climb to observatory, stare at stars with you pressed against me",
+    "answers": {
+      "text": [
+        "observatory"
+      ],
+      "answer_start": [
+        17
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1475",
+    "question": "What is the destination location after movement?",
+    "context": "meet me in the cloister",
+    "answers": {
+      "text": [
+        "cloister"
+      ],
+      "answer_start": [
+        15
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "793",
+    "question": "What is the destination location after movement?",
+    "context": "From the tower stairs we skipped the scribe desk and debated in the map chamber filled with scrolls.",
+    "answers": {
+      "text": [
+        "map chamber"
+      ],
+      "answer_start": [
+        68
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "14016",
+    "question": "What is the destination location after movement?",
+    "context": "they went down into the dungeon yesterday",
+    "answers": {
+      "text": [
+        "dungeon"
+      ],
+      "answer_start": [
+        24
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1845",
+    "question": "What is the destination location after movement?",
+    "context": "join me in the map room",
+    "answers": {
+      "text": [
+        "map room"
+      ],
+      "answer_start": [
+        15
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "942",
+    "question": "What is the destination location after movement?",
+    "context": "washing clothes by the village well",
+    "answers": {
+      "text": [
+        "village well"
+      ],
+      "answer_start": [
+        23
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "347",
+    "question": "What is the destination location after movement?",
+    "context": "taking u from market stalls straight into bathhouse steamy room",
+    "answers": {
+      "text": [
+        "bathhouse"
+      ],
+      "answer_start": [
+        42
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "14021",
+    "question": "What is the destination location after movement?",
+    "context": "they sailed into the harbor at sunrise",
+    "answers": {
+      "text": [
+        "harbor"
+      ],
+      "answer_start": [
+        21
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "156",
+    "question": "What is the destination location after movement?",
+    "context": "We rushed past the fountain and stepped quickly into the temple before the guards noticed us sneaking in.",
+    "answers": {
+      "text": [
+        "temple"
+      ],
+      "answer_start": [
+        57
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "159",
+    "question": "What is the destination location after movement?",
+    "context": "Hey, let’s sneak up to the upper room, it’s quieter and nobody will disturb us there hopefully.",
+    "answers": {
+      "text": [
+        "upper room"
+      ],
+      "answer_start": [
+        27
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1478",
+    "question": "What is the destination location after movement?",
+    "context": "join me at the banquet hall",
+    "answers": {
+      "text": [
+        "banquet hall"
+      ],
+      "answer_start": [
+        15
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "529",
+    "question": "What is the destination location after movement?",
+    "context": "Leaving archive filled with dust we moved down stairwell, stepped into courtyard alive with voices, walked corridor hung with tapestries, ducked through hidden door behind statue, and at last reached bathhouse where hot air wrapped us immediately.",
+    "answers": {
+      "text": [
+        "bathhouse"
+      ],
+      "answer_start": [
+        200
+      ]
+    },
+    "is_impossible": false
+  },
+  {
     "id": "331",
     "question": "What is the destination location after movement?",
     "context": "from garden we go balcony then bedroom—nah too public, i tug you along hallway, through hidden panel, and we end in small stone vault",
@@ -3262,12 +1498,40 @@
     "is_impossible": false
   },
   {
-    "id": "3058",
+    "id": "321",
     "question": "What is the destination location after movement?",
-    "context": "follow me to the training hall",
+    "context": "we started in infirmary, went to chapel for candle, back to infirmary, then mess hall for tea, and finally dozed together in dormitory",
     "answers": {
       "text": [
-        "training hall"
+        "dormitory"
+      ],
+      "answer_start": [
+        125
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1867",
+    "question": "What is the destination location after movement?",
+    "context": "come to the terrace and sit with me",
+    "answers": {
+      "text": [
+        "terrace"
+      ],
+      "answer_start": [
+        12
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "14025",
+    "question": "What is the destination location after movement?",
+    "context": "they entered the castle yard together",
+    "answers": {
+      "text": [
+        "castle yard"
       ],
       "answer_start": [
         17
@@ -3276,29 +1540,589 @@
     "is_impossible": false
   },
   {
-    "id": "963",
+    "id": "314",
     "question": "What is the destination location after movement?",
-    "context": "palace - royal gardens - the secret meditation grove",
+    "context": "started in workshop, checked armory then forge smoke ugh, tried chapel no, circled barracks and finally rested in barrack courtyard",
     "answers": {
       "text": [
-        "secret meditation grove"
+        "courtyard"
       ],
       "answer_start": [
-        29
+        122
       ]
     },
     "is_impossible": false
   },
   {
-    "id": "2244",
+    "id": "1479",
     "question": "What is the destination location after movement?",
-    "context": "stand with me at the garden gate",
+    "context": "join me in the market square",
+    "answers": {
+      "text": [
+        "market square"
+      ],
+      "answer_start": [
+        15
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "392",
+    "question": "What is the destination location after movement?",
+    "context": "We ended up at brothel after wandering through market and along the quay",
+    "answers": {
+      "text": [
+        "brothel"
+      ],
+      "answer_start": [
+        15
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1540",
+    "question": "What is the destination location after movement?",
+    "context": "let's sneak away to the garden",
+    "answers": {
+      "text": [
+        "garden"
+      ],
+      "answer_start": [
+        24
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "660",
+    "question": "What is the destination location after movement?",
+    "context": "We climbed the ruined stairs and opened the archway leading to the royal balcony above the courtyard.",
+    "answers": {
+      "text": [
+        "royal balcony"
+      ],
+      "answer_start": [
+        67
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "3011",
+    "question": "What is the destination location after movement?",
+    "context": "walk with me through the city park",
+    "answers": {
+      "text": [
+        "city park"
+      ],
+      "answer_start": [
+        25
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "3025",
+    "question": "What is the destination location after movement?",
+    "context": "come with me into the dark alley",
+    "answers": {
+      "text": [
+        "dark alley"
+      ],
+      "answer_start": [
+        22
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "441",
+    "question": "What is the destination location after movement?",
+    "context": "Should we climb tower stairs now and kiss at the rooftop?",
+    "answers": {
+      "text": [
+        "rooftop"
+      ],
+      "answer_start": [
+        49
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1312",
+    "question": "What is the destination location after movement?",
+    "context": "with her arm linked in mine, we walked into the chapel",
+    "answers": {
+      "text": [
+        "chapel"
+      ],
+      "answer_start": [
+        48
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "878",
+    "question": "What is the destination location after movement?",
+    "context": "finally arrived at what's-its-name",
+    "answers": {
+      "text": [
+        "what's-its-name"
+      ],
+      "answer_start": [
+        19
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "971",
+    "question": "What is the destination location after movement?",
+    "context": "tower - spiral staircase - the astronomer's observatory",
+    "answers": {
+      "text": [
+        "astronomer's observatory"
+      ],
+      "answer_start": [
+        31
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "857",
+    "question": "What is the destination location after movement?",
+    "context": "back at the meadow's edge",
+    "answers": {
+      "text": [
+        "meadow's edge"
+      ],
+      "answer_start": [
+        12
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "217",
+    "question": "What is the destination location after movement?",
+    "context": "Maybe later we can head to the castle, but not right now.",
+    "answers": {
+      "text": [
+        "castle"
+      ],
+      "answer_start": [
+        31
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "297",
+    "question": "What is the destination location after movement?",
+    "context": "we rode out from stables, circled orchard, crossed meadow, splashed a stream, laughed at your silly sing, and stopped beside crumbling shrine",
+    "answers": {
+      "text": [
+        "shrine"
+      ],
+      "answer_start": [
+        135
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "418",
+    "question": "What is the destination location after movement?",
+    "context": "Let’s go now, run across courtyard and hide with me inside dungeon",
+    "answers": {
+      "text": [
+        "dungeon"
+      ],
+      "answer_start": [
+        59
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "835",
+    "question": "What is the destination location after movement?",
+    "context": "we made it back to the forest clearing",
+    "answers": {
+      "text": [
+        "forest clearing"
+      ],
+      "answer_start": [
+        23
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "311",
+    "question": "What is the destination location after movement?",
+    "context": "left camp, crossed meadow, skirted orchard, peeked at mill, then down rickety steps and finally into dungeon",
+    "answers": {
+      "text": [
+        "dungeon"
+      ],
+      "answer_start": [
+        101
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "3067",
+    "question": "What is the destination location after movement?",
+    "context": "meet me in the japanese bathhouse",
+    "answers": {
+      "text": [
+        "japanese bathhouse"
+      ],
+      "answer_start": [
+        15
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "830",
+    "question": "What is the destination location after movement?",
+    "context": "we're back at the monastery gates",
+    "answers": {
+      "text": [
+        "monastery gates"
+      ],
+      "answer_start": [
+        18
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "3020",
+    "question": "What is the destination location after movement?",
+    "context": "meet me on the skyscraper rooftop now",
+    "answers": {
+      "text": [
+        "skyscraper rooftop"
+      ],
+      "answer_start": [
+        15
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "541",
+    "question": "What is the destination location after movement?",
+    "context": "Left the churhc quickly, crossed plazza, and hid together in dungeonn",
+    "answers": {
+      "text": [
+        "dungeon"
+      ],
+      "answer_start": [
+        61
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "202",
+    "question": "What is the destination location after movement?",
+    "context": "They told us to head to the guild hall, meeting starts soon lol.",
+    "answers": {
+      "text": [
+        "guild hall"
+      ],
+      "answer_start": [
+        28
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "3106",
+    "question": "What is the destination location after movement?",
+    "context": "join me behind the festival stage",
+    "answers": {
+      "text": [
+        "festival stage"
+      ],
+      "answer_start": [
+        19
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "2233",
+    "question": "What is the destination location after movement?",
+    "context": "wait for me in the war room, okay",
+    "answers": {
+      "text": [
+        "war room"
+      ],
+      "answer_start": [
+        19
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "312",
+    "question": "What is the destination location after movement?",
+    "context": "we flirted at bar, walked along quay, thought about lighthouse but wind strong, ducked under awning, and finally warmed up in sauna",
+    "answers": {
+      "text": [
+        "sauna"
+      ],
+      "answer_start": [
+        126
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "921",
+    "question": "What is the destination location after movement?",
+    "context": "queued impatiently at the ticket booth",
+    "answers": {
+      "text": [
+        "ticket booth"
+      ],
+      "answer_start": [
+        26
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "851",
+    "question": "What is the destination location after movement?",
+    "context": "back at the old oak tree",
+    "answers": {
+      "text": [
+        "old oak tree"
+      ],
+      "answer_start": [
+        12
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "368",
+    "question": "What is the destination location after movement?",
+    "context": "We must leave dormitory, go through corridor, and hide inside the library",
+    "answers": {
+      "text": [
+        "library"
+      ],
+      "answer_start": [
+        66
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "832",
+    "question": "What is the destination location after movement?",
+    "context": "back at the riverside cabin finally",
+    "answers": {
+      "text": [
+        "riverside cabin"
+      ],
+      "answer_start": [
+        12
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "14024",
+    "question": "What is the destination location after movement?",
+    "context": "she walked across the meadow in the afternoon",
+    "answers": {
+      "text": [
+        "meadow"
+      ],
+      "answer_start": [
+        22
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "question": "What is the destination location after movement?",
+    "context": "somehow we end up inside the forrest, lol",
+    "answers": {
+      "text": [
+        "forest"
+      ],
+      "answer_start": [
+        29
+      ]
+    },
+    "is_impossible": false,
+    "id": "81"
+  },
+  {
+    "id": "1893",
+    "question": "What is the destination location after movement?",
+    "context": "come with me to the garden",
+    "answers": {
+      "text": [
+        "garden"
+      ],
+      "answer_start": [
+        20
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "102",
+    "question": "What is the destination location after movement?",
+    "context": "hmm, I think we rush to the market, we'll see, lol .",
+    "answers": {
+      "text": [
+        "market"
+      ],
+      "answer_start": [
+        28
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "823",
+    "question": "What is the destination location after movement?",
+    "context": "back at the harbor finally after the long journey",
+    "answers": {
+      "text": [
+        "harbor"
+      ],
+      "answer_start": [
+        12
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "464",
+    "question": "What is the destination location after movement?",
+    "context": "At last we arrived at the bathhouse, steam rising warmly from inside",
+    "answers": {
+      "text": [
+        "bathhouse"
+      ],
+      "answer_start": [
+        26
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1857",
+    "question": "What is the destination location after movement?",
+    "context": "follow me to the throne hall",
+    "answers": {
+      "text": [
+        "throne hall"
+      ],
+      "answer_start": [
+        17
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1894",
+    "question": "What is the destination location after movement?",
+    "context": "sit with me near the garden gate",
     "answers": {
       "text": [
         "garden gate"
       ],
       "answer_start": [
         21
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "811",
+    "question": "What is the destination location after movement?",
+    "context": "Through the library corridor we skipped the study desk and ended in the archive room filled with charts.",
+    "answers": {
+      "text": [
+        "archive room"
+      ],
+      "answer_start": [
+        72
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "369",
+    "question": "What is the destination location after movement?",
+    "context": "We have to run from smithy, cut through the barracks, and finally rest in armory",
+    "answers": {
+      "text": [
+        "armory"
+      ],
+      "answer_start": [
+        74
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "14007",
+    "question": "What is the destination location after movement?",
+    "context": "we walked across the market square together",
+    "answers": {
+      "text": [
+        "market square"
+      ],
+      "answer_start": [
+        21
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1781",
+    "question": "What is the destination location after movement?",
+    "context": "sit with me at the river gate",
+    "answers": {
+      "text": [
+        "river gate"
+      ],
+      "answer_start": [
+        19
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1823",
+    "question": "What is the destination location after movement?",
+    "context": "follow me to the garden gate",
+    "answers": {
+      "text": [
+        "garden gate"
+      ],
+      "answer_start": [
+        17
       ]
     },
     "is_impossible": false
@@ -3318,15 +2142,1275 @@
     "is_impossible": false
   },
   {
-    "id": "3169",
+    "id": "1719",
     "question": "What is the destination location after movement?",
-    "context": "meet me beside the fountain",
+    "context": "wait for me in the chapel",
+    "answers": {
+      "text": [
+        "chapel"
+      ],
+      "answer_start": [
+        19
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "3172",
+    "question": "What is the destination location after movement?",
+    "context": "come to the fountain with me",
     "answers": {
       "text": [
         "fountain"
       ],
       "answer_start": [
+        12
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "question": "What is the destination location after movement?",
+    "context": "I guide you into the dungeon without a word.",
+    "answers": {
+      "text": [
+        "dungeon"
+      ],
+      "answer_start": [
+        21
+      ]
+    },
+    "is_impossible": false,
+    "id": "6"
+  },
+  {
+    "id": "731",
+    "question": "What is the destination location after movement?",
+    "context": "I left the docks, climbed the stairs, and opened the bell tower where the ropes swung.",
+    "answers": {
+      "text": [
+        "bell tower"
+      ],
+      "answer_start": [
+        53
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "561",
+    "question": "What is the destination location after movement?",
+    "context": "After leaving campfire in forest clearing, we crossed bridge above foaming river, hurried across muddy field, passed ruined barn, circled orchard edge, climbed narrow tower stair, and ended with breathless laughter under stars on the rooftop above silent town.",
+    "answers": {
+      "text": [
+        "rooftop"
+      ],
+      "answer_start": [
+        234
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1157",
+    "question": "What is the destination location after movement?",
+    "context": "we ended up in the library after dinner",
+    "answers": {
+      "text": [
+        "library"
+      ],
+      "answer_start": [
         19
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1285",
+    "question": "What is the destination location after movement?",
+    "context": "take me by the hand and lead me into the garden",
+    "answers": {
+      "text": [
+        "garden"
+      ],
+      "answer_start": [
+        41
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "2227",
+    "question": "What is the destination location after movement?",
+    "context": "wait for me in the tower room",
+    "answers": {
+      "text": [
+        "tower room"
+      ],
+      "answer_start": [
+        19
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "126",
+    "question": "What is the destination location after movement?",
+    "context": "hey, I think we slide into the square, it's fine, tbh now.",
+    "answers": {
+      "text": [
+        "square"
+      ],
+      "answer_start": [
+        31
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "2244",
+    "question": "What is the destination location after movement?",
+    "context": "stand with me at the garden gate",
+    "answers": {
+      "text": [
+        "garden gate"
+      ],
+      "answer_start": [
+        21
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "218",
+    "question": "What is the destination location after movement?",
+    "context": "they said we should head to the temple before it rains again.",
+    "answers": {
+      "text": [
+        "temple"
+      ],
+      "answer_start": [
+        32
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "question": "What is the destination location after movement?",
+    "context": "We go to the square together now.",
+    "answers": {
+      "text": [
+        "square"
+      ],
+      "answer_start": [
+        13
+      ]
+    },
+    "is_impossible": false,
+    "id": "39"
+  },
+  {
+    "id": "949",
+    "question": "What is the destination location after movement?",
+    "context": "baking bread in the kitchen ovens",
+    "answers": {
+      "text": [
+        "kitchen"
+      ],
+      "answer_start": [
+        20
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "14029",
+    "question": "What is the destination location after movement?",
+    "context": "rest in the gatehouse with me",
+    "answers": {
+      "text": [
+        "gatehouse"
+      ],
+      "answer_start": [
+        12
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "147",
+    "question": "What is the destination location after movement?",
+    "context": "okay, I think we make our way to the castle, it's fine, for real if it's open.",
+    "answers": {
+      "text": [
+        "castle"
+      ],
+      "answer_start": [
+        37
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "544",
+    "question": "What is the destination location after movement?",
+    "context": "We left guild hal, hurried down bridg, and rested inside armoryy",
+    "answers": {
+      "text": [
+        "armory"
+      ],
+      "answer_start": [
+        57
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "question": "What is the destination location after movement?",
+    "context": "Shall we step onto the forest right away?",
+    "answers": {
+      "text": [
+        "forest"
+      ],
+      "answer_start": [
+        23
+      ]
+    },
+    "is_impossible": false,
+    "id": "43"
+  },
+  {
+    "id": "161",
+    "question": "What is the destination location after movement?",
+    "context": "Okay okay, rushing with you through the gates even though it feels reckless, but fine let’s do it fast.",
+    "answers": {
+      "text": [
+        "gates"
+      ],
+      "answer_start": [
+        40
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "919",
+    "question": "What is the destination location after movement?",
+    "context": "hiked overnight to the summit cairn",
+    "answers": {
+      "text": [
+        "summit cairn"
+      ],
+      "answer_start": [
+        23
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "374",
+    "question": "What is the destination location after movement?",
+    "context": "We must take your hand, walk past chapel, go along alley, and finally step into vault",
+    "answers": {
+      "text": [
+        "vault"
+      ],
+      "answer_start": [
+        80
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "14002",
+    "question": "What is the destination location after movement?",
+    "context": "they wandered through the vineyards at noon",
+    "answers": {
+      "text": [
+        "vineyards"
+      ],
+      "answer_start": [
+        26
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1717",
+    "question": "What is the destination location after movement?",
+    "context": "wait for me at the riverbank",
+    "answers": {
+      "text": [
+        "riverbank"
+      ],
+      "answer_start": [
+        19
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1226",
+    "question": "What is the destination location after movement?",
+    "context": "follow me down into the cellar",
+    "answers": {
+      "text": [
+        "cellar"
+      ],
+      "answer_start": [
+        24
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "question": "What is the destination location after movement?",
+    "context": "Let's head into the gates before it gets dark.",
+    "answers": {
+      "text": [
+        "gates"
+      ],
+      "answer_start": [
+        20
+      ]
+    },
+    "is_impossible": false,
+    "id": "1"
+  },
+  {
+    "id": "1625",
+    "question": "What is the destination location after movement?",
+    "context": "meet me at the riverbank",
+    "answers": {
+      "text": [
+        "riverbank"
+      ],
+      "answer_start": [
+        15
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "318",
+    "question": "What is the destination location after movement?",
+    "context": "from stables to orchard to granary (smell lol), checked hayloft, then slipped into wine cellar",
+    "answers": {
+      "text": [
+        "cellar"
+      ],
+      "answer_start": [
+        88
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "196",
+    "question": "What is the destination location after movement?",
+    "context": "We rushed through the crowd and into the square where musicians played, energy buzzing all around us.",
+    "answers": {
+      "text": [
+        "square"
+      ],
+      "answer_start": [
+        41
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "227",
+    "question": "What is the destination location after movement?",
+    "context": "Don’t forget, we must head to the forest to gather herbs.",
+    "answers": {
+      "text": [
+        "forest"
+      ],
+      "answer_start": [
+        34
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1745",
+    "question": "What is the destination location after movement?",
+    "context": "come to the guild hall together",
+    "answers": {
+      "text": [
+        "guild hall"
+      ],
+      "answer_start": [
+        12
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "280",
+    "question": "What is the destination location after movement?",
+    "context": "finally we reached library hidden behind square full of noise",
+    "answers": {
+      "text": [
+        "library"
+      ],
+      "answer_start": [
+        19
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "14029",
+    "question": "What is the destination location after movement?",
+    "context": "rest in the bathhouse with me",
+    "answers": {
+      "text": [
+        "bathhouse"
+      ],
+      "answer_start": [
+        12
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1337",
+    "question": "What is the destination location after movement?",
+    "context": "they dragged me by the hand into the tavern",
+    "answers": {
+      "text": [
+        "tavern"
+      ],
+      "answer_start": [
+        37
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "question": "What is the destination location after movement?",
+    "context": "We walk to the square side by side.",
+    "answers": {
+      "text": [
+        "square"
+      ],
+      "answer_start": [
+        15
+      ]
+    },
+    "is_impossible": false,
+    "id": "15"
+  },
+  {
+    "id": "1291",
+    "question": "What is the destination location after movement?",
+    "context": "with his arm around me, we walked into the tavern",
+    "answers": {
+      "text": [
+        "tavern"
+      ],
+      "answer_start": [
+        43
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "3113",
+    "question": "What is the destination location after movement?",
+    "context": "walk with me to the academy library",
+    "answers": {
+      "text": [
+        "academy library"
+      ],
+      "answer_start": [
+        20
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "736",
+    "question": "What is the destination location after movement?",
+    "context": "From the royal court we turned aside and entered the judgment hall echoing with verdicts.",
+    "answers": {
+      "text": [
+        "judgment hall"
+      ],
+      "answer_start": [
+        53
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1838",
+    "question": "What is the destination location after movement?",
+    "context": "join me at the garden gate",
+    "answers": {
+      "text": [
+        "garden gate"
+      ],
+      "answer_start": [
+        15
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1827",
+    "question": "What is the destination location after movement?",
+    "context": "gather with me on the cathedral steps",
+    "answers": {
+      "text": [
+        "cathedral steps"
+      ],
+      "answer_start": [
+        22
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "735",
+    "question": "What is the destination location after movement?",
+    "context": "We hurried out from the harbor, followed the lanterns, and ended at the fisher pier above the tide.",
+    "answers": {
+      "text": [
+        "fisher pier"
+      ],
+      "answer_start": [
+        72
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "813",
+    "question": "What is the destination location after movement?",
+    "context": "back room - we ended there after slipping out from the guild hall corridor.",
+    "answers": {
+      "text": [
+        "back room"
+      ],
+      "answer_start": [
+        0
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "3084",
+    "question": "What is the destination location after movement?",
+    "context": "join me on the night beach",
+    "answers": {
+      "text": [
+        "night beach"
+      ],
+      "answer_start": [
+        15
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "815",
+    "question": "What is the destination location after movement?",
+    "context": "lantern room - we climbed the lighthouse stairs and stepped inside together.",
+    "answers": {
+      "text": [
+        "lantern room"
+      ],
+      "answer_start": [
+        0
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "915",
+    "question": "What is the destination location after movement?",
+    "context": "ascended to the tower balcony",
+    "answers": {
+      "text": [
+        "tower balcony"
+      ],
+      "answer_start": [
+        16
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "14026",
+    "question": "What is the destination location after movement?",
+    "context": "he slipped into the cloister quietly",
+    "answers": {
+      "text": [
+        "cloister"
+      ],
+      "answer_start": [
+        20
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "3178",
+    "question": "What is the destination location after movement?",
+    "context": "come meet me on the bridge",
+    "answers": {
+      "text": [
+        "bridge"
+      ],
+      "answer_start": [
+        20
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "14020",
+    "question": "What is the destination location after movement?",
+    "context": "she came onto the balcony during the show",
+    "answers": {
+      "text": [
+        "balcony"
+      ],
+      "answer_start": [
+        18
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "2253",
+    "question": "What is the destination location after movement?",
+    "context": "walk with me to the study",
+    "answers": {
+      "text": [
+        "study"
+      ],
+      "answer_start": [
+        20
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "3076",
+    "question": "What is the destination location after movement?",
+    "context": "come with me into the cinema",
+    "answers": {
+      "text": [
+        "cinema"
+      ],
+      "answer_start": [
+        22
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "538",
+    "question": "What is the destination location after movement?",
+    "context": "I moved from salun to stabel yard, then went into armry at last",
+    "answers": {
+      "text": [
+        "armory"
+      ],
+      "answer_start": [
+        50
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "790",
+    "question": "What is the destination location after movement?",
+    "context": "We crossed the courtyard, ignored the smithy, and gathered in the armory beside the weapons.",
+    "answers": {
+      "text": [
+        "armory"
+      ],
+      "answer_start": [
+        66
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1818",
+    "question": "What is the destination location after movement?",
+    "context": "follow me to the map room",
+    "answers": {
+      "text": [
+        "map room"
+      ],
+      "answer_start": [
+        17
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "223",
+    "question": "What is the destination location after movement?",
+    "context": "She whispered we’d head to the balcony and hide for a while.",
+    "answers": {
+      "text": [
+        "balcony"
+      ],
+      "answer_start": [
+        31
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "466",
+    "question": "What is the destination location after movement?",
+    "context": "At last we ended up in greenhouse, surrounded by warmth and bright plants",
+    "answers": {
+      "text": [
+        "greenhouse"
+      ],
+      "answer_start": [
+        23
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "264",
+    "question": "What is the destination location after movement?",
+    "context": "she pulled me ahead and we rushed toward forest clearing full of mist",
+    "answers": {
+      "text": [
+        "forest"
+      ],
+      "answer_start": [
+        41
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "14022",
+    "question": "What is the destination location after movement?",
+    "context": "we hiked to the waterfall yesterday",
+    "answers": {
+      "text": [
+        "waterfall"
+      ],
+      "answer_start": [
+        16
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1629",
+    "question": "What is the destination location after movement?",
+    "context": "meet me at the cathedral steps",
+    "answers": {
+      "text": [
+        "cathedral steps"
+      ],
+      "answer_start": [
+        15
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1397",
+    "question": "What is the destination location after movement?",
+    "context": "I led him gently by the elbow into the garden",
+    "answers": {
+      "text": [
+        "garden"
+      ],
+      "answer_start": [
+        39
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "2264",
+    "question": "What is the destination location after movement?",
+    "context": "join me at the gatehouse",
+    "answers": {
+      "text": [
+        "gatehouse"
+      ],
+      "answer_start": [
+        15
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1779",
+    "question": "What is the destination location after movement?",
+    "context": "meet me in the war room",
+    "answers": {
+      "text": [
+        "war room"
+      ],
+      "answer_start": [
+        15
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "14009",
+    "question": "What is the destination location after movement?",
+    "context": "I went into the library after lunch",
+    "answers": {
+      "text": [
+        "library"
+      ],
+      "answer_start": [
+        16
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "question": "What is the destination location after movement?",
+    "context": "we go to the tempple?? haha, hurry up!",
+    "answers": {
+      "text": [
+        "temple"
+      ],
+      "answer_start": [
+        13
+      ]
+    },
+    "is_impossible": false,
+    "id": "84"
+  },
+  {
+    "id": "821",
+    "question": "What is the destination location after movement?",
+    "context": "watch tower - we ascended the spiral stair and posted at the top above the gate.",
+    "answers": {
+      "text": [
+        "watch tower"
+      ],
+      "answer_start": [
+        0
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "861",
+    "question": "What is the destination location after movement?",
+    "context": "finally back at the farm house",
+    "answers": {
+      "text": [
+        "farm house"
+      ],
+      "answer_start": [
+        20
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1505",
+    "question": "What is the destination location after movement?",
+    "context": "come with me and hold my hand in the market square",
+    "answers": {
+      "text": [
+        "market square"
+      ],
+      "answer_start": [
+        37
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1511",
+    "question": "What is the destination location after movement?",
+    "context": "gather with me, holding hands, in the market square",
+    "answers": {
+      "text": [
+        "market square"
+      ],
+      "answer_start": [
+        38
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "2226",
+    "question": "What is the destination location after movement?",
+    "context": "walk with me to the tower room rn",
+    "answers": {
+      "text": [
+        "tower room"
+      ],
+      "answer_start": [
+        20
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1293",
+    "question": "What is the destination location after movement?",
+    "context": "she pulled me by the hand into the dungeon",
+    "answers": {
+      "text": [
+        "dungeon"
+      ],
+      "answer_start": [
+        35
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "824",
+    "question": "What is the destination location after movement?",
+    "context": "finally reached the mountain peak at sunset",
+    "answers": {
+      "text": [
+        "mountain peak"
+      ],
+      "answer_start": [
+        20
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "169",
+    "question": "What is the destination location after movement?",
+    "context": "She whispered let’s sneak quickly through the square and then into the shop for some snacks before midnight.",
+    "answers": {
+      "text": [
+        "shop"
+      ],
+      "answer_start": [
+        71
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "865",
+    "question": "What is the destination location after movement?",
+    "context": "arrived back at the town square",
+    "answers": {
+      "text": [
+        "town square"
+      ],
+      "answer_start": [
+        20
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "404",
+    "question": "What is the destination location after movement?",
+    "context": "We finally arrived in saloon after skipping tavern and crossing the dusty road",
+    "answers": {
+      "text": [
+        "saloon"
+      ],
+      "answer_start": [
+        22
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "3058",
+    "question": "What is the destination location after movement?",
+    "context": "follow me to the training hall",
+    "answers": {
+      "text": [
+        "training hall"
+      ],
+      "answer_start": [
+        17
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1744",
+    "question": "What is the destination location after movement?",
+    "context": "step into the banquet hall with me",
+    "answers": {
+      "text": [
+        "banquet hall"
+      ],
+      "answer_start": [
+        14
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1712",
+    "question": "What is the destination location after movement?",
+    "context": "hide with me in the cellar",
+    "answers": {
+      "text": [
+        "cellar"
+      ],
+      "answer_start": [
+        20
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "question": "What is the destination location after movement?",
+    "context": "Shall we step onto the guild hall right away?",
+    "answers": {
+      "text": [
+        "guild hall"
+      ],
+      "answer_start": [
+        23
+      ]
+    },
+    "is_impossible": false,
+    "id": "23"
+  },
+  {
+    "id": "14012",
+    "question": "What is the destination location after movement?",
+    "context": "she strolled into the garden at sunset",
+    "answers": {
+      "text": [
+        "garden"
+      ],
+      "answer_start": [
+        22
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "2245",
+    "question": "What is the destination location after movement?",
+    "context": "walk together to the garden gate",
+    "answers": {
+      "text": [
+        "garden gate"
+      ],
+      "answer_start": [
+        21
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "979",
+    "question": "What is the destination location after movement?",
+    "context": "bank - security vault - the precious metals storage chamber",
+    "answers": {
+      "text": [
+        "precious metals storage chamber"
+      ],
+      "answer_start": [
+        28
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1753",
+    "question": "What is the destination location after movement?",
+    "context": "step into the courtyard well with me",
+    "answers": {
+      "text": [
+        "courtyard well"
+      ],
+      "answer_start": [
+        14
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "869",
+    "question": "What is the destination location after movement?",
+    "context": "finally arrived at the clock tower",
+    "answers": {
+      "text": [
+        "clock tower"
+      ],
+      "answer_start": [
+        23
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1228",
+    "question": "What is the destination location after movement?",
+    "context": "let’s sneak into the library after dark",
+    "answers": {
+      "text": [
+        "library"
+      ],
+      "answer_start": [
+        21
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "2229",
+    "question": "What is the destination location after movement?",
+    "context": "join me in the war room right now",
+    "answers": {
+      "text": [
+        "war room"
+      ],
+      "answer_start": [
+        15
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1537",
+    "question": "What is the destination location after movement?",
+    "context": "stay close and walk with me into the garden",
+    "answers": {
+      "text": [
+        "garden"
+      ],
+      "answer_start": [
+        37
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "795",
+    "question": "What is the destination location after movement?",
+    "context": "Crossing the battlements we passed the guard posts and waited in the watch tower above the gate.",
+    "answers": {
+      "text": [
+        "watch tower"
+      ],
+      "answer_start": [
+        69
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "701",
+    "question": "What is the destination location after movement?",
+    "context": "We passed through the palace gates, crossed the banquet hall, and ended in the throne hall filled with banners.",
+    "answers": {
+      "text": [
+        "throne hall"
+      ],
+      "answer_start": [
+        79
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "190",
+    "question": "What is the destination location after movement?",
+    "context": "We dashed fast and stepped into the upper room, barely catching breath but happy to finally hide there.",
+    "answers": {
+      "text": [
+        "upper room"
+      ],
+      "answer_start": [
+        36
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "3081",
+    "question": "What is the destination location after movement?",
+    "context": "follow me to the night beach",
+    "answers": {
+      "text": [
+        "night beach"
+      ],
+      "answer_start": [
+        17
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1543",
+    "question": "What is the destination location after movement?",
+    "context": "accompany me to the garden",
+    "answers": {
+      "text": [
+        "garden"
+      ],
+      "answer_start": [
+        20
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "14028",
+    "question": "What is the destination location after movement?",
+    "context": "she waited for me on the quay",
+    "answers": {
+      "text": [
+        "quay"
+      ],
+      "answer_start": [
+        25
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "1828",
+    "question": "What is the destination location after movement?",
+    "context": "meet me under the bell tower",
+    "answers": {
+      "text": [
+        "bell tower"
+      ],
+      "answer_start": [
+        18
+      ]
+    },
+    "is_impossible": false
+  },
+  {
+    "id": "586",
+    "question": "What is the destination location after movement?",
+    "context": "First I argued no, not saloon, too loud, no chapel either, no dungeon at all, but feet carried us along torchlit hall and we finally sat quietly in library corner.",
+    "answers": {
+      "text": [
+        "library"
+      ],
+      "answer_start": [
+        148
       ]
     },
     "is_impossible": false
