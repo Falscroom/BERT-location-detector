@@ -26,4 +26,4 @@ Movement detection — precision: 0.981, recall: 0.987
 [ERR] 300 exp=None | pred=found (conf=0.500)  :: stay with me, don’t leave
 [ERR] 337 exp=found | pred=None (conf=0.599)  :: watch the stars from the roofto
 
-Almost whole project done by ChatGPT
+Almost whole project done by ChatGPT, I've changed a lot to fix binary model but half functions doesnt work now and I am lazy to fix it
