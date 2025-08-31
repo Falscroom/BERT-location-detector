@@ -2,8 +2,8 @@
 import json, random
 from pathlib import Path
 
-infile = Path("../data/all_binary.jsonl")
-outfile = Path("../data/all_binary.jsonl")
+infile = Path("data/all_binary.jsonl")
+outfile = Path("data/all_binary.jsonl")
 
 # читаем
 data = []

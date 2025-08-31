@@ -2,7 +2,7 @@
   "move_dir": "../../out/move-det",
   "qa_dir":   "../../out/qa-distil",
   "question": "What is the final arrival location?",
-  "move_thr": 0.5,
+  "move_thr": 0.6,
   "qa_thr":   0.9,
   "null_bias": 0.0,
   "max_len": 384,

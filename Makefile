@@ -46,6 +46,12 @@ eval:
 	  --model-path cfg/two_heads \
 	  --threshold 0.0
 
+eval_binary:
+	$(PYTHON) eval/eval_sanity_binary.py \
+	  --predict-file predict_two_heads.py \
+	  --model-path cfg/two_heads \
+	  --threshold 0.0
+
 onnx:
 	$(PYTHON) helpers/export_onnx.py \
 	  --model $(MOVE_OUT) \
