@@ -4,8 +4,8 @@ from pathlib import Path
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--infile", type=Path, default=Path("data/hard_negs.jsonl"))
-    ap.add_argument("--outfile", type=Path, default=Path("data/hard_negs.jsonl"))
+    ap.add_argument("--infile", type=Path, default=Path("data/all_binary.jsonl"))
+    ap.add_argument("--outfile", type=Path, default=Path("data/all_binary.jsonl"))
     ap.add_argument("--start-id", type=int, default=1, help="начальный id для первой записи")
     args = ap.parse_args()
 
